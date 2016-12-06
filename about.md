@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hi, I'm Arya. I'm a B.S. candidate in computer science and mathematics, as well as an M.S. candidate in computer science (joint with the B.S.) at SMU. I am advised by [David Matula](http://lyle.smu.edu/~matula/). My research with him involves applications of the hierarchical Maximum Concurrent Flow Problem for stable, mathematically motivated hierarchical clustering and network design.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+A place to include any other types of information that I'd' like to include about myself.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[admccarthy@smu.edu](mailto:admccarthy@smu.edu)
