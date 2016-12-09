@@ -9,6 +9,7 @@ Hi, I'm Arya. I'm a B.S. candidate in computer science and mathematics, as well 
 ### More Information
 
 In my spare time (hah), I enjoy:
+
 - bagpiping
 - biking—I have a 1982 Schwinn Le Tour that I maintain.
 - learning languages through Duolingo
