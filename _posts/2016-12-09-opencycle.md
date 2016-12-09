@@ -1,7 +1,4 @@
 ---
-published: false
----
----
 layout: post
 title: OpenCycle Fertility Planning
 ---
