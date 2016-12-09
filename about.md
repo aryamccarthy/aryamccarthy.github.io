@@ -15,7 +15,7 @@ In my spare time (hah), I enjoy:
 - learning languages through Duolingo
 - reading [xkcd](http://xkcd.com)
 
-![](images/schwinn_le_tour.JPG)
+![]({{ site.baseurl }}images/schwinn_le_tour.JPG)
 
 ### Contact me
 
