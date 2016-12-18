@@ -31,4 +31,4 @@ Along the way, I learned some pretty cool tricks for speeding up the implementat
 - Speeding up the smallest-last ordering by using a [bucket queue](https://en.wikipedia.org/wiki/Bucket_queue) data structure optimized by tracking the lower bound on degree. The naive algorithm is *O*(*n*^2); this is *O*(*n*+*m*). I added my to `networkx`, so I anticipate seeing it show up in future students' projects without attribution. *Shrug.*
 - Computing faces on the sphere using the [Euler characteristic](https://en.wikipedia.org/wiki/Euler_characteristic), instead of by counting.
 
-My full writeup for the project is [here](https://github.com/aryamccarthy/WirelessSensorNetwork/blob/master/docs/Linear%20Algorithms%20for%20Wireless%20Sensor%20Networks.pdf), and the code is [here](https://github.com/aryamccarthy/WirelessSensorNetwork).
+My full writeup for the project is [here](https://raw.github.com/aryamccarthy/WirelessSensorNetwork/blob/master/docs/Linear%20Algorithms%20for%20Wireless%20Sensor%20Networks.pdf), and the code is [here](https://github.com/aryamccarthy/WirelessSensorNetwork).
