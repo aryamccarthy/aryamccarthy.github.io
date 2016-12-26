@@ -25,9 +25,7 @@ But `ground_truth` wasn't necessarily correct, so we had do incorporate the othe
 assert(result in [ground_truth, set(frozenset(range(16)))])
 ```
 
-By flipping all its coins the right way, the build passed. But passing wasn't enough.
-
-Ten points to whoever spots the problem before I explain it.
+By flipping all its coins the right way, the build passed. But passing wasn't enough. Ten points to whoever spots the problem before I explain it.
 
 ---
 
@@ -37,4 +35,4 @@ Sets got strapped into Python later in its life. Frozensets are their immutable 
 assert(result in [ground_truth, {frozenset(range(16))}])
 ```
 
-Submitting this pull request to the repository took out a nasty bug that had mis-marked a number of other PRs as failing. Knowing which builds properly do and don't pass means the project can move along in a more streamlined, complete way.
+When I submitted this pull request to the repository, I took out a nasty bug that had mis-marked a number of other PRs as failing. Knowing which builds properly do and don't pass means the project can move along in a more streamlined, complete way.
