@@ -12,3 +12,5 @@ Even if a woman does everything right, the three-over-six rule tells us that ovu
 We're working to use machine learning with an existing dataset of recorded menstrual cycle data to forecast the rise in BBT that signals ovulation. This gives more time to families who seek to have children - and limits risk for those who do not. We will explore time series models, deep learning, and various cross-validation techniques to ensure statistical validity of our results. As the data are already collected, we will not need to involve human subjects. 
 
 Since access to the data for this project is heavily restricted, I'm keeping the Github repo private for now. But anonymized graphs are definitely on the horizon. Expect **lots** of violin plots.
+
+**Update 2017-03-15:** The repo is no longer private, so [check it out](https://github.com/aryamccarthy/OpenCycle). Incidentially, this work is conducted as part of the [SMU Ubiquitous Computing Lab](http://ubicomp.lyle.smu.edu).
