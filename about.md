@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm Arya. I'm a B.S. candidate in computer science and mathematics, as well as an M.S. candidate in computer science (joint with the B.S.) at SMU. I am advised by [David Matula](http://lyle.smu.edu/~matula/). My research with him involves applications of the [hierarchical](http://dl.acm.org/citation.cfm?id=1415200) [Maximum Concurrent Flow Problem](https://en.wikipedia.org/wiki/Multi-commodity_flow_problem) for stable, mathematically motivated hierarchical clustering. Applications exist in social network analysis and network design. Other interests of mine are machine translation and interdisciplinary applications of computation.
+Hi, I'm Arya. <strike>I'm a B.S. candidate in computer science and mathematics, as well as an M.S. candidate in computer science (joint with the B.S.)</strike> **Mission accomplished** at SMU. I was advised by [David Matula](http://lyle.smu.edu/~matula/). My research with him involved applications of the [hierarchical](http://dl.acm.org/citation.cfm?id=1415200) [Maximum Concurrent Flow Problem](https://en.wikipedia.org/wiki/Multi-commodity_flow_problem) for stable, mathematically motivated hierarchical clustering. Applications exist in social network analysis and network design. Other interests of mine are machine translation and interdisciplinary applications of computation.
 
 In the fall, I'll begin as a Ph.D. student in the [Center for Language and Speech Processing](https://www.clsp.jhu.edu/about/) at Johns Hopkins University, one of the top research centers in natural language and translation.
 
@@ -21,4 +21,4 @@ In my spare time (hah), I enjoy:
 
 ### Contact me
 
-[admccarthy@smu.edu](mailto:admccarthy@smu.edu)
+[arya@jhu.edu](mailto:arya@jhu.edu)
