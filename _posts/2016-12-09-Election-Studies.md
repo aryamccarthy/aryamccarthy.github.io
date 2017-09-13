@@ -22,5 +22,4 @@ Some novel stuff we're doing:
 
 - A new reordering criterion for correlation matrices, based on the singular value decomposition.
 - Using Jupyter notebooks instead of just scripts. "Literate programming" dates back to Knuth.
-- 
 
