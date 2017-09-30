@@ -1,10 +1,6 @@
 ---
 layout: page
-title: About
-permalink: /about/
 ---
-
-### Welcome
 
 Hi, I'm Arya. I help researchers see the stories in numbers.
 
