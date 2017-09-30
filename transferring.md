@@ -8,7 +8,24 @@ In January 2017, a Facebook post on the President's Scholars' private page garne
 
 It's not okay that this many President's Scholars expressed dissatisfaction with SMU. Some pointed out administrative mistakes, and others brought up mental health issues exacerbated at SMU.
 
-Other common refrains were the campus culture, the lack of diversity and themed communities, the RC system, and the impact of money funneled into athletics instead of academics. And this is my editorialization, but I'm the only student who was on the GEC, not the UC, that I asked. If they had known the previous system, I'm sure the UC would have been another grievance.
+Other common refrains were the campus culture, the lack of diversity and themed communities, the RC system, and the impact of money funneled into athletics instead of academics. And this is my editorialization, but I'm the only student who was on the GEC, not the UC, that I asked. If they had known the previous system, I'm sure the UC would have been another grievance. If not for the small fraction of professors and students who really *get it*, SMU is a stifling place. I'm grateful for where I am because of it, but did the ends justify the means?
+
+Below, I've reproduced the students' remarks. (None are mine.) My only edits were titles, capitalization, redaction of identifying information and profanity, and emphasis. You're hearing exactly what these students think about SMU and the PS program.
+
+Table of Contents
+
+1. [Wealth-driven and polarizing](#wealth-driven-and-polarizing), SMU PS 2019
+1. [Not as inclusive as we were told](#not-as-inclusive-as-we-were-told), SMU PS 2020
+1. [The lack of diversity](#the-lack-of-diversity), SMU PS 2018
+1. [The dream for my child](#the-dream-for-my-child), SMU PS 2018
+1. [Excellent sheep](#excellent-sheep), SMU PS 2019
+1. [Not for lack of trying](#not-for-lack-of-trying), SMU PS 2020
+1. [Caters toward the middle](#caters-toward-the-middle), SMU 2020
+1. [It felt like an interrogation](#it-felt-like-an-interrogation), SMU PS 2018
+1. [I wish theme communities had been left intact](#i-wish-theme-communities-had-been-left-intact), SMU PS 2018
+1. [A random shuffling of students](#a-random-shuffling-of-students), SMU PS 2017
+
+---
 
 ### Wealth-driven and polarizing
 
@@ -17,6 +34,26 @@ Other common refrains were the campus culture, the lack of diversity and themed 
 2. SMU's diversity efforts are antagonizing. Example - I was invited to a 'multicultural award ceremony with RGT' to celebrate my receiving a 3.85+ GPA. Why should I be recognized with a medal for this achievement when my white friends are not?
 
 3. SMU's culture is wealth-driven and can be polarizing at times. I miss the culture at UNT, which was accepting of all. Plus, UNT had several events with freebies, which is a small, but valid point.
+
+### Not as inclusive as we were told
+
+I think that most of the President’s Scholars feel that they were promised something that sometimes doesn’t match reality. This is understandable; many schools, businesses, and other organizations design their pitch as the idealized version of their intent, i.e. these things may happen, so we will include them to get more students on board with the program. I think this is especially apparent with this scholarship program. Again, I am not saying that it is wrong for SMU to idealize their offers, but I think that students should be aware of what they are signing up for with one of the biggest decisions of their lives.
+
+I have mostly enjoyed my time at SMU, but I have definitely had my share of negative experiences, as I would have at any number of other universities. No university is perfect, and I am not claiming they should be. Specifically, I have found a great family with my classmates and peers in the President’s Scholars, but I know that most of us feel that what we received is not the same as what we were expecting.
+
+Based on SMU’s advertising of this program, we expected to meet important and rising people from the United States and abroad, be able to talk with and learn from a diverse group of people on campus, and engage with stellar academic programs both on SMU campus and in study abroad programs.
+
+For the first point, I understand that obviously the people that SMU brings to host Tate Lectures are busy and cannot meet with us all, and the fact that we hear their lectures and have the opportunity to go to dinners is wonderful. However, I feel that we were expecting a personal exchange of ideas and a conversation, more than a handshake at dinner or wave from afar.
+
+For the second point, the diversity of this campus is not as inclusive as we were told. Again, this is an understandable point based on SMU’s location and the demographic of areas the university tends to pull prospective students from, but at the same time, there is a general feeling of disinterest in academics in a majority of students. This is college, and obviously everyone is going to spend some time having fun, but it seems that there is almost a feeling of judgment against the high achieving students by some peers.
+
+This brings me to my third point, which I think is the biggest point of concern for most of my fellow President’s Scholars, and that is the academics of SMU. There are some courses and departments on campus that are amazing and have stellar faculty and engaging relationships and networking with the Dallas area. There are many people who find the classes wonderful and interesting. But there are, in my opinion, too many President’s Scholars that feel that they settled by choosing SMU, and that almost all of us did it for one reason—the money. I am sure that many of my peers received offers from other colleges and universities, but SMU presented us with not only a full ride, but chances to study abroad for free (at least for the tuition portion), meet interesting people in both students and visiting lecturers, and save money for future education or beginning careers. But the academics we were promised, though they do shine through in some departments, are lacking in others. I think that there is a general wish of something more. This is not necessarily harder classes, as a lot of Scholars take difficult courses and overload their weeks with 18+ hours, but something we feel is missing that I can’t articulate very well. Maybe this is just a false idea of what kind of education we would have received from another university, but I think that feeling is prevalent in the Scholars and creates a sense of regret that sticks with us.
+
+I know that several, if not most, of the Scholars have considered transferring because of this feeling in addition to other personal qualms they may have with their specific majors or other things on campus, but the fact that so many have considered transferring is concerning. We are seen as the highest scholars of SMU, the models that the entire campus should look to, but when those scholars are consistently thinking about transferring, there may be something that needs to change.
+
+I don’t want to say all of these negative things about a campus that does provide positive things to the Scholars and not offer solutions, but I know that I don’t have all the answers as I only have my own perspective to draw from and not the University’s. I think, however, that there should be something changed in how the University advertises this program. It should be optimistic, but better grounded in reality until that reality comes closer to the ideals it boasts to prospective Scholars. Additionally, I think that the required curriculum could be better suited to engage everyone, possibly having additional assignments that include outside-the-box thinking, easy access to topics that interest us, and ease of developing those interests fully rather than surface level would greatly help us.
+
+There are many other things that can be done and I think that a conversation should be started between the Provost and the Scholars to make this program the best it can be. I know that I don’t have all the answers, but I am hopeful that by starting this conversation, we can hopefully make a more positive experience for the President’s Scholars that will drive growth in future years and better feelings on the choice of SMU.
 
 ### The lack of diversity
 
@@ -63,7 +100,7 @@ So: there are some small things that might make the PS more attractive. Like, it
 
 I think that’s all I’ve got at the moment. Will send anything else along that I think of; of course, let me know if I can clarify or elaborate on anything. Please also do let me know how the meeting goes, and thanks again for reaching out. And, of course, keep in touch, always.
 
-###Excellent sheep
+### Excellent sheep
 
 Some of [the reasons for wanting to transfer] were personal, and some SMU has no control over.
 
@@ -81,26 +118,6 @@ That's just the random thoughts that came to mind. If I think of other things, 
 ### Not for lack of trying
 
 So the thing is I think that many of our campus's brightest students, PSs in particular, will feel out of place compared to the general population of students. We don't fit in with the "classic" SMU student. At least for me, I tend to make friends like myself, and I wouldn't say that the majority of students here are extremely concerned with their academic welfare, or of that of their peers. If I miss a day of class, I find it hard to find someone I trust to get the notes from. I didn't make a single friend in my residential commons and it was not for lack of trying. Everyone used our common room as a sexcapade (I lived in McElvaney on the "dirty third") when I wanted to use it to actually study while my roommate was sleeping. Our RA did nothing to quiet the loud music and ongoing parties during finals week. I just didn't feel like people cared about their work as much as I did, and that of course is okay since each person can care about their own things, but there wasn't an understanding that this was a university setting and some people really did care. I thought about transferring because I couldn't find a community that was like-minded. I realize the PS community should fulfill that, but we obviously don't hang out together every day.
-
-### Not as inclusive as we were told
-
-I think that most of the President’s Scholars feel that they were promised something that sometimes doesn’t match reality. This is understandable; many schools, businesses, and other organizations design their pitch as the idealized version of their intent, i.e. these things may happen, so we will include them to get more students on board with the program. I think this is especially apparent with this scholarship program. Again, I am not saying that it is wrong for SMU to idealize their offers, but I think that students should be aware of what they are signing up for with one of the biggest decisions of their lives.
-
-I have mostly enjoyed my time at SMU, but I have definitely had my share of negative experiences, as I would have at any number of other universities. No university is perfect, and I am not claiming they should be. Specifically, I have found a great family with my classmates and peers in the President’s Scholars, but I know that most of us feel that what we received is not the same as what we were expecting.
-
-Based on SMU’s advertising of this program, we expected to meet important and rising people from the United States and abroad, be able to talk with and learn from a diverse group of people on campus, and engage with stellar academic programs both on SMU campus and in study abroad programs.
-
-For the first point, I understand that obviously the people that SMU brings to host Tate Lectures are busy and cannot meet with us all, and the fact that we hear their lectures and have the opportunity to go to dinners is wonderful. However, I feel that we were expecting a personal exchange of ideas and a conversation, more than a handshake at dinner or wave from afar.
-
-For the second point, the diversity of this campus is not as inclusive as we were told. Again, this is an understandable point based on SMU’s location and the demographic of areas the university tends to pull prospective students from, but at the same time, there is a general feeling of disinterest in academics in a majority of students. This is college, and obviously everyone is going to spend some time having fun, but it seems that there is almost a feeling of judgment against the high achieving students by some peers.
-
-This brings me to my third point, which I think is the biggest point of concern for most of my fellow President’s Scholars, and that is the academics of SMU. There are some courses and departments on campus that are amazing and have stellar faculty and engaging relationships and networking with the Dallas area. There are many people who find the classes wonderful and interesting. But there are, in my opinion, too many President’s Scholars that feel that they settled by choosing SMU, and that almost all of us did it for one reason—the money. I am sure that many of my peers received offers from other colleges and universities, but SMU presented us with not only a full ride, but chances to study abroad for free (at least for the tuition portion), meet interesting people in both students and visiting lecturers, and save money for future education or beginning careers. But the academics we were promised, though they do shine through in some departments, are lacking in others. I think that there is a general wish of something more. This is not necessarily harder classes, as a lot of Scholars take difficult courses and overload their weeks with 18+ hours, but something we feel is missing that I can’t articulate very well. Maybe this is just a false idea of what kind of education we would have received from another university, but I think that feeling is prevalent in the Scholars and creates a sense of regret that sticks with us.
-
-I know that several, if not most, of the Scholars have considered transferring because of this feeling in addition to other personal qualms they may have with their specific majors or other things on campus, but the fact that so many have considered transferring is concerning. We are seen as the highest scholars of SMU, the models that the entire campus should look to, but when those scholars are consistently thinking about transferring, there may be something that needs to change.
-
-I don’t want to say all of these negative things about a campus that does provide positive things to the Scholars and not offer solutions, but I know that I don’t have all the answers as I only have my own perspective to draw from and not the University’s. I think, however, that there should be something changed in how the University advertises this program. It should be optimistic, but better grounded in reality until that reality comes closer to the ideals it boasts to prospective Scholars. Additionally, I think that the required curriculum could be better suited to engage everyone, possibly having additional assignments that include outside-the-box thinking, easy access to topics that interest us, and ease of developing those interests fully rather than surface level would greatly help us.
-
-There are many other things that can be done and I think that a conversation should be started between the Provost and the Scholars to make this program the best it can be. I know that I don’t have all the answers, but I am hopeful that by starting this conversation, we can hopefully make a more positive experience for the President’s Scholars that will drive growth in future years and better feelings on the choice of SMU.
 
 ### Caters toward the middle
 
@@ -135,7 +152,7 @@ On another note I do think it is quite atrocious that this incoming freshman cla
 
 This isn’t very coherent, but I’m not sure it’s worth the effort to edit. I lack much faith that SMU even cares what I have to say anyway.
 
-#####PS Program
+##### PS Program
 
 The type of candidate we award scholarships to is intentionally not the SMU average. But the campus culture is so toxic that they're not given enough support to find a place to fit in.
 
