@@ -4,7 +4,7 @@ title: President's Scholars transferring
 permalink: /ps-transfer/
 ---
 
-In January 2017, a Facebook post on the President's Scholars' private page garnered a lot of attention. It started, "Has anyone else ever thought about transferring?" And there was a huge outpouring of agreement and sympathy. I had asked Martha Starke about transferring my freshman year, and I was disappointed that my peers felt the same way. I requested anonymous comments from the students who spoke up, because I want the cycle to stop. I want future President's Scholars (and SMU students in general) not to regret their decision to attend.
+In January 2017, a Facebook post on the President's Scholars' private page garnered a lot of attention. It started, **"Has anyone else ever thought about transferring?"** And there was a huge outpouring of agreement and sympathy. I had asked Martha Starke about transferring my freshman year, and I was disappointed that my peers felt the same way. I requested anonymous comments from the students who spoke up, because I want the cycle to stop. I want future President's Scholars (and SMU students in general) not to regret their decision to attend.
 
 It's not okay that this many President's Scholars expressed dissatisfaction with SMU. Some pointed out administrative mistakes, and others brought up mental health issues exacerbated at SMU.
 
@@ -12,7 +12,7 @@ Other common refrains were the campus culture, the lack of diversity and themed 
 
 Below, I've reproduced the students' remarks. (None are mine.) My only edits were titles, capitalization, redaction of identifying information and profanity, and emphasis. You're hearing exactly what these students think about SMU and the PS program.
 
-Table of Contents
+### Table of Contents
 
 1. [Wealth-driven and polarizing](#wealth-driven-and-polarizing), SMU PS 2019
 1. [Not as inclusive as we were told](#not-as-inclusive-as-we-were-told), SMU PS 2020
