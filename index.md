@@ -21,4 +21,4 @@ In my spare time (hah), I enjoy:
 
 ### Contact me
 
-[arya@jhu.edu](mailto:arya@jhu.edu)
+[first name]@jhu.edu
