@@ -4,7 +4,7 @@ layout: post
 excerpt_separator: <!--more-->
 ---
 
-(Bahdanau et al. 2015) at ICLR
+([Bahdanau et al. 2014](https://arxiv.org/pdf/1409.0473.pdf)) orally at ICLR 2015
 
 *I'm starting a new thing where I write about a paper every day, inspired by [The Morning Paper](https://blog.acolyer.org). Let me know what you think.*
 
@@ -12,7 +12,7 @@ This paper was the first to show that an end-to-end neural system for machine tr
 
 <!--more-->
 
-In general, the neural approach to MT looks for the sentence $\mathbf{e} that maximizes $p(\mathbf{e} | \mathbf{f})$. (Think of E and F representing English and French.) Popular approaches from [Cho et al.](https://www.aclweb.org/anthology/D14-1179) and [Sutskever et al.](https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf) used recurrent neural networks for their encoder and decoder. The RNN combines the current word with information it has learnt about past words to produce a vector for each input token. [Sutskever et al. (2014)](https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf)  took the last of these outputs as their fixed-size representation, the context. The danger here is that information from early in the sentence can be heavily diluted.
+In general, the neural approach to MT looks for the sentence $\mathbf{e} that maximizes $p(\mathbf{e} \| \mathbf{f})$. (Think of E and F representing English and French.) Popular approaches from [Cho et al.](https://www.aclweb.org/anthology/D14-1179) and [Sutskever et al.](https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf) used recurrent neural networks for their encoder and decoder. The RNN combines the current word with information it has learnt about past words to produce a vector for each input token. [Sutskever et al. (2014)](https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf)  took the last of these outputs as their fixed-size representation, the context. The danger here is that information from early in the sentence can be heavily diluted.
 
 The decoder is less interesting conceptually. It defines the probability of a word in terms of the context and all prior generated words. The decoder’s job is to find a sentence that maximizes the probability of an entire sentence.
 
@@ -26,7 +26,7 @@ This time, the encoder change is less exciting: they use a bidirectional RNN now
 
 The decoder is now no longer conditioned on just the single, sentence-level context. A weighted sum of the encoder outputs is used instead. The weights are a softmax of the alignment scores between the given decoder position and the encoder output vectors. The scores come out of a simple neural network.
 
-![Attention mechanism's soft alignment for one English–French sentence pair.]({{ "/images/bahdanau2015neural-alignment" | absolute_url }})
+![Attention mechanism's soft alignment for one English–French sentence pair.]({{ "/images/bahdanau2015neural-alignment.png" | absolute_url }})
 
 
 > Note that unlike in traditional machine translation, the alignment is not considered to be a latent variable. Instead, the alignment model directly computes a soft alignment, which allows the gradient of the cost function to be backpropagated through. This gradient can be used to train the alignment model as well as the whole translation model jointly.  
