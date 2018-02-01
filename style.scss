@@ -46,6 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
+  line-height: 1.4;
   a {
     color: inherit;
   }
@@ -277,6 +278,14 @@ footer {
 .foo {
   text-align: center;
   max-width: 400px;
+}
+
+// Center my images.
+p > img {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
