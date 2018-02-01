@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 ---
 
 ([Shu et al. 2017](https://arxiv.org/pdf/1712.01719.pdf
-))
+)) on arXiv
 
 *I'm starting a new thing where I write about a paper every day, inspired by [The Morning Paper](https://blog.acolyer.org). Let me know what you think.*
 
