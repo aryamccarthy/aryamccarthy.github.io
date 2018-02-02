@@ -13,7 +13,7 @@ Today’s paper addresses the question of whether the act of translation or the 
 
 > The signal of the source language is so powerful that it is retained even after two phases of translation.  
 
-Exploiting this, they recreate the phylogeny of languages using only monolingual data. 
+Exploiting this, they recreate the phylogeny of languages using only monolingual data. This is interesting from a historical linguistics perspective, and it's also useful for native language identification (NLI).
 
 <!--more-->
 
@@ -31,7 +31,7 @@ From this data, they computed trees based on each of two interference features a
 2. Function words
 3. Cohesion markers, which proliferate because of the universal tendency toward overtness when translating.
 
-This is compared to the “true” tree of [Serva and Petroni (2008)](iopscience.iop.org/article/10.1209/0295-5075/81/68005). 
+This is compared to the “true” tree of [Serva and Petroni (2008)](https://iopscience.iop.org/article/10.1209/0295-5075/81/68005). 
 
 ![Gold tree]({{ "/images/rabinovich2017found-gold-tree-phylogram.png" | absolute_url }})
 
