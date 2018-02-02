@@ -19,7 +19,7 @@ Exploiting this, they recreate the phylogeny of languages using only monolingual
 
 The authors begin by identifying some universal trends in translation: simplification of structures, conformance to target standards, and greater overtness. This is contrasted with “interference” introduced by the source language, which prevents us from simply translating the concepts through some interlingua. Interference is a property of the language pair, because target languages which don’t share structures with the source must resort to circumlocutions to express the same idea. More evidence for this comes from the fact that original-vs-translation classifiers don’t generalize well from language to language.
 
-Measuring the number of similar structures for a language-pair’s translations gives a distance. These distances can be used by some hierarchical clustering algorithm—might I recommend [mine](https://search.proquest.com/docview/1907180434?pq-origsite=gscholar) ?—to build up a phylogenetic tree.
+Measuring the number of similar structures for a language-pair’s translations gives a distance. These distances can be used by some hierarchical clustering algorithm—might I recommend [mine](https://search.proquest.com/docview/1907180434?pq-origsite=gscholar)?—to build up a phylogenetic tree.
 
 The big takeaway of the paper is that interference structures are strong enough to create these phylogenetic trees and group languages together. This text-driven approach differs from [Shu et al. (2017)]("/shu2017phylogenetic" | absolute_url), who a catalog of language features to compute trees.
 
