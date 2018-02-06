@@ -17,13 +17,13 @@ Hauer and Kondrak assume that the text is anagrammatic, based on an observation 
 
 One step to interpreting the text is knowing its language. While [language ID](https://en.wikipedia.org/wiki/Language_identification) is a studied problem, it's complicated in this circumstance by the cipher (believed to be) applied to the text.
 
-One way of identifying this is character frequency—each language has its own signature of how frequent each letter is. In English, the distribution of characters approximately follows the pattern [ETAOIN SHRDLU...](https://en.wikipedia.org/wiki/Etaoin_shrdlu), while in Romanian, they follow the pattern [AIELURT...](www.cryptogram.org/downloads/words/frequency.html). The authors draw their frequencies from the [Universal Declaration of Human Rights (UDHR)](https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights) in 380 languages. (This seems fishy, since the language isn't in the normal register. Perhaps at the character level, this doesn't matter as much, but in English, the register exhibits a preference for Latin-origin words. This may mislead the second model below.)
+One way of identifying this is character frequency—each language has its own signature of how frequent each letter is. In English, the distribution of characters approximately follows the pattern [ETAOIN SHRDLU...](https://en.wikipedia.org/wiki/Etaoin_shrdlu), while in Romanian, they follow the pattern [AIELURT...](http://www.cryptogram.org/downloads/words/frequency.html). The authors draw their frequencies from the [Universal Declaration of Human Rights (UDHR)](https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights) in 380 languages. (This seems fishy, since the language isn't in the normal register. Perhaps at the character level, this doesn't matter as much, but in English, the register exhibits a preference for Latin-origin words. This may mislead the second model below.)
 
 A one-to-one character substition is a cipher that wouldn't alter these distributions; this is a common codebreaking technique. This can be exploited by computing the frequency distribution for the mystery text and comparing it to candidate languages' distribution. Under the authors' assumption of an anagrammatic cipher, the frequency distributions are still unchanged. 
 
 They use the [Bhattacharya distance](https://en.wikipedia.org/wiki/Bhattacharyya_distance) between the distributions *U* and *V* (which are categorical). It uses the agreement between the assigned frequencies for each character *i*:
 
-![Bhattacharya distance formula]({{ "/images/hauser2016decoding-distance.png" | absolute_url }})
+![Bhattacharya distance formula]({{ "/images/hauer2016decoding-distance.png" | absolute_url }})
 
 Another model they attempt relies on **decomposition patterns**. The decomposition pattern of the word `assesses`, for instance, would be `(5, 2, 1)`, a sorted reflection of the counts of each letter. Now, instead of on character frequencies, they compute the Bhattacharya distance on decomposition pattern frequencies. (Decomposition patterns are personally interesting because I use them to prove a property of scoring functions on sets.)
 
@@ -31,9 +31,7 @@ A third model they attempt is a greedy swapping algorithm: begin with an initial
 
 The increasingly complex models do better at language identification on the UDHR, but again, this seems suspect to me—they use the same domain for training and testing, and there's no reason to suspect that the Voynich manuscript is in the same domain.)
 
-![Table of randomly enciphered language ID performance]({{ "/images/hauser2016decoding-language_id.png" | absolute_url }})
-
-![Encryption-decryption process]({{ "/images/hauser2016decoding-process.png" | absolute_url }})
+![Table of randomly enciphered language ID performance]({{ "/images/hauer2016decoding-language_id.png" | absolute_url }})
 
 ---
 
@@ -45,6 +43,9 @@ To actually decipher the script, they evaluate using word-level language models,
 
 For mutation, they swap through the set of possible words in a position that have the same pattern decomposition. Their method has an error rate of 2.6%. They finish their decoding with an HMM whose states are the words in their vocabulary and the sequences are alphagrams. With a Viterbi decoder, they pick the most likely word for the alphagram (or unknown, if it's unseen.)
 
+![Encryption-decryption process]({{ "/images/hauer2016decoding-process.png" | absolute_url }})
+
+
 The authors also rerun their pipeline without vowels in their decoder, so that they can recover the original text.
 
 They note that they need a bigger test vocabulary than the UDHR, so they use Wikipedia articles from various langauges to try IDing languages. They note that of their three types of errors (decipherment, decoding, and OOV), OOV errors are the most frequent. The decoder only produces observed words, so compounding (and declension) may be the causes of low performance.
@@ -53,7 +54,7 @@ They note that they need a bigger test vocabulary than the UDHR, so they use Wik
 
 At long last, having shown that their pipeline works, they run their model on the Voynich manuscript. They find that the decomposition patterns in the manuscript are incredibly close to Hebrew, with Malay as a distant second. It's actually an outlier in the distance space, compared to other languages. Hebrew was also a common written system at the time, and cipher techniques like anagramming came from the Jewish community.
 
-![Look at that outlier!]({{ "/images/hauser2016decoding-outlier.png" | absolute_url }})
+![Look at that outlier!]({{ "/images/hauer2016decoding-outlier.png" | absolute_url }})
 
 
 Finally, the paper attempts to perform a greedy search in the space of orderings to find the letter order of the alphagrams. (The authors note that the decision problem is NP-hard.) They find that the average deviation from the alphagram ordering they compute is 0.996, which is only about 40% of the deviation for English—a strong suggestion that there is an alphagrammatic cipher. With this, they can attempt to decipher.
