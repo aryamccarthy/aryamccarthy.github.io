@@ -23,7 +23,7 @@ What happens when you run out of energy? You miss out on Forbes magazine.
 
 - Summer 2017 I took my first real break in years
 - Focused on health and instilling good habits
-- Lost the 10 pounds I gained working on my thesis
+- Lost the 10 pounds I gained working on my thesis (and now I've lost the pudge I put on in the year before that)
 - Probably still spent too much time in bars, because what else is there to do in Dallas at night?
 
 
