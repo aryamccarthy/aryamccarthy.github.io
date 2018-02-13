@@ -1,7 +1,7 @@
 ---
 title: "How Brains are Built: Principles of Computational Neuroscience"
 layout: post
-excert_separator: <!--more-->
+excerpt_separator: <!--more-->
 ---
 
 ([Granger 2011](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.352.2852&rep=rep1&type=pdf)) in *Cerebrum*
