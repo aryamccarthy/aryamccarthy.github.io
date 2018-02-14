@@ -16,14 +16,14 @@ What happens when you run out of energy? You miss out on Forbes magazine.
 ## When it all went wrong
 
 - Thesis meant 12--16 hour days. I saw my profs for the first time in a month and they pointed out that I was still in pajamas.
-- Diet consisted mostly of soda and pizza bagels provided daily (and stolen) by my caring and long-suffering significant-other-at-the-time.
+- Diet consisted mostly of soda and pizza bagels provided daily by my caring and long-suffering significant-other-at-the-time. (She did take a cut of the loot, though.)
 
 
 ## The reboot
 
 - Summer 2017 I took my first real break in years
 - Focused on health and instilling good habits
-- Lost the 10 pounds I gained working on my thesis (and now I've lost the pudge I put on in the year before that)
+- Lost the 10 pounds I gained working on my thesis (and now I've lost the pudge I put on in the year before that). #thesisthirty
 - Probably still spent too much time in bars, because what else is there to do in Dallas at night?
 
 
@@ -40,3 +40,4 @@ My Danish friend Signe claims that there aren't these sleepless nights there the
 - Intermittent Fasting
 - Work-life separation
 - Morning routine
+- Mindful Browsing extension to block FB, Reddit, porn, etc. Consume only on the iPad.
