@@ -1,4 +1,8 @@
-# Bayesian Inference with Tears
+---
+title: "Bayesian Inference with Tears"
+layout: post
+excerpt_separator: <!--more-->
+---
 
 ([Knight 2009](https://www.isi.edu/natural-language/people/bayes-with-tears.pdf))
 
