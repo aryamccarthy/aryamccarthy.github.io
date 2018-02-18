@@ -42,4 +42,4 @@ Their model is a Markov process on a binary tree, with a symmetric (doubly-stoch
 
 ---
 
-The authors note that the independence assumption their model makes may have caused problems with the Romance languages, which are not independent. Since their models required so much finessing and back-checking to conform to known data about languages, I can't take their result about the development of early Indo-European languages as gospel. Still, their phylogenic model is interesting, and I'm always happy to see more attention given to historical linguistics.
+The authors note that the independence assumption their model makes may have caused problems with the Romance languages, which are not independent. Because their models required so much finessing and back-checking to conform to known data about languages, I can't take their result about the development of early Indo-European languages as gospel. Still, their phylogenic model is interesting, and I'm always happy to see more attention given to historical linguistics.

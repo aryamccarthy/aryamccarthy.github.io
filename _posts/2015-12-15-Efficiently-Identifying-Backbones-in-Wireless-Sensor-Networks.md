@@ -19,7 +19,7 @@ A minimal (cheap) backbone communicates with as many nodes as possible, while in
 ![]({{ site.baseurl }}/images/simplegraph50.png)
 *Nodes marked in red form the backbone with the greatest coverage, and black edges connect the backbone. The red edges connect a single node to all of its neighbors.*
 
-While graph coloring is an NP-complete problem, numerous heuristics have been proposed. My thesis advisor, [David W. Matula](https://www.smu.edu/Lyle/Departments/CSE/People/Faculty/MatulaDavid), presented the [smallest-last ordering](http://dl.acm.org/citation.cfm?id=322385). It repeatedly removes a node of least degree until the graph is empty. Along the way, you wind up with a terminal clique: every node left has the same degree, since they're all connected to one another. The graph will need at least as many colors as the terminal clique size.
+While graph coloring is an NP-complete problem, numerous heuristics have been proposed. My thesis advisor, [David W. Matula](https://www.smu.edu/Lyle/Departments/CSE/People/Faculty/MatulaDavid), presented the [smallest-last ordering](http://dl.acm.org/citation.cfm?id=322385). It repeatedly removes a node of least degree until the graph is empty. Along the way, you wind up with a terminal clique: every node left has the same degree, because they're all connected to one another. The graph will need at least as many colors as the terminal clique size.
 
 ![]({{ site.baseurl }}/images/ordering50.png)
 *The terminal clique is discernable at the far left of the graph, where the slope is consistent.*
