@@ -4,7 +4,7 @@ layout: post
 excerpt_separator: <!--more-->
 ---
 
-([Bahdanau et al. 2014](https://arxiv.org/pdf/1409.0473.pdf)) orally at ICLR 2015
+([Bahdanau et al., 2014](https://arxiv.org/pdf/1409.0473.pdf)) orally at ICLR 2015
 
 *I'm starting a new thing where I write about a paper every day, inspired by [The Morning Paper](https://blog.acolyer.org). Let me know what you think.*
 

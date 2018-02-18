@@ -4,7 +4,7 @@ layout: post
 excerpt_separator: <!--more-->
 ---
 
-([Knight 2009](https://www.isi.edu/natural-language/people/bayes-with-tears.pdf))
+([Knight, 2009](https://www.isi.edu/natural-language/people/bayes-with-tears.pdf))
 
 Kevin Knight describes a very real phenomenon for a first-year grad student: everyone is throwing out expressions like "Integrate over the possible values" or "Don't you see how this is a generative model?" and you want to quit school to move to the woods of North Carolina and bagpipe on the side of a hill. When the Bayesian craze struck, Knight had to work and avoid being left behind, so he wrote a workbook to teach others. 
 

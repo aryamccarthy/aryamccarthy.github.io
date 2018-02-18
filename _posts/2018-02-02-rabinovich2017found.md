@@ -4,7 +4,7 @@ layout: post
 excerpt_separator: <!--more-->
 ---
 
-([Rabinovich et al. 2017](https://www.aclweb.org/anthology/P17-1049)) at ACL
+([Rabinovich et al., 2017](https://www.aclweb.org/anthology/P17-1049)) at ACL
 
 *I'm starting a new thing where I write about a paper every day, inspired by [The Morning Paper](https://blog.acolyer.org). Let me know what you think.*
 

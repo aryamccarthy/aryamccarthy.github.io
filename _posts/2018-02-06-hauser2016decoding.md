@@ -3,7 +3,7 @@ title: "Decoding Anagrammed Texts Written in an Unknown Language and Script"
 layout: post
 excerpt_separator: <!--more-->
 ---
-([Hauer and Kondrak 2016](https://www.aclweb.org/anthology/Q16-1006)) in TACL
+([Hauer and Kondrak, 2016](https://www.aclweb.org/anthology/Q16-1006)) in TACL
 
 What mysteries does the [Voynich Manuscript](https://en.wikipedia.org/wiki/Voynich_manuscript) hold? Its unknown writing system has tantalized linguists for a century. Today's paper makes some informed judgments about the language it might be written in, as well as presenting a more general pipeline for deciphering unknown text. Their results show that Hebrew is an outlier among the languages they test, suggesting the most probable language for the text.
 
