@@ -45,7 +45,7 @@ A sample tree from their results, translating into English and then further into
 
 Even the source→English→French tree looks pretty good, so strong indicators of the source language are continuously propagated.
 
-Digging into the details of why their results stood, they looked for the rates of certain phenomena in the English translations. One example is the use of the “of X” construct for possession, produced by interference since English allows the “-’s” clitic but Balto-Serbian and Romance languages don’t. These continued to be indicative. Another is phrasal verbs (“turn down”, “come over”) that are prevalent in Germanic languages. The Germanic→English translations also had more of these, as expected.
+Digging into the details of why their results stood, they looked for the rates of certain phenomena in the English translations. One example is the use of the “of X” construct for possession, produced by interference because English allows the “-’s” clitic but Balto-Serbian and Romance languages don’t. These continued to be indicative. Another is phrasal verbs (“turn down”, “come over”) that are prevalent in Germanic languages. The Germanic→English translations also had more of these, as expected.
 
 They also confirmed the ease of discriminating between original texts and translations using a linear SVM and 10-fold CV. They got high-90s accuracy for POS trigrams and function words—the interference features—but cohesive markers—a translation universal—performed about 10 points worse.
  
