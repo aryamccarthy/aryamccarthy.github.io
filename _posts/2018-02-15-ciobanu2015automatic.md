@@ -3,7 +3,7 @@ title: "Automatic Discrimination between Cognates and Borrowings"
 layout: post
 ---
 
-([Ciobanu and Dinu 2015](www.aclweb.org/anthology/P15-2071)) at ACL
+([Ciobanu and Dinu, 2015](https://www.aclweb.org/anthology/P15-2071)) at ACL
 
 It is said that "no man is an island." Most definitely, no *language* is an island. They borrow from one another to extreme degrees. Today's paper comes from two authors at the University of Bucharest, in the middle of the notorious Balkan Sprachbund. This is a natural area to study the difference between cognates—which came from a shared ancestor—and borrowings. They use orthography to discern.
 
@@ -20,20 +20,12 @@ As features, they extract monotonic *n*-gram alignments (no crossing lines) betw
 
 ![Alignment between Romanian and Spanish words for 'function']({{ "/images/ciobanu2015automatic-alignment.png" | absolute_url }})
 
-On top of this, they perform an ablation study—adding and removing features to see which ones are most important. The features they mix in are part-of-speech tags, syllabication, and "consonant skeletons" (because these change at a slower pace than vowels), stems, and diacritics. 
+On top of this, they perform an ablation study—adding and removing features to see which ones are most important. The features they mix in are part-of-speech tags, syllabication, and "consonant skeletons" (because these change at a slower pace than vowels), stems, and diacritics. None of them really help.
 
-As far as results, they're able to get F1 scores of >85.0 for 3 of the 4 languages. It's not strictly clear why Italian fares so poorly or Turkish fares so well. There's little error analysis in this paper, but it's conceivable that the Turkish "cognates" from French look different from Turkish borrowings. They just naturally have a different bigram distribution. Italian, though, should be the most similar language of the three to Romanian. And [again]({{ ""/rabinovich2017found" | absolute_url }}), Portuguese and Romanian are inexplicably linked—the performance here is highest of any.
+As far as results, they're able to get F1 scores of >85.0 for 3 of the 4 languages. It's not strictly clear why Italian fares so poorly or Turkish fares so well. There's little error analysis in this paper, but it's conceivable that the Turkish "cognates" from French look different from Turkish borrowings. They just naturally have a different bigram distribution. Italian, though, should be the most similar language of the three to Romanian. And [again]({{ "/rabinovich2017found" | absolute_url }}), Portuguese and Romanian are inexplicably linked—the performance here is highest of any.
 
+I'd like to see this fed into another system like [Hall and Klein]({{ ""/hall2010finding" | absolute_url }})'s, since it's helpful to know how much this improves the entire comparative method pipeline. It's a short paper, though. Fingers crossed for a followup. Also, the method is supervised. Maybe apply some clustering to these, so we can apply the method to untested language pairs? And get adversarial—put some absolutely unrelated word pairs. The authors do talk about using a test of relatedness as a prior step, but it would be nice to see that integrated.
 
+My favorite thing about this paper, though, is that it's such an explicit model that you could go and implement it yourself in an afternoon or so.
 
-
-
-
-
-
-
-
-
-
-
-
+**TL;DR:** bigrams are useful features for classifying related word pairs as cognates or borrowings.

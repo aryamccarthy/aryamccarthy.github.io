@@ -4,7 +4,7 @@ layout: post
 excerpt_separator: <!--more-->
 ---
 
-([Granger 2011](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.352.2852&rep=rep1&type=pdf)) in *Cerebrum*
+([Granger, 2011](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.352.2852&rep=rep1&type=pdf)) in *Cerebrum*
 
 This paper treats the word "computational" not as something pertaining to computers, but rather as David Marr would use it. Marr identifies [three levels of phenomena](https://www.albany.edu/~ron/papers/marrlevl.html): the computational, the algorithmic, and the implementational. (Pylyshyn refers to these as the semantic, syntactic, and physical.) It's outside of NLP, but I've meant to read it for a long time—a glimpse into the state of computational neuroscience as it attempts to adapt models from the brain to other purposes.
 

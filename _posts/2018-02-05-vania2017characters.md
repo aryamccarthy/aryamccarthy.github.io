@@ -4,7 +4,7 @@ layout: post
 excerpt_separator: <!--more-->
 ---
 
-([Vania and Lopez 2017](https://www.aclweb.org/anthology/P17-1184)) at ACL
+([Vania and Lopez, 2017](https://www.aclweb.org/anthology/P17-1184)) at ACL
 
 We know that words exist, and we know that we can break them up into smaller parts—"rereading" can be broken into the morphemes `["re-", "read", "-ing"]`, or into the characters `["r", "e", "r", "e", "a", "d", "i", "n", "g"]`. Today's paper explores which of these levels is the best representation for language modeling. It also shows the benefit of morphological analysis—without it, even tons more data won't carry the day.
 
