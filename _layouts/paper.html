@@ -2,6 +2,6 @@
 layout: post
 ---
 
-(<a href="{{ page.link }}">{{ page.authors }}, {{ page.year }}</a>){% if page.venue == "arXiv" %} on arXiv{% else %} at {{ page.venue }}{% endif %}
+<p>(<a href="{{ page.link }}">{{ page.authors }}, {{ page.year }}</a>){% if page.venue == "arXiv" %} on arXiv{% else %} at {{ page.venue }}{% endif %}</p>
 
 {{ content }}
