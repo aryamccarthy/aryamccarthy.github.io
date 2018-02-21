@@ -48,7 +48,7 @@ h1 {
   font-size: 30px;
   line-height: 1.4;
   a {
-    color: inherit;
+    color: $darkerGray;
   }
 }
 
@@ -67,14 +67,16 @@ h4 {
 
 p {
   margin: 15px 0;
+  a {
+    &:visited {
+        color: #551A8B;
+    }
+  }
 }
 
 a {
   color: $blue;
   text-decoration: none;
-  &:visited {
-    color: #551A8B;
-  }
 }
 
 ul, ol {
