@@ -11,7 +11,9 @@ Today we get to rip of NMT literature for multi-modal work. This time for predic
 
 <!--more-->
 
-This paper relies on databases of color names. They're sparse, so the authors use character-level representations instead. They create a model that turns color names into color coordinates. They evaluate the model with a "color Turing test": the generated names are typically preferred over the human-devised names for the colors. They also produce the opposite: a generative model of color names given their coordinates in color space.
+This paper relies on databases of color names. They're sparse, so the authors use character-level representations instead. (This is a surprisingly underemphasized point.)
+
+They create a model that turns color names into color coordinates. They evaluate the model with a "color Turing test": the generated names are typically preferred over the human-devised names for the colors. They also produce the opposite: a generative model of color names given their coordinates in color space.
 
 Color spaces are an interesting matter. While RGB is widespread (representing a color as a triple in {0,...,255}^3), the authors prefer *Lab*, which lets Euclidian distances better match human-perceived differences. This is better for gradient optimization.
 
