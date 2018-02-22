@@ -15,13 +15,13 @@ This paper endeavors to show the brittleness of neural machine translation syste
 
 The authors are focused on models with character-level information. Particularly, the authors use three MT systems:
 
-1. A fully character-level sequence-to-sequence model with attention. ([Lee et al. 2017](https://www.aclweb.org/anthology/Q17-1026)) in TACL
+1. `char2char`: A fully character-level sequence-to-sequence model with attention. ([Lee et al. 2017](https://www.aclweb.org/anthology/Q17-1026)) in TACL
 2. The Nematus toolkit my beloved, the University of Edinburgh. It's another sequence-to-sequence model that uses byte-pair encoding, a technique for recognizing common character sequences.
-3. A sequence-to-sequence model whose word embeddings come from a character-level CNN. 
+3. `charCNN`: A sequence-to-sequence model whose word embeddings come from a character-level CNN. 
 
-They test on a prepared parallel corpus of TED talks for translating from French, German, and Czech to English. French conjugates its verbs. German additionally declines its nouns. Czech does both and has a notoriously complex inflection system. For each language, they extract natural noise from errors in some other corpus—for instance, single-word corrections in French Wikipedia. Any time an error exists for a word, they replace that word in the test set's translation source text with one of its mistaken variants.
+They test on a prepared parallel corpus of TED talks for translating from French, German, and Czech to English. French conjugates its verbs. German additionally declines its nouns. Czech does both and has a notoriously complex inflection system. For each language, they extract **natural noise** from errors in some other corpus—for instance, single-word corrections in French Wikipedia. Any time an error exists for a word, they replace that word in the test set's translation source text with one of its mistaken variants.
 
-Additionally, they introduce four types of synthetic noise:
+Additionally, they introduce four types of **synthetic noise**:
 
 1. `Swap`: swapping two inner letters of any word
 2. `Mid`: shuffling all letters but the first and last. This was inspired by a [popular meme from 2003](https://www.mrc-cbu.cam.ac.uk/personal/matt.davis/Cmabrigde/). 
