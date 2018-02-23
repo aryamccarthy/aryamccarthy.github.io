@@ -29,7 +29,7 @@ The SVD and SGNS methods both produce a vector space representing all words as v
 
 I admire how the authors gamed the Spearman correlation coefficient to detect pairwise meaning shifts. If the similarity values s1, s2, ..., sn correlate (positively or negatively) with the time values t1, t2, ..., tn, then there's been a meaning shift. 
 
-They evaluate diachronic embeddings in two ways:
+The authors worked on both the Google N-Grams corpus and the COHA corpus, which is supposed to be extremely well-balanced and representative of American English. They evaluate diachronic embeddings in two ways:
 
 1. Detection: when mining shifting words from a corpus, what recall are they able to achieve on a list of words with known directional shifts?
 1. Discovery: self-judging the top 10 words each method shows as having shifted, according to that Spearman sorcery. (That fact makes me uncomfortable. Also, reporting 70% is not cool when it's 7 out of 10.) SGNS wins, then SVD, then PPMI.
@@ -70,9 +70,6 @@ Also interesting to me about this paper is their visualization technique. It bui
    word.
 ```
 
-The authors worked on both the Google N-Grams corpus and the COHA corpus, which is supposed to be extremely well-balanced and representative of American English.
-
-
 The authors note that the procedure shows all words in their modern positions. I accept that it's more useful to us who know these words' modern senses, but only if a large number of reference words haven't changed in meaning.
 
 **The useful tricks:**
@@ -80,3 +77,6 @@ The authors note that the procedure shows all words in their modern positions. I
 - Procrustes projections for aligning two vector spaces
 - SVD for capturing analogical relationships
 - Counting the number of families a node takes part in using the local clustering coefficient.
+
+
+**EDIT 2018-02-22:** There's a [post from The Morning Paper](https://blog.acolyer.org/2018/02/22/dynamic-word-embeddings-for-evolving-semantic-discovery/), out today, that talks about a response to this work. Instead of aligning word embeddings using Procrustes, they jointly optimize both the embeddings and the alignment. They include a loss term that computes the difference between the embeddings for consecutive time periods, without rotation, when learning the optimal embeddings. This lets them perform diachronic analogy tasks: the nearest neighbor to the 2016 value of `obama` is always whoever is the President that year.
