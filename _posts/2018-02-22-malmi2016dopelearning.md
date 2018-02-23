@@ -9,7 +9,7 @@ link: "https://www.kdd.org/kdd2016/papers/files/adf0399-malmiA.pdf"
 
 The authors devise a method for ranking candidate rap lines conditioned on the previous lyrics. They report a 21% increase over human rappers in terms of rhyme density. Their method can be applied to other text synthesis problems such as customer service chatbots.
 
-![sample]({{ "malmi2016dopelearning-sample.png" | absolute_url }})
+![sample]({{ "/images/malmi2016dopelearning-sample.png" | absolute_url }})
 
 <!--more-->
 
@@ -42,7 +42,7 @@ To solve this problem, they create a model for scoring the candidates C based on
   - Same, but the last k=5 lines of the query instead of just one line
   - latent semantic analysis similarity
 
-![architecture]({{ "malmi2016dopelearning-architecture.png" | absolute_url }})
+![architecture]({{ "/images/malmi2016dopelearning-architecture.png" | absolute_url }})
 
 Since one of their models is a neural architecture for ranking, they need fixed-length inputs. They remove long words, and they pad short lines. They then use what sounds like a rudimentary count-based character embedding and concatenate those to get word representations.
 
@@ -74,10 +74,13 @@ Here, the `key` argument lets you perform an argmax. The uniqueness criterion is
 
 Most interestingly, they performed human evaluations. They found that the ranks they computed aligned with users' preferences for certain lyrics, when humans were asked to choose from a list of candidates. The bigger the margin between two lines' scores, the more likely the user was to choose the higher-scored sentence.
 
-![human]({{ "malmi2016dopelearning-human.png" | absolute_url }})
+![human]({{ "/images/malmi2016dopelearning-human.png" | absolute_url }})
 
 
 **Good habits:**
 - Inspect your errors. See why you mis-classified.
 
 **The bottom line:**
+- Generation can be treated as a retrieval problem rather than an actual generation problem, when the vocabulary is reasonably finite.
+- End rhyme is useful in predicting rap lyrics.
+- Support vector machines (SVMs) can perform simple linear ranking.
