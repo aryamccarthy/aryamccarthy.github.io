@@ -23,7 +23,7 @@ The hope (and motivation for a joint model) is to not have errors propagate forw
 
 So now what do we have? Something that can be discriminatively trained. We keep finding the best output given the weights, then updating the weights to favor correct answers. (It's like what we do with backprop in neural networks.)
 
-They claim to use only binary features, considering each piece of context. This means that their feature vocabulary must be huge, since they're modeling the presence of n-grams. It also means that their approach would fall apart in, say, Chinese.
+They claim to use only binary features, considering each piece of context. This means that their feature vocabulary must be huge—they're modeling the presence of n-grams. It also means that their approach would fall apart in, say, Chinese.
 
 They pull a trick out of machine translation to avoid Viterbi decoding, instead using the "monotone search algorithm" of [Zens and Ney](https://www.aclweb.org/anthology/N04-1033). (Monotone: It doesn't allow reordering.) The advantage of this search is that it allows translation of entire phrases (n-grams), rather than just words (letters). 
 

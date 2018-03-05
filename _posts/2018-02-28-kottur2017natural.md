@@ -7,7 +7,7 @@ year: 2017
 link: "https://aclweb.org/anthology/D17-1321"
 ---
 
-Did you like yesterday's paper? Too bad. Today's calls it out. (Not because its methods were bad, but because it's a stretch to call what it did "natural language". Yoav Goldberg has presented [a similar critique](https://medium.com/@yoav.goldberg/an-adversarial-review-of-adversarial-generation-of-natural-language-409ac3378bd7) of other work.) This paper calls out some shortcomings in approaches before yesterday's: that passive, corpus-based conversation agents never learn grounding: the mapping between physical concepts and words. It also points out something that yesterday's Lewis game agents couldn't do: compositionality. Since the Lewis sender is restricted to one symbol, how could it ever compose ideas?
+Did you like yesterday's paper? Too bad. Today's calls it out. (Not because its methods were bad, but because it's a stretch to call what it did "natural language". Yoav Goldberg has presented [a similar critique](https://medium.com/@yoav.goldberg/an-adversarial-review-of-adversarial-generation-of-natural-language-409ac3378bd7) of other work.) This paper calls out some shortcomings in approaches before yesterday's: that passive, corpus-based conversation agents never learn grounding: the mapping between physical concepts and words. It also points out something that yesterday's Lewis game agents couldn't do: compositionality. Because the Lewis sender is restricted to one symbol, how could it ever compose ideas?
 
 <!--more-->
 
