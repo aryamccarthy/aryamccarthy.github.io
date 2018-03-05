@@ -30,7 +30,7 @@ Additionally, they introduce four types of **synthetic noise**:
 
 ![performance with each noise type]({{ "/images/belinkov2018synthetic-performance.png" | absolute_url }})
 
-All systems plummetted, so the authors decided to introduce representations that were invariant toward the ordering of the letters. They did this by representing each word as the *average* of the embeddings (read: vector representations) of each character. This will inherently lower the highest possible BLEU score, since you're training on a representation that loses information. Still, the degradation due to shuffling noise will be zero.
+All systems plummetted, so the authors decided to introduce representations that were invariant toward the ordering of the letters. They did this by representing each word as the *average* of the embeddings (read: vector representations) of each character. This will inherently lower the highest possible BLEU score, because you're training on a representation that loses information. Still, the degradation due to shuffling noise will be zero.
 
 To improve performance farther, the authors generated "adversarial" training data, feeding noisy source texts as training data. When the charCNN model received noisy training data, it could handle the same type of noise well at test time, at only a small performance cost on "vanilla", noiseless text. Finally, when training a model on all types of possible noise, it gets the best average performance—though it doesn't excel at recovering from any particular kind of noise. The reviewers [note](https://openreview.net/forum?id=BJ8vJebC-) that Google could implement this quickly. Would they, though? It jeopardizes performance on good inputs.
 
