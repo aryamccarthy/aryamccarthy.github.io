@@ -9,6 +9,7 @@ link: https://ronan.collobert.com/pub/matos/2008_nlp_icml.pdf
 
 You know what's cool? Doing multitask learning that's *actually* multitask learning, instead of arbitrarily calling something multi-task (like morphological reinflection). This paper presents a deep model that attempts to do it all for NLP: tagging, chunking, NER, semantic roles, and on and on.
 
+<!--more-->
 ---
 
 Let's start by discussing what multi-task learning (MTL) is and why you'd want to do it. When you train for one task, you risk overfitting. Your model may treat noise in the training data as signal. Training for multiple tasks acts as a regularizer (basically a prior, [for you Bayesians]({{ "/knight2009bayesian" | absolute_url }})). Your encoder is shared across multiple tasks, then different output layers pertain to each task. The encoder's parameters are updated, whatever the task, by backpropagation. A great blog post about MTL is [here](http://ruder.io/multi-task/).
@@ -74,6 +75,6 @@ t = 5
 
 After the convolutional and pooling layers, you can add other standard neural network layers. The last two layers, though, should be (1) an output layer with N nodes, one for each possible output, and (2) a *softmax* layer, which turns the outputs of that layer into a probability distribution, making them positive with a sum of 1. 
 
-Since this is a multitask problem, the models don't need to share anything after the pooling layer. Each can go off and do its own thing with the pooled output. When they train, they can update both their own parameters and the convolutional layer's. Alternatively, you can split off even earlier, only sharing the word embeddings. Each task can have its own convolutional layers.
+Because this is a multitask problem, the models don't need to share anything after the pooling layer. Each can go off and do its own thing with the pooled output. When they train, they can update both their own parameters and the convolutional layer's. Alternatively, you can split off even earlier, only sharing the word embeddings. Each task can have its own convolutional layers.
 
 Without belaboring their results, they got good results on all the tasks they considered. **TL;DR:** Multi-task learning helps NLP.

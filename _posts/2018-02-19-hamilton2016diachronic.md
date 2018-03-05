@@ -19,7 +19,7 @@ To analyze this, the authors construct embeddings (fixed-length vectors represen
 
 Their methods are:
 
-- PPMI, or positive pointwise mutual information. They smooth it and rectify the PMI, such that only positive correlations are emphasized. (This makes sense, since your corpus might just not be big enough to show the two words together.) It also assumes a pre-built list of context words. Each row in the matrix M is the PPMI between the given word and the context word.
+- PPMI, or positive pointwise mutual information. They smooth it and rectify the PMI, such that only positive correlations are emphasized. (This makes sense, because your corpus might just not be big enough to show the two words together.) It also assumes a pre-built list of context words. Each row in the matrix M is the PPMI between the given word and the context word.
 - SVD. SVD is the math behind prinicipal component analysis. They apply this as a dimensionality reduction of the PPMI matrix: **M = USV***. (They keep the scores on each dimension **US**, rather than the directions **V**.) Because they only keep a fraction of the dimensions, it acts as a regularizer.
 - SGNS (i.e. word2vec). Word2vec is its own conceptual disaster, but very popular and quite successful. It's useful in this case because you can initialize the embeddings for a time period __*t*__ with the embeddings from the previous time period __*t* - *∆*__, helping you better model the transitions. (They borrow this idea from [Kim et al. (2014)](https://www.aclweb.org/anthology/W14-2517), who first used word2vec (a "neural model") to study diachronic meaning change.) 
 
@@ -44,7 +44,7 @@ Now we get to the unveiling of their "laws". They examine these by looking at th
 
 > With SVD embeddings the effect of frequency is confounded by the fact that high frequency words have less finite-sample variance in their co-occurrence estimates, which makes the word vectors of high frequency words appear more stable between corpora, regardless of any real semantic change. The SGNS embeddings do not suffer from this issue because they are initialized with the embeddings of the previous decade.
 
-With this in place, they create a linear model to compute an adjusted score, based on the frequency polysemy of each word along with effects from the decade itself, including random intercepts for each word and random noise at each time point. Interpreting this is dicey, since they claim to find power laws out of an equation that only allows for power laws. 
+With this in place, they create a linear model to compute an adjusted score, based on the frequency polysemy of each word along with effects from the decade itself, including random intercepts for each word and random noise at each time point. Interpreting this is dicey—they claim to find power laws out of an equation that only allows for power laws. Without credible intervals on the weights, this could have been anything.
 
 More interesting is how they look at polysemy. They compute it as the negative of the local clustering coefficient (hooray network science!), which is essentially the triangle density of a node: how many triangles is it a part of, out ot the total number that could exist given its incident edge set? So more clustering means fewer senses. Evidently this has been shown to correlate with WordNet senses. Unfortunately, it also awards points to function words.
 
