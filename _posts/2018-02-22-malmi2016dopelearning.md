@@ -4,7 +4,7 @@ title: "DopeLearning: A Computational Approach to Rap Lyrics Generation"
 authors: "Malmi et al."
 venue: "KDD"
 year: 2016
-link: "https://www.kdd.org/kdd2016/papers/files/adf0399-malmiA.pdf"
+link: "http://www.kdd.org/kdd2016/papers/files/adf0399-malmiA.pdf"
 ---
 
 The authors devise a method for ranking candidate rap lines conditioned on the previous lyrics. They report a 21% increase over human rappers in terms of rhyme density. Their method can be applied to other text synthesis problems such as customer service chatbots.
@@ -44,7 +44,7 @@ To solve this problem, they create a model for scoring the candidates C based on
 
 ![architecture]({{ "/images/malmi2016dopelearning-architecture.png" | absolute_url }})
 
-Since one of their models is a neural architecture for ranking, they need fixed-length inputs. They remove long words, and they pad short lines. They then use what sounds like a rudimentary count-based character embedding and concatenate those to get word representations.
+Because one of their models is a neural architecture for ranking, they need fixed-length inputs. They remove long words, and they pad short lines. They then use what sounds like a rudimentary count-based character embedding and concatenate those to get word representations.
 
 The word vectors get appended, and we keep connecting and connecting until a softmax layer predicts whether this line follows or not. The positive examples were (naturally) attested sentences with their predecessors. Negative examples were made by taking random, uniformly chosen sentences. There were the same number of positive and negative examples. The network is trained in the normal way, backpropagating through to update weights (parameters) to maximize the likelihood of the yes/no predictions for each (history, candidate) combination. 
 
