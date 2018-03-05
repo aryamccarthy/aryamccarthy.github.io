@@ -7,7 +7,11 @@ venue: AAAI
 link: "https://arxiv.org/pdf/1801.03257.pdf"
 ---
 
-Translating from pro-drop languages to non-pro-drop languages is a challenge. 
+Translating from pro-drop languages to non-pro-drop languages is a challenge. How do you synthesize the implied information, when your model can only think on the level of words, not grammar? If the bread is delicous, you want to ask, "Did you bake it?"—not "Are you baked?"
+
+Today's paper presents a two-step process for doing this: automatically add the dropped pronouns back into the source, then use a multitask model to predict both the annotated source and the translation from the original source.
+
+<!--more-->
 
 Pro-drop is an economical way of saying a language "drops" its "pronouns". When the subject can be inferred from context, you don't need to give it. In Spanish, you can say "corro" instead of "yo corro", because the conjugated verb "corro" encodes the subject.
 
@@ -51,7 +55,7 @@ To see whether the improvement came from dual learning, they altered their recon
 
 ![dual learning]({{ "/images/wang2018translating-dual.png" | absolute_url }})
 
-A last comparison is how much manually or automatically annotating DPs improves scores. The authors found that manual labeling gave good results; have they tried [joint learning]({{ "/jiampojamarn2008joint" | absolute_url }})? (Even more params, yikes.)
+A last comparison is how much manually or automatically annotating DPs improves scores. The authors found that manual labeling of their test data gave good results; have they tried [joint learning]({{ "/jiampojamarn2008joint" | absolute_url }})? (Even more params, yikes.)
 
 ![manual vs automatic labeling]({{ "/images/wang2018translating-labeling.png" | absolute_url }})
 
@@ -62,6 +66,7 @@ In their error analysis, they showed that they handle object pronouns and [pleon
 
 ![error types]({{ "/images/wang2018translating-errortypes.png" | absolute_url }})
 
+**EDIT:** for those of you that care, this is an instance of [multi-task learning](collobert2008unified). Shared representations learn to produce the reconstructed sentence (in two different places) and the target sentence. This acts as a form of regularization.
 
 **The bottom line:**
 
