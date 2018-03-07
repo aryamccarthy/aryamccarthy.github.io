@@ -71,6 +71,9 @@ t = 5
   j =   -1	t+j =    4
   j =    0	t+j =    5
 ```
+
+(You may notice the similarity to [Toeplitz matrices](https://en.m.wikipedia.org/wiki/Toeplitz_matrix), which create diagonal bands of values. Here, you can picture a row of the matrix as representing a given time step and the values representing the identities of the filters. These move one step to the right at each time step.)
+
 ---
 
 After the convolutional and pooling layers, you can add other standard neural network layers. The last two layers, though, should be (1) an output layer with N nodes, one for each possible output, and (2) a *softmax* layer, which turns the outputs of that layer into a probability distribution, making them positive with a sum of 1. 
