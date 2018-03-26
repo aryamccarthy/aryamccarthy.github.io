@@ -1,4 +1,5 @@
 ---
+layout: paper
 title: "Learning Language Representations for Typology Prediction"
 authors: "Malaviya et al."
 year: 2017
