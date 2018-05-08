@@ -22,7 +22,7 @@ A minimal (cheap) backbone communicates with as many nodes as possible, while in
 While graph coloring is an NP-complete problem, numerous heuristics have been proposed. My thesis advisor, [David W. Matula](https://www.smu.edu/Lyle/Departments/CSE/People/Faculty/MatulaDavid), presented the [smallest-last ordering](http://dl.acm.org/citation.cfm?id=322385). It repeatedly removes a node of least degree until the graph is empty. Along the way, you wind up with a terminal clique: every node left has the same degree, because they're all connected to one another. The graph will need at least as many colors as the terminal clique size.
 
 ![]({{ site.baseurl }}/images/ordering50.png)
-*The terminal clique is discernable at the far left of the graph, where the slope is consistent.*
+*The terminal clique is discernible at the far left of the graph, where the slope is consistent.*
 
 Along the way, I learned some pretty cool tricks for speeding up the implementation:
 

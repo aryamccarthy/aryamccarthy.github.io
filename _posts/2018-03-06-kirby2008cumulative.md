@@ -15,8 +15,8 @@ One claim from yesterday's paper is that repeated transmission, with small popul
 
 The authors focus on diffusion again, but instead of label propagation, they use humans practicing "diffusion chains": they observe a behavior, then demonstrate it for another participant, who demonstrates for another. It's like a game of telephone.
 
-The humans are exposed to visual stimuli: objects in motion, paired with words in an "alien language" to describe it. If the language adapts as intended, it will become more learnable, and it will become more structured.
+The humans are exposed to visual stimuli: objects in motion, paired with words in an "alien language" to describe it. If the language does adapt as intended, it will become more learnable, and it will become more structured.
 
-They use Levenshtein distance as their metric of distance, but they normalize it between 0 and 1. This…this should be impossible, unless they're underspecifying something like an assumption about word lengths.
+They use Levenshtein distance as their metric of distance, but they normalize it between 0 and 1. This…this should be impossible, unless they're under-specifying something like an assumption about word lengths.
 
-Anyway, it sounds very familiar: they need to avoid the situation of rote memorization a la Funes. People wound up using morphological concatenation. (Hooray, people found something in something designed to show them exactly that. I don't like tests which get shocked that you found something, when the test is designed for you to find it.)
+Anyway, it sounds very familiar: they need to avoid the situation of rote memorization à la Funes. People wound up using morphological concatenation. (Hooray, people found something in something designed to show them exactly that. I don't like tests which get shocked that you found something, when the test is designed for you to find it.)

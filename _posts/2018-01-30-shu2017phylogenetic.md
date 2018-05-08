@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 
 *I'm starting a new thing where I write about a paper every day, inspired by [The Morning Paper](https://blog.acolyer.org). Let me know what you think.*
 
-Shu et al. look at the similarities and descencdence between languages using the same techniques for comparing phylogenies of organisms. This isn't the first time that this similarity has been looked at, but their model lets language families be compared to each other.
+Shu et al. look at the similarities and descencdance between languages using the same techniques for comparing phylogenies of organisms. This isn't the first time that this similarity has been looked at, but their model lets language families be compared to each other.
 
 <!--more-->
 

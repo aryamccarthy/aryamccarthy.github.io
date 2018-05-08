@@ -27,7 +27,7 @@ The rhyme density measure is suspect to me. Human rappers employ slantier rhymes
 
 Now that our feature function is defined, we can move to the problem definition for **next-line prediction**. 
 
-> Consider the lyrics of a rap song S, which is a sequence of n lines (s1,...,sn). Assume that the first m lines of S, denoted by B = (s1,...,sm), are known and are considered as “the query.” Consider also that we are given a set of k candidate next lines C = {l1,...,lk}, and the promise that sm+1 ∈ C. The goal is to identify sm+1 in the candidate set C, i.e., pick a line li ∈ C such that li = sm+1.
+> Consider the lyrics of a rap song S, which is a sequence of n lines (s1,…,sn). Assume that the first m lines of S, denoted by B = (s1,…,sm), are known and are considered as “the query.” Consider also that we are given a set of k candidate next lines C = {l1,…,lk}, and the promise that sm+1 ∈ C. The goal is to identify sm+1 in the candidate set C, i.e., pick a line li ∈ C such that li = sm+1.
 
 To solve this problem, they create a model for scoring the candidates C based on the query B. The **features** used to determine these scores are:
 
@@ -61,7 +61,7 @@ Input:
   - l0: seed line
   - n:  lyrics length
 Output:
-  - L:  lyrics (l1, l2, ..., ln)
+  - L:  lyrics (l1, l2, …, ln)
 L = [l1]
 for i in range(1, n):
     C <- candidates(L[i - 1])

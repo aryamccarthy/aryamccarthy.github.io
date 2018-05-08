@@ -11,7 +11,7 @@ Mmm, word sense plus graph theory. I'm in heaven. This paper proposes a way to d
 
 <!--more-->
 
-The big problem in word vectors is different meanings. This can manifest itself as **homography**: two words spelled the same way, like wind and wind, as well as **polysemy**: related meanings like bank as a building or a financial institution. Sussing these apart is the task of "word sense disambiguation". (You can also take a harder task: determining the number of senses out of thin air, "word sense induction".)  
+The big problem in word vectors is different meanings. This can manifest itself as **homography**: two words spelled the same way, like wind and wind, as well as **polysemy**: related meanings like bank as a building or a financial institution. Sussing these apart is the task of "word sense disambiguation". (You can also take a harder task: determining the number of senses out of thin air, [word sense induction](https://en.wikipedia.org/wiki/Word-sense_induction).)  
 
 ![pipeline]({{ "/images/pelevina2016making-pipeline.png" | absolute_url }})
 
@@ -26,7 +26,7 @@ There are a million strategies for learning word vectors. (I personally like the
  
 Once you have those, you can compute cosine similarity between vectors. With such a large space, this is time-consuming. The authors do block matrix operations, with block-size 1000. The authors used a threshold of 200—each node was connected to its 200 nearest neighbors. (Could we have devised a variable number of connections instead of KNN?)
 
-With our graph in place, we construct ego graphs for each word. An ego graph is every node within some number of hops of the source node, e.g. everyone I can reach in two hops or fewer. Everyone in the ego graph is then connected to their *n* most similar words. Finally, we cluster using the [Chinese Whispers algorithm](https://en.wikipedia.org/wiki/Chinese_Whispers_(clustering_method)). (Shockingly, this is equivalent to the [label propagation algorithm](https://en.wikipedia.org/wiki/Label_Propagation_Algorithm)? Nobody caught on?) LPA is great because it makes no assumption about the number of clusters. (That's also true of other community detection algorithms, though.)
+With our graph in place, we construct ego graphs for each word. An ego graph is every node within some number of hops of the source node, e.g., everyone I can reach in two hops or fewer. Everyone in the ego graph is then connected to their *n* most similar words. Finally, we cluster using the [Chinese Whispers algorithm](https://en.wikipedia.org/wiki/Chinese_Whispers_(clustering_method)). (Shockingly, this is equivalent to the [label propagation algorithm](https://en.wikipedia.org/wiki/Label_Propagation_Algorithm)? Nobody caught on?) LPA is great because it makes no assumption about the number of clusters. (That's also true of other community detection algorithms, though.)
 
 The authors' choice of LPA is disappointing because it produces different results on each run, so generally people take a consensus among multiple runs. Or they just use a different algorithm. Still, those results are demonstrably better on average than, say, the leading eigenvector algorithm—which *is* consistent from run to run.
 

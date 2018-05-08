@@ -7,9 +7,9 @@ venue: AAAI
 link: "https://arxiv.org/pdf/1801.03257.pdf"
 ---
 
-Translating from pro-drop languages to non-pro-drop languages is a challenge. How do you synthesize the implied information, when your model can only think on the level of words, not grammar? If the bread is delicous, you want to ask, "Did you bake it?"—not "Are you baked?"
+Translating from pro-drop languages to non-pro-drop languages is a challenge. How do you synthesize the implied information, when your model can only think on the level of words, not grammar? If the bread is delicious, you want to ask, "Did you bake it?"—not "Are you baked?"
 
-Today's paper presents a two-step process for doing this: automatically add the dropped pronouns back into the source, then use a multitask model to predict both the annotated source and the translation from the original source.
+Today's paper presents a two-step process for doing this: automatically add the dropped pronouns back into the source, then use a multi-task model to predict both the annotated source and the translation from the original source.
 
 <!--more-->
 
@@ -26,7 +26,7 @@ They use two objectives. One is to maximize the likelihood produced by the encod
 ![objective]({{ "/images/wang2018translating-objective.png" | absolute_url }})
 
 
-So what is reconstruction? It's a way of getting the source back out from a latent repreesentation. It reads a sequence of hidden states and a pronoun-labeled source, then scores how well that labeled source can be produced. It seems like another seq-to-seq model that shares the encoder (and optionally the decoder) with the main MT model, but this one is used to try annotating the pronouns. They also share word embeddings between x and x̂. 
+So what is reconstruction? It's a way of getting the source back out from a latent representation. It reads a sequence of hidden states and a pronoun-labeled source, then scores how well that labeled source can be produced. It seems like another seq-to-seq model that shares the encoder (and optionally the decoder) with the main MT model, but this one is used to try annotating the pronouns. They also share word embeddings between x and x̂. 
 
 If you attach the reconstructor to the encoder, you get an auto-encoder. Its hidden states not only summarize the source, but also embed information about DPs. If you attach it to the decoder, as in Tu et al., you get the labeled source out instead of a translation.
 
@@ -48,7 +48,7 @@ They compared to other work to show that it's not just the number of parameters 
 ![training only]({{ "/images/wang2018translating-trainingonly.png" | absolute_url }})
 
 
-> We found that the multi-layer model significantly outper- forms its single-layer counterpart “Baseline (+DPs)”, while significantly underperforms our best model (i.e., 33.46 vs. 35.08). The “Baseline (+DPs)” system with enlarged hidden layer, however, does not achieve any improvement. This indicates that explicitly modeling DP translation is the key factor to the performance improvement.
+> We found that the multi-layer model significantly outperforms its single-layer counterpart “Baseline (+DPs)”, while significantly underperforms our best model (i.e., 33.46 vs. 35.08). The “Baseline (+DPs)” system with enlarged hidden layer, however, does not achieve any improvement. This indicates that explicitly modeling DP translation is the key factor to the performance improvement.
 
 
 To see whether the improvement came from dual learning, they altered their reconstructors to yield the source sentence **x** instead of the labeled sentence **x̂**. None of these performed as well as models that explicitly sought to model DPs.

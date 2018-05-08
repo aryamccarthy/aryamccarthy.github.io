@@ -35,6 +35,6 @@ The task they approach is language modeling, which is super important in languag
 
 One of the authors is supported by an Indonesian endowment, which may explain the interest in reduplicating languages. In any case, the results strongly suggest that in the absence of annotated data, character trigrams are the way to go. But annotated data brings you so much farther, consistently achieving lower-perplexity models. (That is, models that were less surprised by the next thing they saw.) BPE actually turned out ggarbage words in many cases. And the bi-LSTM composition method, which brings information from each direction into each representation, outperformed simple addition. (Again, no big surprises here. Complex learned functions doing well?)
 
-The often-extreme benefit of morphological annotations, the authors note, begs for bootstrapping. A structured autoencoder would be a good way to model the morphological analyses as a latent variable, generating more labeled data. Maybe I should do that...
+The often-extreme benefit of morphological annotations, the authors note, begs for bootstrapping. A structured autoencoder would be a good way to model the morphological analyses as a latent variable, generating more labeled data. Maybe I should do that…
 
 **The bottom line:** Your best bet for language modeling is annotated data. Lacking that, use the output of bi-LSTMs with character trigrams as input.

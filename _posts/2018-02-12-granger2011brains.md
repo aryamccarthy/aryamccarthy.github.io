@@ -20,7 +20,7 @@ We know that brains are slow and sloppy. They must be more precise than we reali
 
 ## From circuits to algorithms to prosthetics
 
-We have a decent understanding of the basal ganglia—they take sensory information and an external reward or punishment signal. This is [reinforcement leraning](https://en.wikipedia.org/wiki/Reinforcement_learning), implemented in the brain. (ML people, get excited.) But brains are also great at structuring knowledge, and this happens in the neocortex—the region which has grown over the course of mammalian evolution.
+We have a decent understanding of the basal ganglia—they take sensory information and an external reward or punishment signal. This is [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning), implemented in the brain. (ML people, get excited.) But brains are also great at structuring knowledge, and this happens in the neocortex—the region which has grown over the course of mammalian evolution.
 
 > There is a growing consensus that circuits in the neocortex, by far the largest set of brain structures in humans, carry out another, quite different kind of learning: the ability to rapidly learn new facts and to organize newly acquired knowledge into vast hierarchical structures that encode complex relationships, such as categories and subcategories, episodes, and relations.
 

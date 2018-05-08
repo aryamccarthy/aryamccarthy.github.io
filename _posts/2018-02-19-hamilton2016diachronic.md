@@ -13,21 +13,21 @@ Today's paper looks at how meanings evolve. The authors claim to have uncovered 
 
 <!--more-->
 
-For backgound, we know that some phenomena occur more in high frequency words than in other, and we know that more frequent words have more senses. But we don't know how either of these relate to semantic drift.
+For background, we know that some phenomena occur more in high frequency words than in other, and we know that more frequent words have more senses. But we don't know how either of these relate to semantic drift.
 
 To analyze this, the authors construct embeddings (fixed-length vectors representing each word) by three different methods, then align those of the same type from decade to decade.
 
 Their methods are:
 
-- PPMI, or positive pointwise mutual information. They smooth it and rectify the PMI, such that only positive correlations are emphasized. (This makes sense, because your corpus might just not be big enough to show the two words together.) It also assumes a pre-built list of context words. Each row in the matrix M is the PPMI between the given word and the context word.
-- SVD. SVD is the math behind prinicipal component analysis. They apply this as a dimensionality reduction of the PPMI matrix: **M = USV***. (They keep the scores on each dimension **US**, rather than the directions **V**.) Because they only keep a fraction of the dimensions, it acts as a regularizer.
+- PPMI, or positive point-wise mutual information. They smooth it and rectify the PMI, such that only positive correlations are emphasized. (This makes sense, because your corpus might just not be big enough to show the two words together.) It also assumes a pre-built list of context words. Each row in the matrix M is the PPMI between the given word and the context word.
+- SVD. SVD is the math behind principal component analysis. They apply this as a dimensionality reduction of the PPMI matrix: **M = USV***. (They keep the scores on each dimension **US**, rather than the directions **V**.) Because they only keep a fraction of the dimensions, it acts as a regularizer.
 - SGNS (i.e. word2vec). Word2vec is its own conceptual disaster, but very popular and quite successful. It's useful in this case because you can initialize the embeddings for a time period __*t*__ with the embeddings from the previous time period __*t* - *∆*__, helping you better model the transitions. (They borrow this idea from [Kim et al. (2014)](https://www.aclweb.org/anthology/W14-2517), who first used word2vec (a "neural model") to study diachronic meaning change.) 
 
 The SVD and SGNS methods both produce a vector space representing all words as vectors. But these vector spaces can be oriented arbitrarily: If you perform one of these methods for two consecutive decades, you will get different vector spaces even though most words' meanings are similar. If you want to compare the embeddings across decades, then, you have to rotate one vector space so that they can be compared properly. (PPMI is inherently aligned because you use the same context words in all years to define the columns.) The technique to align the vector spaces is called Procrustes (jokingly named after [this maniac](https://en.wikipedia.org/wiki/Procrustes)). It finds the orthogonal rotation **Q** of **W_t** that minimizes its difference from **W_{t+1}**.
 
 ![Procrustes optimal rotation equation]({{ "/images/hamilton2016diachronic-procrustes.png" | absolute_url }})
 
-I admire how the authors gamed the Spearman correlation coefficient to detect pairwise meaning shifts. If the similarity values s1, s2, ..., sn correlate (positively or negatively) with the time values t1, t2, ..., tn, then there's been a meaning shift. 
+I admire how the authors gamed the Spearman correlation coefficient to detect pairwise meaning shifts. If the similarity values s1, s2, …, sn correlate (positively or negatively) with the time values t1, t2, …, tn, then there's been a meaning shift. 
 
 The authors worked on both the Google N-Grams corpus and the COHA corpus, which is supposed to be extremely well-balanced and representative of American English. They evaluate diachronic embeddings in two ways:
 

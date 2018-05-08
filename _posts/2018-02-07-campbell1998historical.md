@@ -50,7 +50,7 @@ Also, we need the majority to be fair. What if you’re deciding based on Spanis
     Now we need to look at the focalization and dispersion of the vowels, as well as the symmetry of the consonants. We want some congruency in the pattern.
 
 1. **Check the plausibility of the reconstructed sound from the perspective of linguistic universals and typological expectations**
-    Languages need vowels. Languages with nasal consonants will have their non-nasal counterparts. Etc.
+    Languages need vowels. Languages with nasal consonants will have their non-nasal counterparts. Et cetera.
 1. **Reconstruct individual morphemes** 
     Use your phoneme-to-phoneme alignment and translate into the progenitor sounds.
     
@@ -86,4 +86,4 @@ Assumption 1 is an idealization, because what else do we have? We don't have rec
 
 ## How realistic are the results?
 
-If we just went off what we see in the daughter languages, we wouldn’t know some of the things they deleted. But isn’t it great how much we *do* get? Also, we don't get any idea about the syntax or semantics of the ancestor—just its morpheme and phoneme vocabulary. And really, we only get that for words in the core vocabulary, in languages with a large number of living descendents. But it's the best we have, and it's a glimpse into our past.
+If we just went off what we see in the daughter languages, we wouldn’t know some of the things they deleted. But isn’t it great how much we *do* get? Also, we don't get any idea about the syntax or semantics of the ancestor—just its morpheme and phoneme vocabulary. And really, we only get that for words in the core vocabulary, in languages with a large number of living descendants. But it's the best we have, and it's a glimpse into our past.
