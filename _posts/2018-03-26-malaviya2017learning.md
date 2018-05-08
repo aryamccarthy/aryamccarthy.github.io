@@ -17,7 +17,7 @@ The work seems to operate on the Duolingo principle: that we can infer what a le
 
 The authors start off by considering the [URIEL database of typology](http://www.cs.cmu.edu/~dmortens/uriel.html), which is part of the DARPA LORELEI project. It compiles information from numerous prior databases. The features are syntactic (103), phonological (28), and phonetic (158). All features are binary. Because some features are one-hot encoded, certain vectors are impossible.
 
-Building on this database, they produce baseline feature vectors for languages, averaging the 3 nearest neighbors. These neigbors come from normalizing the geodesic and genetic distances of the languages, which could be dicey because it would introduce numerous biases. Basque isn't close to Spanish or Catalan genetically, but their geodesic position would lead to each contributing to the other.
+Building on this database, they produce baseline feature vectors for languages, averaging the 3 nearest neighbors. These neighbors come from normalizing the geodesic and genetic distances of the languages, which could be dicey because it would introduce numerous biases. Basque isn't close to Spanish or Catalan genetically, but their geodesic position would lead to each contributing to the other.
 
 They trained a logistic regression classifier with either the above baseline vectors or their proposed features, then performed 10-fold cross-validation. A logistic regression classifier can perform either binary or multi-class prediction, and they use separate classifiers for each class of feature, like syntax. 
 

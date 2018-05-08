@@ -28,7 +28,7 @@ LSTMs introduce a memory 'cell' to combat this. The values in the cell are a sum
 
 The stack LSTM adds a 'stack pointer', which is completely similar to the stack pointer in programming languages. (That is, a state is a combination of the hidden state, cell state, and stack pointer—a back pointer!) Instead of using the immediately previous cell and hidden states, the pointer points back through history to select one. New inputs are pushed on the right, as normal. The pop operation amounts to moving the pointer to the previous element. Contents are never overwritten in this LSTM. 
 
-Do you really need to keep the hidden everything, instead of just overwriting? Yes. Even though the new parts aren't part of the stack, they still produce outputs. The fact that we keep everything, including back pointers, lets the stack represent a tree. Convince yourself below.
+Do you really need to keep the hidden everything, instead of just overwriting? Yes: Even though the new parts aren't part of the stack, they still produce outputs. The fact that we keep everything, including back pointers, lets the stack represent a tree. Convince yourself below.
 
 ![simple application]({{ "/images/dyer2015transition.png" | absolute_url }})
 

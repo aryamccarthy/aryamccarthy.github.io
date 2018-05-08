@@ -9,7 +9,7 @@ I'm a contributor to [networkx](https://networkx.readthedocs.io/en/stable/), the
 
 ![Build status](https://travis-ci.org/networkx/networkx.svg?branch=master)
 
-It took us a few days of wrongly failing builds to nail down the problem, coming from that one test. We resolved that there were two right answers—two possible partitionings of the graph. One split the graph into two components, and the other simply gave one large component.
+It took us a few days of wrongly failing builds to nail down the problem, coming from that one test. We resolved that there were two right answers—two possible partitions of the graph. One split the graph into two components, and the other simply gave one large component.
 
 Originally, the test checked this:
 

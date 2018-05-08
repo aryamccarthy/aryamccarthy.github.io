@@ -11,7 +11,7 @@ This paper is rather tongue-in-cheek, and it's a real delight to read. It argues
 
 <!--more-->
 
-Becker starts off by saying that we, unlike physicists, deal with a mesy set of problems. When we make simplifying assumptions about our sentences, they now behave nothing like reality. This brings us to the first idea:
+Becker starts off by saying that we, unlike physicists, deal with a messy set of problems. When we make simplifying assumptions about our sentences, they now behave nothing like reality. This brings us to the first idea:
 
 > BECKER'S CRITERION
 > 
