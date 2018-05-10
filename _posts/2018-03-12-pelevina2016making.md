@@ -34,15 +34,15 @@ To compute the sense inventory from the produced clusters, they took the average
 
 Finally, with an inventory of senses in hand for each word, we must disambiguate. We have two choices for how to do this. One is to maximize the probability of the context given the sense—basically CBOW word2vec. \\(\mathbf{\overline{c}}_c\\) is the mean *context embedding* of the context words.
 
-\\[s^* = \arg\max_i P(C | \mathbf{s}_i) = \arg\max_i \frac{1}{1 + e^{-\mathbf{\overline{c}}_c \cdot \mathbf{s}_i}}\\]
+$$ s^* = \arg\max_i P(C \mid \mathbf{s}_i) = \arg\max_i \frac{1}{1 + e^{-\mathbf{\overline{c}}_c \cdot \mathbf{s}_i}} $$
 
 The other choice is to maximize the similarity between the sense and the context. This time, we take the mean of the word embeddings of the context words.
 
-\\[s^* = \arg\max_i \mathit{sim}\left(\mathbf{s}_i, C\right) = \arg\max_i \frac{\mathbf{\overline{c}}_w \cdot \mathbf{s}_i}{||\mathbf{\overline{c}}_w|| \cdot ||\mathbf{s}_i|| }\\]
+$$ s^* = \arg\max_i \mathit{sim}\left(\mathbf{s}_i, C\right) = \arg\max_i \frac{\mathbf{\overline{c}}_w \cdot \mathbf{s}_i}{\mid\mid\mathbf{\overline{c}}_w\mid\mid \cdot \mid\mid\mathbf{s}_i\mid\mid } $$
 
 As a last trick, they compute the discriminative power of each word, taking only the \\(p\\) most discriminative for their model. Their score function is either of the two functions we argmaxed above.
 
-\\[\max_i \mathit{score}(\mathbf{s}_i, c_j) - \min_i \mathit{score}(\mathbf{s}_i, c_j)\\]
+$$ \max_i \mathit{score}(\mathbf{s}_i, c_j) - \min_i \mathit{score}(\mathbf{s}_i, c_j) $$
 
 ## Evaluation
 
