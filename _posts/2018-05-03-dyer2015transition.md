@@ -22,7 +22,7 @@ Let's first review [dependency parsing](https://web.stanford.edu/~jurafsky/slp3/
 
 Today's paper relies on three **stack LSTMs**, the authors' custom data structure which can both push and pop inputs—they can read or forget, in the LSTM sense of 'forget'. So let's review how LSTMs work and build up to these stack LSTMs. 
 
-[LSTMs](https://en.wikipedia.org/wiki/Long_short-term_memory) are a specialized [RNN](https://en.wikipedia.org/wiki/Recurrent_neural_network). An RNN maintains an internal ('hidden') state which is used to compute outputs. It is also updated as the RNN observes each next part of a sequential input. The new hidden state \\(\mathbf{h}_t\\) is a function (a 1-layer MLP) of the previous hidden state \\(\mathbf{h}_{t-1}\\) and the input \\(\mathbf{x}_t\\). It's easy for this MLP's sigmoidal activation to dampen the importance of long-term effects over time, because you repeatedly squash the old value.
+[LSTMs](https://en.wikipedia.org/wiki/Long_short-term_memory) are a specialized [RNN](https://en.wikipedia.org/wiki/Recurrent_neural_network). An RNN maintains an internal ('hidden') state which is used to compute outputs. It is also updated as the RNN observes each next part of a sequential input. The new hidden state $$ \mathbf{h}\_t $$ is a function (a 1-layer MLP) of the previous hidden state $$ \mathbf{h}\_{t-1} $$ and the input \\(\mathbf{x}\_t\\). It's easy for this MLP's sigmoidal activation to dampen the importance of long-term effects over time, because you repeatedly squash the old value.
 
 LSTMs introduce a memory 'cell' to combat this. The values in the cell are a sum of the input and 'forget' values—though 'forget' should probably be called 'remember'. The values for each are a 1-layer sigmoidal MLP drawing values from the input, the previous hidden state, and the previous cell state. The sigmoid squeezes each into the range (0, 1). The new cell value is then some fraction of the previous cell value, plus some learned function of the input and hidden state, squeezed to (-1, 1). Now, we can update the hidden state as a sigmoidal function of the cell state, previous hidden state, and input.
 
@@ -38,7 +38,7 @@ We'll work with three stacks: a buffer \\(B\\) of unprocessed words, a stack \\(
 
 To determine the state of the parser after an action, they use a 1-layer ReLU net which takes the encodings of the current stack, buffer, and trace. Each of the possible actions has an embedding and bias which are used as affine transformations of the current state \\(\mathbf{p}_t\\), then these are softmaxed to get the probability of a given action \\(z_t\\). (The softmax function is essentially "Give me a probability distribution from my vector of real numbers".)
 
-\\[p(z_t \mid \mathbf{p}_t) = \frac{\exp(\mathbf{g}_{z_t}^\intercal \mathbf{p}_t + q_{z_t})}{\sum_{z' \in \mathcal{A}(S, B)} \exp(\mathbf{g}_{z'_t}^\intercal \mathbf{p}_t + q_{z'_t})}\\]
+\\[ p(z\_t \mid \mathbf{p}\_t) = \frac{\exp(\mathbf{g}\_{z\_t}^\intercal \mathbf{p}\_t + q\_{z\_t})}{\sum\_{z' \in \mathcal{A}(S, B)} \exp(\mathbf{g}\_{z'\_t}^\intercal \mathbf{p}\_t + q\_{z'\_t})} \\]
 
 You can also just treat this as a softmax layer after a different linear layer for each action. The probability of an action sequence is then expressible the same way as we do in language modeling.
 
