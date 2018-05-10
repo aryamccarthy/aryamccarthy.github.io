@@ -38,7 +38,7 @@ We'll work with three stacks: a buffer \\(B\\) of unprocessed words, a stack \\(
 
 To determine the state of the parser after an action, they use a 1-layer ReLU net which takes the encodings of the current stack, buffer, and trace. Each of the possible actions has an embedding and bias which are used as affine transformations of the current state \\(\mathbf{p}_t\\), then these are softmaxed to get the probability of a given action \\(z_t\\). (The softmax function is essentially "Give me a probability distribution from my vector of real numbers".)
 
-\\[p(z_t | \mathbf{p}_t) = \frac{\exp(\mathbf{g}_{z_t}^\intercal \mathbf{p}_t + q_{z_t})}{\sum_{z' \in \mathcal{A}(S, B)} \exp(\mathbf{g}_{z'_t}^\intercal \mathbf{p}_t + q_{z'_t})}\\]
+\\[p(z_t \| \mathbf{p}_t) = \frac{\exp(\mathbf{g}_{z_t}^\intercal \mathbf{p}_t + q_{z_t})}{\sum_{z' \in \mathcal{A}(S, B)} \exp(\mathbf{g}_{z'_t}^\intercal \mathbf{p}_t + q_{z'_t})}\\]
 
 You can also just treat this as a softmax layer after a different linear layer for each action. The probability of an action sequence is then expressible the same way as we do in language modeling.
 
