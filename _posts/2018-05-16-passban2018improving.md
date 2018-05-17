@@ -9,6 +9,10 @@ link: "https://arxiv.org/pdf/1804.06506.pdf"
 
 Translating in "morphologically rich languages" (those with a lot of verb conjugations and noun declensions) is difficult. These authors seek to circumvent the issues by including morphological tables as inputs to their decoder.
 
+![attention illustration]({{ "/images/passban2018improving-attention.png" }})
+
+(Attention over a morphological lookup table throughout the Turkish word `terbiyesizlik`, which can be decomposed as `terbiye`-`siz`-`lik`.)
+
 <!--more-->
 
 The authors' model for translation is a character-level neural system, which decodes by producing one character at a time. The authors argue that the decoder doesn't have enough information to track many of the constraints on which sub-word structures can appear together. Plus, the long sequence of characters ([average 75–100 in English](https://strainindex.wordpress.com/2008/07/28/the-average-sentence-length/)) makes it hard to remember information from earlier in the sentence. 
@@ -20,7 +24,6 @@ The space of possible characters is smaller than the space of possible words, bu
 3. Combine these two.
 
 ![multitask architecture with lookup]({{ "/images/passban2018improving-architecture.png" }})
-
 
 The authors claim that the model is general enough to accept any arbitrary type of feature into the decoder. 
 
@@ -40,10 +43,7 @@ $$ \lambda \sum_{j=1}^N \log \Pr(\mathbf{y}_j \mid \mathbf{x}_j; \theta) + (1-\l
 
 Their morphological affixes, which become both the output space of the multi-task model and the contents of the morphological table, emerge from processing the target data with Morfessor, an unsupervised morphological segmentation tool. (It's not a guarantee that the segmentation is into morphs, so the choice to call this morphology is tenuous. It's just another scheme for tracking common character sequences, like BPE.) The affixes are then embedded into a vector space using a neural language model which maintains compositionality. 
 
-Still, their affixes are embeddings, so there's no explicit knowledge of which affixes could encompass which characters. Nothing in their objective function attempts to correct this either. Still, impressively, their attention model attends to the right parts of the word `terbiyesizlik` (as shown below), and the vertical runs of weight are a good sign. Or is this example just cherry-picked? (This isn't an accusation; it's the eternal question when one example is used in a paper, but one example is often more illustrative than aggregate statistics.)
-
-![attention illustration]({{ "/images/passban2018improving-attention.png" }})
-
+Still, their affixes are embeddings, so there's no explicit knowledge of which affixes could encompass which characters. Nothing in their objective function attempts to correct this either. Still, impressively, their attention model attends to the right parts of the word `terbiyesizlik` (as shown way up above), and the vertical runs of weight are a good sign. Or is this example just cherry-picked? (This isn't an accusation; it's the eternal question when one example is used in a paper, but one example is often more illustrative than aggregate statistics.) 
 
 Unfortunately, the performance improvement is pretty middling—less than one BLEU point. The authors felt the need to illustrate the improvement with both a table and a figure that convey the same information. It seems that their performance comes from greater model capacity due to more parameters, since nothing about morphology is really forced to be learned.
 
