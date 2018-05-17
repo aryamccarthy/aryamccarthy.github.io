@@ -19,12 +19,14 @@ The space of possible characters is smaller than the space of possible words, bu
 2. Let the decoder predict both a character and a morphological annotation of the character. 
 3. Combine these two.
 
+![multitask architecture with lookup]({{ "/images/passban2018improving-architecture.png" }})
+
 
 The authors claim that the model is general enough to accept any arbitrary type of feature into the decoder. 
 
 ---
 
-The authors use [Bahdanau attention]({ "/bahdanau2015neural" | absolute_url }) in a normal sequence-to-sequence model, which takes in [byte-pair-encoded (BPE)](https://en.wikipedia.org/wiki/Byte_pair_encoding) source sentences and produces character sequences In the target language.
+The authors use [Bahdanau attention]({{ "/bahdanau2015neural" | absolute_url }}) in a normal sequence-to-sequence model, which takes in [byte-pair-encoded (BPE)](https://en.wikipedia.org/wiki/Byte_pair_encoding) source sentences and produces character sequences In the target language.
 
 They then augment this in the ways listed above. First, they create a table of morphological affixes. Then they use attention—a softmax over learned weights—on these entries to select the most relevant affixes, and this is fed into the decoder.
 
@@ -32,7 +34,7 @@ The second refinement is to additionally predict which morphological affix \\(l_
 
 $$ \lambda \sum_{j=1}^N \log \Pr(\mathbf{y}_j \mid \mathbf{x}_j; \theta) + (1-\lambda) \sum_{j=1}^N \log \Pr(\mathbf{m}_j \mid \mathbf{x}_j; \theta) $$
 
-![multitask output]({ "/images/passban2018improving-multitask.png" })
+![multitask output]({{ "/images/passban2018improving-multitask.png" }})
 
 (There's some notational weirdness here: the \\(j^\textrm{th}\\) ) sentence's sequence of affixes \\(\mathbf{m}_j\\) is composed of individual elements called \\(l\\): \\(\mathbf{m}_j = [l_1, l_2, \ldots{}, l_T]\\).)
 
@@ -40,7 +42,7 @@ Their morphological affixes, which become both the output space of the multi-tas
 
 Still, their affixes are embeddings, so there's no explicit knowledge of which affixes could encompass which characters. Nothing in their objective function attempts to correct this either. Still, impressively, their attention model attends to the right parts of the word `terbiyesizlik` (as shown below), and the vertical runs of weight are a good sign. Or is this example just cherry-picked? (This isn't an accusation; it's the eternal question when one example is used in a paper, but one example is often more illustrative than aggregate statistics.)
 
-![attention illustration]({ "/images/passban2018improving-attention.png" })
+![attention illustration]({{ "/images/passban2018improving-attention.png" }})
 
 
 Unfortunately, the performance improvement is pretty middling—less than one BLEU point. The authors felt the need to illustrate the improvement with both a table and a figure that convey the same information. It seems that their performance comes from greater model capacity due to more parameters, since nothing about morphology is really forced to be learned.
