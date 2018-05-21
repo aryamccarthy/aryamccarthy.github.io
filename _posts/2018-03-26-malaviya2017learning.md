@@ -9,7 +9,7 @@ link: "https://www.aclweb.org/anthology/D17-1268"
 
 Today we enter the wonderful world of linguistic typology: inventories of languages' features. Databases of these features have been compiled, such as the [World Atlas of Language Structures](https://en.wikipedia.org/wiki/World_Atlas_of_Language_Structures). The details of typology can be useful for downstream tasks.
 
-The authors propose a model of learning these typological features from a translation system into English. They use it to fill in gaps in a database of features, then show that they outperform a baseline relying on geography and phylogeny.
+The authors propose a model of learning these typological features from a translation system into English. The goal is to fill in gaps in a database of features. They outperform a baseline relying on geography and phylogeny.
 
 <!--more-->
 
