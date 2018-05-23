@@ -7,13 +7,13 @@ year: 2010
 link: "http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf"
 ---
 
-Neural networks, the broken record of modern NLP. This paper presents a 50% reduction in the perplexity of a language model when RNNs are used, instead of n-gram backoff.
+Neural networks, the broken record of modern NLP. This paper presents a 50% reduction in the perplexity of a language model when RNNs are used, instead of n-gram backoff. This paper was cool because it's a rare example of both better results and faster training.
 
 <!--more-->
 
 The goal of language modeling is to incorporate fluency into sequential outputs. This is typically done by predicting the next word given its context. The authors claim that there's a disconnect between the simple models used in downstream tasks like [machine translation](https://en.wikipedia.org/wiki/Machine_translation) and the complex models emerging from research.
 
-The first person to construct a neural network for a language model was [Bengio](http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf). Unfortunately, this was a standard feed-forward network, unable to leverage arbitrarily large contexts. Recurrent neural networks sidestep this problem. Arbitrarily long data can be fed in, token by token. The math shakes out as follows, where \\(\mathbf{w}_1, \ldots, \mathbf{w}_T\\) is a sequence of vectors representing each word and \\(\mathbf{h}_t\\) is the hidden states at time step \\(t\\). Their paper proposes [one-hot encoding](https://en.wikipedia.org/wiki/One-hot) of each word.
+The first person to construct a neural network for a language model was [Bengio](http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf). Unfortunately, this was a standard feed-forward network, unable to leverage arbitrarily large contexts. Recurrent neural networks sidestep this problem. Arbitrarily long data can be fed in, token by token. The math shakes out as follows, where \\(\mathbf{w}_1, \ldots, \mathbf{w}_T\\) is a sequence of vectors representing each word and \\(\mathbf{h}_t\\) is the hidden states at time step \\(t\\). Their paper proposes [one-hot encoding](https://en.wikipedia.org/wiki/One-hot) of each word, though we don't do that much anymore—[thanks to the first author](https://arxiv.org/abs/1301.3781).
 
 $$ \mathbf{x}_t = [\mathbf{w}_t, \mathbf{h}_{t - 1}] $$
 
