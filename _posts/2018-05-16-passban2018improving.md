@@ -45,7 +45,7 @@ Their morphological affixes, which become both the output space of the multi-tas
 
 Still, their affixes are embeddings, so there's no explicit knowledge of which affixes could encompass which characters. Nothing in their objective function attempts to correct this either. Still, impressively, their attention model attends to the right parts of the word `terbiyesizlik` (as shown way up above), and the vertical runs of weight are a good sign. Or is this example just cherry-picked? (This isn't an accusation; it's the eternal question when one example is used in a paper, but one example is often more illustrative than aggregate statistics.) 
 
-Unfortunately, the performance improvement is pretty middling—less than one BLEU point. The authors felt the need to illustrate the improvement with both a table and a figure that convey the same information. It seems that their performance comes from greater model capacity due to more parameters, since nothing about morphology is really forced to be learned.
+Unfortunately, the performance improvement is pretty middling—less than one BLEU point. The authors felt the need to illustrate the improvement with both a table and a figure that convey the same information. It seems that their performance comes from greater model capacity due to more parameters, because nothing about morphology is really forced to be learned.
 
 
 | Model | En→De | En→Ru | En→Tr |
