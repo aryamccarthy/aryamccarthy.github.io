@@ -15,7 +15,7 @@ Principal component analysis was *the* dimensionality reduction technique we lea
 
 PCA is a much-loved, hundred-plus-year-old dimensionality reduction technique developed by Karl Pearson. It's typically described as a linear projection which maximizes the variance in the projected space. Working with \\(d\\)-dimensional data points \\(\mathbf{x}_1, \ldots, \mathbf{x}_n\\), we project the data into the subspace to get \\(\boldsymbol{\mu}_1, \ldots, \boldsymbol{\mu}_n\\). Keeping the components with the greatest variance is expressible as minimizing the distance between the projections and the original data.
 
-$$ \min \sum_{I=1}^{n} ||\mathbf{x}_i - \boldsymbol{\mu}_i ||^2$$
+$$ \min \sum_{I=1}^{n} \mid\mid\mathbf{x}_i - \boldsymbol{\mu}_i \mid\mid^2$$
 
 (We need to constrain the \\(v\\)s to be \\((k < d)\\)-dimensional, which I don't express here.)
 
@@ -23,9 +23,9 @@ Collins et al. point out that PCA has a probabilistic interpretation. Each data 
 
 The likelihood of the data in the multivariate Gaussian distribution given the means and covariance matrix \\(\boldsymbol{\boldsymbol{\Sigma}}\\) is easy to find [on Wikipedia](https://en.wikipedia.org/wiki/Multivariate_normal_distribution):
 
-$$ \det(2{\unicode{x3C0}}\boldsymbol{\Sigma})^{-\frac{1}{2}} \exp(-\frac{1}{2} (\mathbf{x} - \boldsymbol{\mu})' \boldsymbol{\Sigma}^{-1} (\mathbf{x} - \boldsymbol{\mu})) $$
+$$ \det(2{\unicode{x3C0}}\boldsymbol{\Sigma})^{-\frac{1}{2}} \exp\left(-\frac{1}{2} (\mathbf{x} - \boldsymbol{\mu})' \boldsymbol{\Sigma}^{-1} (\mathbf{x} - \boldsymbol{\mu})\right) $$
 
-One assumption of PCA is spherical covariance—there's no correlation between components. \\(\boldsymbol{\Sigma}\\) is diagonal. This simplifies our math. We wind up with a constant times the exponential of \\(-\frac{1}{2}(\mathbf{x} - \boldsymbol{\mu})'(\mathbf{x} - \boldsymbol{\mu})\\). That's the expression for the dot-product, which we can express *in the usual notation*:  \\(-\frac{1}{2}||\mathbf{x} - \boldsymbol{\mu}||\\). I mentioned the exponential earlier; when we take the negative log of that, we get \\(||\mathbf{x}_i - \boldsymbol{\mu}_i ||^2\\). That's sufficiently cool. And the constant that came from the determinant in front can be ignored, because it doesn't depend on the data or the means. The last step is to add up all of the errors for each term, and we get the expression at the very top.
+One assumption of PCA is spherical covariance—there's no correlation between components. \\(\boldsymbol{\Sigma}\\) is diagonal. This simplifies our math. We wind up with a constant times the exponential of \\(-\frac{1}{2}(\mathbf{x} - \boldsymbol{\mu})'(\mathbf{x} - \boldsymbol{\mu})\\). That's the expression for the dot-product, which we can express *in the usual notation*:  \\(-\frac{1}{2}\mid\mid\mathbf{x} - \boldsymbol{\mu}\mid\mid\\). I mentioned the exponential earlier; when we take the negative log of that, we get \\(\mid\mid\mathbf{x}_i - \boldsymbol{\mu}_i \mid\mid^2\\). That's sufficiently cool. And the constant that came from the determinant in front can be ignored, because it doesn't depend on the data or the means. The last step is to add up all of the errors for each term, and we get the expression at the very top.
 
 ### Forgetting everything we know, opening our minds
 
@@ -39,11 +39,11 @@ When working with data that aren't Gaussian, the parameters and the data won't n
 
 The [exponential family](https://en.wikipedia.org/wiki/Exponential_family) is in the title, and we named some specific examples. Let's look at the family more generally.
 
-$$ \log P(x | \theta) = \log P_0(x) + x\theta - G(\theta) $$
+$$ \log P(x \mid \theta) = \log P_0(x) + x\theta - G(\theta) $$
 
 The function \\(G\\) is the log of our normalizer, or the **free energy**—not that the name is important. It makes the probabilities conditioned on theta add up to 1. Perhaps it'd be better to write it as \\(F(\theta) \equiv \log Z(\theta)\\) for that reason. In some rather widespread [notational formalisms](https://raw.githubusercontent.com/seq2class/scribe-notes/master/formalisms.pdf), we then get \\(F(\theta) = \log \sum_{x \in \mathcal{X}} P_0(x) e^{x\theta} \\). In this case, we have a very simple **Hamiltonian** function in the exponent: \\(H(x) := \theta x\\). And now we're in the world of statistical mechanics. Let's turn back before I introduce more hopeless notation and names.
 
-The authors show how the likelihood functions for different exponential-family distributions match up piece-by-piece to the above equation. Each has a different closed form for it. We also care about the derivative&nbsp;\\(F'(\theta)\\), because it equals the expected value of the data given the parameters: &nbsp;\\(F'(\theta)=\mathbb{E}[x|\theta]\\). (If someone asks, I'll upload hand-written scribbles of a proof.)
+The authors show how the likelihood functions for different exponential-family distributions match up piece-by-piece to the above equation. Each has a different closed form for it. We also care about the derivative&nbsp;\\(F'(\theta)\\), because it equals the expected value of the data given the parameters: &nbsp;\\(F'(\theta)=\mathbb{E}[x\mid\theta]\\). (If someone asks, I'll upload hand-written scribbles of a proof.)
 
 #### An aside: generalized linear models
 
@@ -53,13 +53,13 @@ In linear regression, we want to fit a line through a set of points. We express 
 
 ### Setup: notation
 
-Let's tie this back to PCA. Now, we don't know the weights, but **we also don't know the data points**. We want $\mu_i$s close to the $\mathbf{x}_i$s but are in a lower-dimensionality subspace. A subspace can be represented by a [basis](https://en.wikipedia.org/wiki/Basis_(linear_algebra)): linearly independent vectors \\(\mathbf{v}_1, \ldots, \mathbf{v}_\ell\\). Each $\mu_i$ is then a linear combination of those basis vectors: \\(\boldsymbol{\mu}_i=\sum_k a_{ik}\mathbf{v}_k\\). 
+Let's tie this back to PCA. Now, we don't know the weights, but **we also don't know the data points**. We want \\(\boldsymbol{\mu}_i\\)s close to the \\(\mathbf{x}_i\\)s but are in a lower-dimensionality subspace. A subspace can be represented by a [basis](https://en.wikipedia.org/wiki/Basis_(linear_algebra)): linearly independent vectors \\(\mathbf{v}_1, \ldots, \mathbf{v}_\ell \\). Each \\(\boldsymbol{\mu}_i\\) is then a linear combination of those basis vectors: \\(\boldsymbol{\mu}_i=\sum_k a_{ik}\mathbf{v}_k\\). 
 
 There's some ironing out of notation that needs to be done here to flesh out the analogy, and it's complicated because in one case, we want to fit the \\(\mathbf{x}_i\\)s and in the other, we're fitting the \\(y_i\\)s *using* the \\(\mathbf{x}_i\\)s. One big change to clear things up: **we won't use \\(\boldsymbol{\mu}\\\) anymore**, because it has a very Gaussian chauvinism to it—\\(\boldsymbol{\mu}\\) typically represents the mean of a Gaussian distribution. **Instead, we'll use the more general \\(\boldsymbol{\theta}\\)** for whatever the distribution of interest's natural parameter is.
 
 So we have a matrix of data points \\(\mathbf{X}\\) which we want to approximate as linear combinations of basis vectors: \\(\boldsymbol{\Theta} = \mathbf{A}\mathbf{V}\\), i.e. a set of points in the subspace \\(\mathbf{V}\\). We want our approximation to represent the data well, so we maximize the posterior probability the data given the parameters. If we negate that, we get a loss function to minimize:
 
-$$ L(\mathbf{V}, \mathbf{A}) = -\log \Pr(\mathbf{X} | \mathbf{A}, \mathbf{V}) = -\sum_i \sum_j \log \Pr(x_{ij} | \theta_{ij}) = \sum_i \sum_j (-x_{ij}\theta_{ij} + G(\theta_{ij})) + C $$ 
+$$ L(\mathbf{V}, \mathbf{A}) = -\log \Pr(\mathbf{X} \mid \mathbf{A}, \mathbf{V}) \\= -\sum_i \sum_j \log \Pr(x_{ij} \mid \theta_{ij}) \\= \sum_i \sum_j (-x_{ij}\theta_{ij} + G(\theta_{ij})) + C $$ 
 
 
 ### How do we do it?
@@ -75,15 +75,17 @@ The loss isn't convex in both arguments, which makes optimizing difficult. Other
 
 ### Examples!
 
-Now we'll look at the **[exponential distribution](https://en.wikipedia.org/wiki/Exponential_distribution)**, which is a *member* of the exponential family. Different things. Similar names. The distribution is over nonnegative real numbers. The density is usually expressed \\P(x; \alpha) = (\alpha e^{-\alpha x}\\), and the mean is \\(\frac{1}{\alpha}\\). Keeping this in the form of \\(e^{\theta x}\\) means \\(\theta = -\alpha\\). Pushing the front \\(\alpha\\) into the numerator, the density is now \\(P(x; \theta) = e^{\theta x - G(\theta)}\\) with our log-normalizer \\(G(\theta) = - \log(-\theta)\\). Our **link function**, which should approximate the mean, is \\(G'(\theta) \equiv F'(\theta) = - \frac{1}{\theta}\\). The authors give a closed-form update rule here, too. And they show on two toy examples that exponential PCA (which, because of its link function, must produce a line) is more resiliant to outliers.
+Now we'll look at the **[exponential distribution](https://en.wikipedia.org/wiki/Exponential_distribution)**, which is a *member* of the exponential family. Different things. Similar names. The distribution is over nonnegative real numbers. The density is usually expressed \\(P(x; \alpha) = \alpha e^{-\alpha x}\\), and the mean is \\(\frac{1}{\alpha}\\). Keeping this in the form of \\(e^{\theta x}\\) means \\(\theta = -\alpha\\). Pushing the front \\(\alpha\\) into the numerator, the density is now \\(P(x; \theta) = e^{\theta x - G(\theta)}\\) with our log-normalizer \\(G(\theta) = - \log(-\theta)\\). Our **link function**, which should approximate the mean, is \\(G'(\theta) \equiv F'(\theta) = - \frac{1}{\theta}\\). The authors give a closed-form update rule here, too. And they show on two toy examples that exponential PCA (which, because of its link function, must produce a line) is more resiliant to outliers.
 
-![The generalized PCA handles outliers better.]({{ "/images/collins2001generalization-exponential.png" | absolute_url }})
+![The generalized PCA handles outliers better.]({{ "/images/collins2001generalization-exponential.png" \mid absolute_url }})
 
-A question that emerges: Exponential distribution PCA also requires a line through the origin, but how do you center the data, like you would for Gaussian distributed PCA?
 
 The authors also give us a 1D projection of Bernoulli PCA, which has an eerily Ising model–like feel to it. Could you reduce the decision of some subset of a set?
 
-**Something not addressed:** actually reducing dimensionality on new data. The sticky wicket here is that you can get values that are in a different space 
+**Questions:**
+
+* Exponential distribution PCA also requires a line through the origin, but how do you center the data, like you would for Gaussian distributed PCA?
+* How about actually reducing dimensionality on new data? The sticky wicket here is that you can get values that are in a different space. The way to do it, though, is to hold the basis \\(\mathbf{V}\\) fixed and optimize the weights \\(\mathbf{A}\\). 
 
 **The bottom line:** Other types of data besides continuous variables with a Gaussian assumption can be reduced to lower-dimensionality hypotheses.
 
