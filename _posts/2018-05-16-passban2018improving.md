@@ -56,7 +56,7 @@ Unfortunately, the performance improvement is pretty middling—less than one BL
 | + multitask | **21.39** | 26.39 | **18.59** |
 | + table + multitask | **21.48** | **26.84** | **18.70** |
 
-Bold results were statistically significant according to paired bootstrap re-sampling, but [that's prone to Type I errors](https://cs.stanford.edu/people/wmorgan/sigtest.pdf). Plus, if you need to report statistical significance, your results are generally not that significant.
+Bold results were statistically significant according to paired bootstrap re-sampling, but [that's prone to Type I errors](https://cs.stanford.edu/people/wmorgan/sigtest.pdf). Plus, "If you need to report statistical significance, your results are generally not that significant"—<cite>Philipp Koehn, ironically since he developed paired bootstrap resampling for MT</cite>.
 
 ---
 
