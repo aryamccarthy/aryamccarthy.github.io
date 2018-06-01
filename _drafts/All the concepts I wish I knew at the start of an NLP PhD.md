@@ -8,4 +8,5 @@ layout: post
 - Kullback–Leibler divergence
 - Softmax
 - Gibbs sampling in NLP
-- Expectation–Maximization (EM)
+- Expectation–Maximization (EM)—more than just counting things
+- Generative model (vs discriminative)

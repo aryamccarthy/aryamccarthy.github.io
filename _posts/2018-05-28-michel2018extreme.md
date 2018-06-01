@@ -23,7 +23,7 @@ Michel and Neubig thought of bias-meddling [and made it work (!)]. Instead of ad
 
 We all have our own [idiolect](https://en.wikipedia.org/wiki/Idiolect)—our personal style of speaking. Different facets of our identity like gender, social status, and geographical origin affect our word choice and preferred [phrasal constructs]({{ "/becker1975phrasal"  | absolute_url }}). At the moment, NMT doesn't factor this into its decision process.
 
-The sequence-to-sequence model for neural machine translation is an end-to-end process: feed words in, get words out, the end. The last two layers are a linear (well, affine) layer and a softmax layer: one that turns scores into a probability distribution over all words in the vocabulary of the target language. The probability of the next word&nbsp;\\(e_i\\) being output given its context&nbsp;\\(\mathbf{c}_i\\) is given below.
+The sequence-to-sequence model for NMT is an end-to-end process: feed words in, get words out, the end. The last two layers are a linear (well, affine) layer and a softmax layer: one that turns scores into a probability distribution over all words in the vocabulary of the target language. The probability of the next word&nbsp;\\(e_i\\) being output given its context&nbsp;\\(\mathbf{c}_i\\) is given below.
 
 $$ \Pr(e_i | \mathbf{c}_i) = {\rm softmax}(W\mathbf{c}_i + \mathbf{b})_i$$
 
