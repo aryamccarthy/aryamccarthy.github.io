@@ -73,6 +73,7 @@ Also interesting to me about this paper is their visualization technique. It bui
 The authors note that the procedure shows all words in their modern positions. I accept that it's more useful to us who know these words' modern senses, but only if a large number of reference words haven't changed in meaning.
 
 **The useful tricks:**
+
 - Spearman correlation of a metric with time to show whether there's a drift
 - Procrustes projections for aligning two vector spaces
 - SVD for capturing analogical relationships
