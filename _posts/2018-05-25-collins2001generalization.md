@@ -71,7 +71,7 @@ Normally, PCA can be solved with a linear algebra technique called singular valu
 
 Each of these amounts to solving a single-variable GLM—play with the notation above and you can show it. Collins et al. show that, because of what the updates are for a Gaussian distribution, this is equivalent to SVD when we assume Gaussian PCA.
 
-The loss isn't convex in both arguments, which makes optimizing difficult. Otherwise, since everything is linear, we could just use linear programming. Interestingly, it's convex in *either* argument when the other is held fixed. Still, we can't guarantee convergence—except in the Gaussian case. There are a few more details (to avoid **catastrophic** failure of the optimization) that I won't cover here.
+The loss isn't convex in both arguments, which makes optimizing difficult. Otherwise, everything is linear, so we could just use linear programming. Interestingly, it's convex in *either* argument when the other is held fixed. Still, we can't guarantee convergence—except in the Gaussian case. There are a few more details (to avoid **catastrophic** failure of the optimization) that I won't cover here.
 
 ### Examples!
 
