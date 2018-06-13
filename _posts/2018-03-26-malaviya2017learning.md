@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: "Learning Language Representations for Typology Prediction"
-authors: "Malaviya et al."
+authors: "Malaviya, Neubig, and Littell"
 year: 2017
 venue: EMNLP
 link: "https://www.aclweb.org/anthology/D17-1268"
