@@ -4,7 +4,7 @@ title: "A Neural Network Model for Survival Data"
 authors: Faraggi and Simon
 year: 1995
 venue: "Statistics in Medicine"
-link: ""
+link: "https://onlinelibrary.wiley.com/doi/pdf/10.1002/sim.4780140108"
 ---
 
 
