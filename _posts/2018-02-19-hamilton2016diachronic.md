@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: "Diachronic Word Embeddings Reveal Statistical Laws of Semantic Change"
-authors: "Hamilton et al."
+authors: "Hamilton, Leskovec, and Jurafsky"
 link: "https://aclweb.org/anthology/P/P16/P16-1141.pdf"
 venue: ACL
 year: 2016
@@ -70,7 +70,7 @@ Also interesting to me about this paper is their visualization technique. It bui
    word.
 ```
 
-The authors note that the procedure shows all words in their modern positions. I accept that it's more useful to us who know these words' modern senses, but only if a large number of reference words haven't changed in meaning.
+The authors note that the procedure shows all words in their modern positions. I accept that it's more useful to us who know these words' modern senses, but only if a large number of reference words haven't changed in meaning. Also, the last step is pretty unclear. 
 
 **The useful tricks:**
 
