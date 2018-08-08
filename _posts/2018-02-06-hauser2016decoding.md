@@ -41,7 +41,7 @@ To actually decipher the script, they evaluate using word-level language models,
 2. Key mutation
 3. Tree search
 
-For mutation, they swap through the set of possible words in a position that have the same pattern decomposition. Their method has an error rate of 2.6%. They finish their decoding with an HMM whose states are the words in their vocabulary and the sequences are alphagrams. With a Viterbi decoder, they pick the most likely word for the alphagram (or unknown, if it's unseen.)
+For mutation, they swap through the set of possible words in a position that have the same pattern decomposition. Their method has an error rate of 2.6%. They finish their decoding with an HMM whose states are the words in their vocabulary and the sequences are alphagrams. With a Viterbi decoder, they pick the most likely word for the alphagram (or unknown, if it's unseen).
 
 ![Encryption-decryption process]({{ "/images/hauer2016decoding-process.png" | absolute_url }})
 
@@ -61,7 +61,7 @@ Finally, the paper attempts to perform a greedy search in the space of orderings
 
 > The first line of the VMS (VAS92 9FAE AR APAM ZOE ZOR9 QOR92 9 FOR ZOE89) is deciphered into Hebrew as המצות ועשה לה הכה􏰃 איש אליו לביחו ו עלי אנשיו. According to a native speaker of the language, this is not quite a coherent sentence. However, after making a couple of spelling corrections, Google Translate is able to convert it into passable English: “She made recommendations to the priest, man of the house and me and people.”
 > 
-> …We restrict the word language model to unigrams…from the “Herbal” section of the VMS, which contains drawings of plants. An inspection of the output reveals several words that would not be out of place in a me- dieval herbal, such as הצר ‘narrow’, איכר ‘farmer’, .’fire‘ אשׁ ,’air‘ אויר ,’light‘ אור
+> …We restrict the word language model to unigrams…from the “Herbal” section of the VMS, which contains drawings of plants. An inspection of the output reveals several words that would not be out of place in a me- dieval herbal, such as הצר ‘narrow’, איכר ‘farmer’, ’fire‘ אשׁ ,’air‘ אויר ,’light‘ אור.
 
 The spelling discrepancies are excusable to me, because language wasn't always so forcibly consistent in its spelling. (See James Gleick's *The Information*.) It's reasonable to suspect that this is a Hebrew dialect or some related language. (Though, the authors only operated on languages they had the UDHR for…What about deader languages?)
 

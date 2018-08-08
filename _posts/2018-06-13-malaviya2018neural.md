@@ -19,7 +19,7 @@ $$ \Pr(\mathbf{y} \mid \mathbf{x}) = \prod_{t=1}^T \Pr(\mathbf{y}_t \mid \mathbf
 
 
 
-Malaviya et al. break from past work by individually predicting each feature in the bundle—instead of the entire bundle as a unit. Instead of regarding tagging as a **multi-class** problem, they treat it as **multi-label** classification. 
+Malaviya et al. break from past work by individually predicting each feature in the bundle—instead of the entire bundle as a unit. Instead of regarding tagging as a **multi-class** problem, they treat it as **multi-label** classification. If each label were independent, we could get the conditional likelihood as:
 
 $$ \Pr(\mathbf{y} \mid \mathbf{x}) = \prod_{t=1}^T \prod_{m=1}^M \Pr(y_{t,m} \mid \mathbf{x}) $$
 

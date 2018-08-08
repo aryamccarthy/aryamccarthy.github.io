@@ -10,3 +10,4 @@ layout: post
 - Gibbs sampling in NLP
 - Expectation–Maximization (EM)—more than just counting things
 - Generative model (vs discriminative)
+- Generative adversarial network (GAN)
