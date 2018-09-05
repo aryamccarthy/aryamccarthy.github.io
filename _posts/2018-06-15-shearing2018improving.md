@@ -4,7 +4,7 @@ title: "Improving Low Resource Machine Translation using Morphological Glosses"
 authors: "Shearing et al."
 year: 2018
 venue: AMTA
-link: "https://www.cs.jhu.edu/~huda/papers/shearing2018AMTA.pdf"
+link: "https://www.aclweb.org/anthology/W18-1813"
 ---
 
 Translation models demand oodles of training text. In low-resource languages, we need tricks to circumvent the data famine. Languages with many inflected forms for each base word make the famine even scarcer. This paper presents a trick for feeding the hungry by multiplying our few loaves and fish: glossing words and morphological annotations. (Also—my advisor is on this paper :D .)
