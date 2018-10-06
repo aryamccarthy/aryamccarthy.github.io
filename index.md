@@ -16,6 +16,7 @@ I conducted additional work in ubiquitous computing, computational neuroscience,
 
 ### News
 
+- 2018-10: I've had two submissions accepted to [Complex Networks (ICCNA) 2018](https://www.complexnetworks.org). See you at Cambridge!
 - 2018-09: This semester, I'll be a teaching assistant! My course is [Natural Language Processing](http://www.cs.jhu.edu/~jason/465/) with [Jason Eisner](http://www.cs.jhu.edu/~jason/).
 - 2018-08: I've had papers accepted at the Conference on Machine Translation (WMT) and the EMNLP Universal Dependencies Workshop (UDW). See you in Brussels!
 - 2018-07: I'll be at the [SIAM Annual Meeting](http://www.siam.org/meetings/an18/) in Portland, presenting work on evaluation measures for clustering.
