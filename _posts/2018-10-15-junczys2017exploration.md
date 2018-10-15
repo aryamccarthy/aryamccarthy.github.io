@@ -9,12 +9,13 @@ link: http://aclweb.org/anthology/I17-1013
 
 Automatic post-editing (APE) exists because our translation models are fallible. (Hopefully, they're also fallible in reliable ways.) Once your translation system has spit out a predicted translation of a sentence, you can feed both the prediction and the original, foreign sentence into your APE system to clean it up, making it feel more human. This paper presents a neural architecture for APE—it's similar to the [traditional neural MT architecture](https://aryamccarthy.github.io/bahdanau2015neural/), but with dual attention—one over the source, and one over the translation output.
 
+<!--more-->
 ---
 
-<!--$$\begin{eqnarray}
+$$\begin{eqnarray}
 mt &=& \textrm{MT-SYSTEM}(src) \\
 pe &=& \textrm{APE}(mt, src)
-\end{eqnarray}$$-->
+\end{eqnarray}$$
 
 Before the age of neural MT, post-editing generally was a phrase-based MT process. An automatically produced alignment would help create a new, "source-context aware", source text. It would have the tokens of the MT output and the tokens of the original source paired together.
 
