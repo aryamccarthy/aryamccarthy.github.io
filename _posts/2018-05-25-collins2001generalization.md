@@ -53,7 +53,7 @@ In linear regression, we want to fit a line through a set of points. We express 
 
 ### Setup: notation
 
-Let's tie this back to PCA. Now, we don't know the weights, but **we also don't know the data points**. We want \\(\boldsymbol{\mu}_i\\)s close to the \\(\mathbf{x}_i\\)s but are in a lower-dimensionality subspace. A subspace can be represented by a [basis](https://en.wikipedia.org/wiki/Basis_(linear_algebra)): linearly independent vectors \\(\mathbf{v}_1, \ldots, \mathbf{v}_\ell \\). Each \\(\boldsymbol{\mu}_i\\) is then a linear combination of those basis vectors: \\(\boldsymbol{\mu}_i=\sum_k a_{ik}\mathbf{v}_k\\). 
+Let's tie this back to PCA. Now, we don't know the weights, but **we also don't know the data points**. We want each \\(\boldsymbol{\mu}_i\\) close to each \\(\mathbf{x}_i\\) but in a lower-dimensionality subspace. A subspace can be represented by a [basis](https://en.wikipedia.org/wiki/Basis_(linear_algebra)): linearly independent vectors \\[\mathbf{v}_1, \ldots, {\mathbf{v}\_\ell} \\]. Each \\(\boldsymbol{\mu}_i\\) is then a linear combination of those basis vectors: \\(\boldsymbol{\mu}_i=\sum_k a_{ik}\mathbf{v}_k\\). 
 
 There's some ironing out of notation that needs to be done here to flesh out the analogy, and it's complicated because in one case, we want to fit the \\(\mathbf{x}_i\\)s and in the other, we're fitting the \\(y_i\\)s *using* the \\(\mathbf{x}_i\\)s. One big change to clear things up: **we won't use \\(\boldsymbol{\mu}\\\) anymore**, because it has a very Gaussian chauvinism to it—\\(\boldsymbol{\mu}\\) typically represents the mean of a Gaussian distribution. **Instead, we'll use the more general \\(\boldsymbol{\theta}\\)** for whatever the distribution of interest's natural parameter is.
 
