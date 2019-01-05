@@ -6,7 +6,7 @@ Hi, I'm Arya. I help researchers see the stories in numbers.
 
 I am a second-year Ph.D. student in [computer science (CS)](https://www.cs.jhu.edu) at [Johns Hopkins University](https://www.jhu.edu), affiliated with the [Center for Language and Speech Processing](https://www.clsp.jhu.edu).
 I am advised by [David Yarowsky](https://www.cs.jhu.edu/faculty/david-yarowsky/), with whom I work on low-resource [machine translation](https://en.wikipedia.org/wiki/Machine_translation).
-My research interests are [computational linguistics](https://en.wikipedia.org/wiki/Computational_linguistics), [morphology](https://en.wikipedia.org/wiki/Morphology_(linguistics)), and [network science](https://en.wikipedia.org/wiki/Network_science). 
+My research interests are [computational linguistics](https://en.wikipedia.org/wiki/Computational_linguistics), [morphology](https://en.wikipedia.org/wiki/Morphology_(linguistics)), and [network science](https://en.wikipedia.org/wiki/Network_science). You're welcome to look at my [publications](publications).
 
 I completed my M.S. in CS, as well as a B.S. in CS and math, in my four years at [SMU](https://en.wikipedia.org/wiki/Southern_Methodist_University).
 I [was](https://www.smu.edu/Academics/PS/Alumni/2017Alumni) a [President's Scholar](http://www.smu.edu/academics/PS), SMU's highest academic scholarship.
