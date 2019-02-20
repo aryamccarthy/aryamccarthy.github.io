@@ -14,4 +14,4 @@ Yarowsky. [*Marrying Universal Dependencies and Universal Morphology*](http://cs
 1. Christo Kirov, Ryan Cotterell, John Sylak-Glassman, Géraldine Walther, Ekaterina Vylomova, Patrick Xia, Manaal Faruqui, **Arya D. McCarthy**, Sandra Kübler, David Yarowsky, Jason Eisner, and Mans Hulden. [*UniMorph 2.0: Universal morphology*](http://www.lrec-conf.org/proceedings/lrec2018/pdf/789.pdf). Proceedings of [LREC 2018](http://lrec2018.lrec-conf.org/en/).
 1. **Arya D. McCarthy**. Gridlock in networks: [*The leximin method for hierarchical community detection*](https://search.proquest.com/docview/1907180434). Master's thesis, SMU. 2017.
 
-[last updated 2018-09-30]
+[last updated 2019-02-14]
