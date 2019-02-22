@@ -13,7 +13,7 @@ layout: page
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
+  width: 300px;
   background-color: black;
   color: #fff;
   text-align: center;
