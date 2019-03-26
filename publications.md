@@ -3,6 +3,7 @@ layout: page
 title: "Publications"
 ---
 
+1. **Arya D. McCarthy**, Tongfei Chen, and Seth Ebner. [*An exact No Free Lunch Theorem for community detection*](https://arxiv.org/pdf/1903.10092.pdf). arXiv.
 1. **Arya D. McCarthy**, Tongfei Chen, Rachel Rudinger, and David W. Matula. [*Metrics matter in community detection*](https://arxiv.org/pdf/1901.01354.pdf). arXiv.
 1. **Arya D. McCarthy**. [*An exact No Free Lunch theorem for community detection*](http://cs.jhu.edu/~arya/mccarthy.iccna18.pdf). [Complex Networks (ICCNA) 2018](https://www.complexnetworks.org).
 1. **Arya D. McCarthy** and David W. Matula. [*Evaluating the leximin method for community detection*](http://cs.jhu.edu/~arya/mccarthy+matula.iccna18.pdf). [Complex Networks (ICCNA) 2018](https://www.complexnetworks.org).
