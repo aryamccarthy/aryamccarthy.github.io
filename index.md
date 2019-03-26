@@ -32,7 +32,7 @@ layout: page
 </style>
 
 
-Hi, I'm Arya. (And occasionally,  <span class="tooltip">安力仁<span class="tooltiptext"> Given to me by the boundlessly clever Shuoyang Ding. <a href="http://www.cs.jhu.edu/~sding/">http://www.cs.jhu.edu/~sding/</a></span></span>.) I help researchers see the stories in numbers.
+Hi, I'm Arya. (And occasionally,  <span class="tooltip">安力仁<span class="tooltiptext"> Bestowed upon me by the boundlessly clever Shuoyang Ding. <a href="http://www.cs.jhu.edu/~sding/">http://www.cs.jhu.edu/~sding/</a></span></span>.) I help researchers see the stories in numbers.
 
 I am a second-year Ph.D. student in [computer science (CS)](https://www.cs.jhu.edu) at [Johns Hopkins University](https://www.jhu.edu), affiliated with the [Center for Language and Speech Processing](https://www.clsp.jhu.edu).
 I am advised by [David Yarowsky](https://www.cs.jhu.edu/faculty/david-yarowsky/), with whom I work on low-resource [machine translation](https://en.wikipedia.org/wiki/Machine_translation).
@@ -46,6 +46,9 @@ I conducted additional work in ubiquitous computing, computational neuroscience,
 
 ### News
 
+- 2019-03: Another preprint on arXiv: a No Free Lunch theorem for clustering and related tasks.
+- 2019-02: I'll be working at Facebook AI this summer, on translation.
+- 2019-01: We've put a preprint on arXiv: how to properly evaluate community detection.
 - 2018-10: I've had two submissions accepted to [Complex Networks (ICCNA) 2018](https://www.complexnetworks.org). See you at Cambridge!
 - 2018-09: This semester, I'll be a teaching assistant! My course is [Natural Language Processing](http://www.cs.jhu.edu/~jason/465/) with [Jason Eisner](http://www.cs.jhu.edu/~jason/).
 - 2018-08: I've had papers accepted at the Conference on Machine Translation (WMT) and the EMNLP Universal Dependencies Workshop (UDW). See you in Brussels!
