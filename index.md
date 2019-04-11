@@ -48,6 +48,7 @@ I conducted additional work in ubiquitous computing, computational neuroscience,
 
 - 2019-03: Another preprint on arXiv: a No Free Lunch theorem for clustering and related tasks.
 - 2019-02: I'll be working at Facebook AI this summer, on translation.
+- 2019-02: Accepted to [SIAM NS19](https://www.siam.org/Conferences/CM/Main/ns19): "Community Detection, The No Free Lunch Theorem, and Attack Games"
 - 2019-01: We've put a preprint on arXiv: how to properly evaluate community detection.
 - 2018-10: I've had two submissions accepted to [Complex Networks (ICCNA) 2018](https://www.complexnetworks.org). See you at Cambridge!
 - 2018-09: This semester, I'll be a teaching assistant! My course is [Natural Language Processing](http://www.cs.jhu.edu/~jason/465/) with [Jason Eisner](http://www.cs.jhu.edu/~jason/).
