@@ -33,7 +33,7 @@ Below, I've reproduced the students' remarks. (None are mine.) My only edits wer
 
 2. SMU's diversity efforts are antagonizing. Example - I was invited to a 'multicultural award ceremony with RGT' to celebrate my receiving a 3.85+ GPA. Why should I be recognized with a medal for this achievement when my white friends are not?
 
-3. SMU's culture is wealth-driven and can be polarizing at times. I miss the culture at UNT, which was accepting of all. Plus, UNT had several events with freebies, which is a small, but valid point.
+3. SMU's culture is wealth-driven and can be polarizing at times. <!--I miss the culture at [REDACTED], which was accepting of all. Plus, [REDACTED] had several events with freebies, which is a small, but valid point.-->
 
 ### Not as inclusive as we were told
 
