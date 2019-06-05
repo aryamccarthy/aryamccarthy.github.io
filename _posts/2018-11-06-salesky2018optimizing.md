@@ -7,7 +7,9 @@ venue: arXiv
 link: "https://arxiv.org/pdf/1810.08641.pdf"
 ---
 
-Byte pair encoding (BPE) is now a standard way to preprocess data in neural machine translation. It combats **data sparsity** by creating a vocabulary of subwords to use instead of words. The subword units may be more common than the words, especially in morphologically rich languages. The question remains *how many* subwords to use. People tend not to sweep this hyperparameter. This paper does it automatically, without adding training time. 
+Byte pair encoding (BPE) is now a standard way to preprocess data in neural machine translation. It combats **data sparsity** by creating a vocabulary of subwords to use instead of words. The subword units may be more common than the words, especially in morphologically rich languages. The question remains *how many* subwords to use. People tend not to sweep this hyperparameter. This paper does it automatically (for the target-side vocabulary), without adding training time. It doesn't make a huge improvement in BLEU score, but it's a fascinating method.
+
+<!--more-->
 
 ---
 
