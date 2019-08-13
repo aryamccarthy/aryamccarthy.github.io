@@ -46,6 +46,11 @@ I conducted additional work in ubiquitous computing, computational neuroscience,
 
 ### News
 
+- 2019-08: Accepted to EMNLP: "Modeling Color Terminology Across Thousands of Languages". See you in Hong Kong!
+- 2019-07: The first workshop on [typology for multilingual NLP](https://typology-and-nlp.github.io) was a smash hit! Thanks to our panelists, invited speakers, and abstract contributers.
+- 2019-06: The [SIGMORPHON 2019 shared task](https://sigmorphon.github.io/sharedtasks/2019/) has concluded. Thanks to all that submitted; read about it [here](https://www.aclweb.org/anthology/W19-4226/). I'll present findings in Florence during ACL.
+- 2019-05: I'm attending [MTMA 2019](http://www.statmt.org/mtma19/) at UMD, working on typology as a tool for multilingual models.
+- 2019-05: Accepted to ACL: "[Meaning to Form: Measuring Systematicity as Information](https://aclweb.org/anthology/papers/P/P19/P19-1171/)" with a great crew of co-authors. See you in Florence!
 - 2019-03: Another preprint on arXiv: a No Free Lunch theorem for clustering and related tasks.
 - 2019-02: I'll be working at Facebook AI this summer, on translation.
 - 2019-02: Accepted to [SIAM NS19](https://www.siam.org/Conferences/CM/Main/ns19): "Community Detection, The No Free Lunch Theorem, and Attack Games"
