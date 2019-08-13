@@ -33,4 +33,4 @@ title: "Publications"
 {:start="14"}
 1. **Arya D. McCarthy**. Gridlock in networks: [*The leximin method for hierarchical community detection*](https://search.proquest.com/docview/1907180434). Master's thesis, SMU. 2017.
 
-[last updated 2019-05-26]
+[last updated 2019-08-13]
