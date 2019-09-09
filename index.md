@@ -41,7 +41,7 @@ My research interests are [computational linguistics](https://en.wikipedia.org/w
 I completed my M.S. in CS, as well as a B.S. in CS and math, in my four years at [SMU](https://en.wikipedia.org/wiki/Southern_Methodist_University).
 I [was](https://www.smu.edu/Academics/PS/Alumni/2017Alumni) a [President's Scholar](http://www.smu.edu/academics/PS), SMU's highest academic scholarship.
 My [thesis](https://search.proquest.com/docview/1907180434?pq-origsite=gscholar) advisor was [David Matula](http://lyle.smu.edu/~matula/).
-My research with him involves applications of the [hierarchical](http://dl.acm.org/citation.cfm?id=1415200) [Maximum Concurrent Flow Problem](https://en.wikipedia.org/wiki/Multi-commodity_flow_problem) for stable, mathematically motivated hierarchical clustering.
+My research with him  lives at the intersection of convex optimization (linear programming), graph theory, and randomness for stable, mathematically motivated hierarchical clustering.
 I conducted additional work in ubiquitous computing, computational neuroscience, security, optics, and high-energy particle physics.
 
 ### News
