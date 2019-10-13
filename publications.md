@@ -17,15 +17,16 @@ title: "Publications"
 1. Christo Kirov, Ryan Cotterell, John Sylak-Glassman, Géraldine Walther, Ekaterina Vylomova, Patrick Xia, Manaal Faruqui, **Arya D. McCarthy**, Sandra Kübler, David Yarowsky, Jason Eisner, and Mans Hulden. [*UniMorph 2.0: Universal morphology*](https://www.aclweb.org/anthology/L18-1293). Proceedings of [LREC 2018](http://lrec2018.lrec-conf.org/en/).
 
 
-<!-- ## Preprints
+## Preprints
 
-{:start="8"}
-1. **Arya D. McCarthy**, Tongfei Chen, and Seth Ebner. [*An exact No Free Lunch Theorem for community detection*](https://arxiv.org/pdf/1903.10092.pdf). arXiv.
+{:start="12"}
+**Arya D. McCarthy**, Xian Li, Jiatao Gu, and Ning Dong. [*Improved variational neural machine translation by promoting mutual information*](https://arxiv.org/abs/1909.09237). arXiv.
+<!--1. **Arya D. McCarthy**, Tongfei Chen, and Seth Ebner. [*An exact No Free Lunch Theorem for community detection*](https://arxiv.org/pdf/1903.10092.pdf). arXiv.
 1. **Arya D. McCarthy**, Tongfei Chen, Rachel Rudinger, and David W. Matula. [*Metrics matter in community detection*](https://arxiv.org/pdf/1901.01354.pdf). arXiv.
  -->
 ## Refereed Abstracts
 
-{:start="12"}
+{:start="13"}
 1. Xian Li, Jiatao Gu, Ning Dong, and **Arya D. McCarthy**. Improved variational neural machine translation via promoting mutual information. EMNLP Workshop on Neural Generation and Translation 2019.
 1. Xian Li, Jiatao Gu, **Arya D. McCarthy**, and Ning Dong. Improving variational NMT by promoting mutual information. West Coast NLP Summit (WeCNLP) 2019.
 1. **Arya D. McCarthy**. *Community Detection, The No Free Lunch Theorem, and Attack Games*. SIAM Workshop on Network Science 2019.
@@ -36,7 +37,7 @@ title: "Publications"
 ## Master's thesis
 
 
-{:start="18"}
+{:start="19"}
 
 1. **Arya D. McCarthy**. Gridlock in networks: [*The leximin method for hierarchical community detection*](https://search.proquest.com/docview/1907180434). Master's thesis, SMU. 2017.
 
