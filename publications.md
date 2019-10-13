@@ -26,6 +26,8 @@ title: "Publications"
 ## Refereed Abstracts
 
 {:start="12"}
+1. Xian Li, Jiatao Gu, Ning Dong, and **Arya D. McCarthy**. Improved variational neural machine translation via promoting mutual information. EMNLP Workshop on Neural Generation and Translation 2019.
+1. Xian Li, Jiatao Gu, **Arya D. McCarthy**, and Ning Dong. Improving variational NMT by promoting mutual information. West Coast NLP Summit (WeCNLP) 2019.
 1. **Arya D. McCarthy**. *Community Detection, The No Free Lunch Theorem, and Attack Games*. SIAM Workshop on Network Science 2019.
 1. **Arya D. McCarthy**. [*An exact No Free Lunch theorem for community detection*](http://cs.jhu.edu/~arya/mccarthy.iccna18.pdf). [Complex Networks (ICCNA) 2018](https://www.complexnetworks.org).
 1. **Arya D. McCarthy** and David W. Matula. [*Evaluating the leximin method for community detection*](http://cs.jhu.edu/~arya/mccarthy+matula.iccna18.pdf). [Complex Networks (ICCNA) 2018](https://www.complexnetworks.org).
@@ -34,7 +36,8 @@ title: "Publications"
 ## Master's thesis
 
 
-{:start="14"}
+{:start="18"}
+
 1. **Arya D. McCarthy**. Gridlock in networks: [*The leximin method for hierarchical community detection*](https://search.proquest.com/docview/1907180434). Master's thesis, SMU. 2017.
 
 [last updated 2019-08-13]
