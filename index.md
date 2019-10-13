@@ -32,7 +32,7 @@ layout: page
 </style>
 
 
-Hi, I'm Arya. (And occasionally,  <span class="tooltip">安力仁<span class="tooltiptext"> Bestowed upon me by the boundlessly clever Shuoyang Ding. <a href="http://www.cs.jhu.edu/~sding/">http://www.cs.jhu.edu/~sding/</a></span></span>.) I squeeze blood from a stone.
+Hi, I'm Arya. (And occasionally,  <span class="tooltip">安力仁<span class="tooltiptext"> Bestowed upon me by the boundlessly clever Shuoyang Ding. <a href="http://www.cs.jhu.edu/~sding/">http://www.cs.jhu.edu/~sding/</a></span></span>.) I squeeze blood from a stone for low-resource NLP.
 
 I am a third-year Ph.D. student in [computer science (CS)](https://www.cs.jhu.edu) at [Johns Hopkins University](https://www.jhu.edu), affiliated with the [Center for Language and Speech Processing](https://www.clsp.jhu.edu).
 I am advised by [David Yarowsky](https://www.cs.jhu.edu/faculty/david-yarowsky/), with whom I work on low-resource [machine translation](https://en.wikipedia.org/wiki/Machine_translation) in JHU's [LoReLab](https://www.cs.jhu.edu/~arya/yarowsky-lab/).
