@@ -20,10 +20,7 @@ title: "Publications"
 ## Preprints
 
 {:start="12"}
-**Arya D. McCarthy**, Xian Li, Jiatao Gu, and Ning Dong. [*Improved variational neural machine translation by promoting mutual information*](https://arxiv.org/abs/1909.09237). arXiv.
-<!--1. **Arya D. McCarthy**, Tongfei Chen, and Seth Ebner. [*An exact No Free Lunch Theorem for community detection*](https://arxiv.org/pdf/1903.10092.pdf). arXiv.
-1. **Arya D. McCarthy**, Tongfei Chen, Rachel Rudinger, and David W. Matula. [*Metrics matter in community detection*](https://arxiv.org/pdf/1901.01354.pdf). arXiv.
- -->
+1. **Arya D. McCarthy**, Xian Li, Jiatao Gu, and Ning Dong. [*Improved variational neural machine translation by promoting mutual information*](https://arxiv.org/abs/1909.09237). arXiv.
 ## Refereed Abstracts
 
 {:start="13"}
