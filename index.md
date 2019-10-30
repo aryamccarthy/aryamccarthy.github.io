@@ -46,6 +46,9 @@ I conducted additional work in ubiquitous computing, computational neuroscience,
 
 ### News
 
+- 2019-10: Gave a talk at Johns Hopkins University
+- 2019-10: Gave a talk at City University New York
+- 2019-09: Accepted to IWSLT: "Harnessing Indirect Training Data for End-to-End Automatic Speech Translation: Tricks of the Trade" with collaborators at Facebook AI
 - 2019-08: Accepted to EMNLP: "Modeling Color Terminology Across Thousands of Languages". See you in Hong Kong!
 - 2019-07: The first workshop on [typology for multilingual NLP](https://typology-and-nlp.github.io) was a smash hit! Thanks to our panelists, invited speakers, and abstract contributers.
 - 2019-06: The [SIGMORPHON 2019 shared task](https://sigmorphon.github.io/sharedtasks/2019/) has concluded. Thanks to all that submitted; read about it [here](https://www.aclweb.org/anthology/W19-4226/). I'll present findings in Florence during ACL.
