@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }} - {{ site.description }}</title>
+<head>
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }} - {{ site.description }}</title>
 
-    {% include meta.html %}
+  {% include meta.html %}
 
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -12,18 +12,18 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
-  {% if page.title %}
+    {% if page.title %}
     <meta content="{{ site.title }} - {{ site.description }}" property="og:site_name">
     <meta content="{{ page.title }}" property="og:title">
-  {% else %}
+    {% else %}
     <meta content="{{ site.title }}" property="og:site_name">
     <meta content="{{ site.title }}" property="og:title">
-  {% endif %}
-  {% if page.excerpt %}
+    {% endif %}
+    {% if page.excerpt %}
     <meta content="{{ page.excerpt }}" property="og:description">
-  {% else %}
+    {% else %}
     <meta content="{{ site.description }}" property="og:description">
-  {% endif %}
+    {% endif %}
 
 
     {% include favicon.html %}
@@ -31,50 +31,57 @@
     {% feed_meta %}
 
     <script type="text/javascript" async
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
-    </script>
-    <script>
-            MathJax.Hub.Config({
-                config: ["MMLorHTML.js"],
-                extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
-                jax: ["input/TeX"],
-                tex2jax: {
-                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-                    processEscapes: false
-                },
-                TeX: {
-                    TagSide: "right",
-                    TagIndent: ".8em",
-                    MultLineWidth: "85%",
-                    equationNumbers: {
-                       autoNumber: "AMS",
-                    },
-                    unicode: {
-                       fonts: "STIXGeneral,'Arial Unicode MS'"
-                    }
-                },
-                showProcessingMessages: false
-            });
-    </script>
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+  <script>
+    MathJax.Hub.Config({
+      config: ["MMLorHTML.js"],
+      extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+      jax: ["input/TeX"],
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: false
+      },
+      TeX: {
+        TagSide: "right",
+        TagIndent: ".8em",
+        MultLineWidth: "85%",
+        equationNumbers: {
+         autoNumber: "AMS",
+       },
+       unicode: {
+         fonts: "STIXGeneral,'Arial Unicode MS'"
+       }
+     },
+     showProcessingMessages: false
+   });
+ </script>
 
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
+ <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+</head>
 
-  <body>
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
+<body>
+  <div id="main" role="main" class="container">
+    <article class="page">
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
+      <h1>{{ page.title }}</h1>
+
+      <div class="entry">
+        {{ content }}
       </div>
-    </div>
+    </article>
+  </div>
 
-    {% include analytics.html %}
-  </body>
+  <div class="wrapper-footer">
+    <div class="container">
+      <footer class="footer">
+        {% include svg-icons.html %}
+      </footer>
+    </div>
+  </div>
+
+  {% include analytics.html %}
+</body>
 </html>
