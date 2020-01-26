@@ -32,7 +32,7 @@ layout: page
 </style>
 
 
-Hi, I'm Arya. (And occasionally,  <span class="tooltip">安力仁<span class="tooltiptext"> Bestowed upon me by the boundlessly clever Shuoyang Ding. <a href="http://www.cs.jhu.edu/~sding/">http://www.cs.jhu.edu/~sding/</a></span></span>.) I help researchers see the stories in numbers.
+Hi, I'm Arya. (And occasionally,  <span class="tooltip">安力仁<span class="tooltiptext"> Bestowed upon me by the boundlessly clever Shuoyang Ding. <a href="http://www.cs.jhu.edu/~sding/">http://www.cs.jhu.edu/~sding/</a></span></span>.) I squeeze blood from a stone for low-resource NLP.
 
 I am a third-year Ph.D. student in [computer science (CS)](https://www.cs.jhu.edu) at [Johns Hopkins University](https://www.jhu.edu), affiliated with the [Center for Language and Speech Processing](https://www.clsp.jhu.edu).
 I am advised by [David Yarowsky](https://www.cs.jhu.edu/faculty/david-yarowsky/), with whom I work on low-resource [machine translation](https://en.wikipedia.org/wiki/Machine_translation) in JHU's [LoReLab](https://www.cs.jhu.edu/~arya/yarowsky-lab/).
@@ -46,6 +46,9 @@ I conducted additional work in ubiquitous computing, computational neuroscience,
 
 ### News
 
+- 2019-10: Gave a talk at Johns Hopkins University
+- 2019-10: Gave a talk at City University New York
+- 2019-09: Accepted to IWSLT: "Harnessing Indirect Training Data for End-to-End Automatic Speech Translation: Tricks of the Trade" with collaborators at Facebook AI
 - 2019-08: Accepted to EMNLP: "Modeling Color Terminology Across Thousands of Languages". See you in Hong Kong!
 - 2019-07: The first workshop on [typology for multilingual NLP](https://typology-and-nlp.github.io) was a smash hit! Thanks to our panelists, invited speakers, and abstract contributers.
 - 2019-06: The [SIGMORPHON 2019 shared task](https://sigmorphon.github.io/sharedtasks/2019/) has concluded. Thanks to all that submitted; read about it [here](https://www.aclweb.org/anthology/W19-4226/). I'll present findings in Florence during ACL.
