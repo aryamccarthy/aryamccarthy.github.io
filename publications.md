@@ -4,9 +4,10 @@ title: "Publications"
 ---
 
 ## Papers
-1. Juan Pino, Liezl Puzon, Jiatao Gu, Xutai Ma, **Arya D. McCarthy**, and Deepak Gopinath. [*Harnessing out-of-task data for automatic speech translation: Tricks of the trade*](https://arxiv.org/abs/1909.06515). IWSLT 2019 (to appear).
-1. **Arya D. McCarthy**, Tongfei Chen, and Seth Ebner. [*An exact No Free Lunch Theorem for community detection*](https://arxiv.org/abs/1903.10092). Complex Networks 2019 (to appear).
-1. **Arya D. McCarthy**, Tongfei Chen, Rachel Rudinger, and David W. Matula. [*Metrics matter in community detection*](https://arxiv.org/abs/1901.01354). Complex Networks 2019 (to appear).
+
+1. **Arya D. McCarthy**, Tongfei Chen, and Seth Ebner. [*An exact No Free Lunch Theorem for community detection*](https://arxiv.org/abs/1903.10092). Complex Networks 2019.
+1. **Arya D. McCarthy**, Tongfei Chen, Rachel Rudinger, and David W. Matula. [*Metrics matter in community detection*](https://arxiv.org/abs/1901.01354). Complex Networks 2019.
+1. Juan Pino, Liezl Puzon, Jiatao Gu, Xutai Ma, **Arya D. McCarthy**, and Deepak Gopinath. [*Harnessing out-of-task data for automatic speech translation: Tricks of the trade*](https://arxiv.org/abs/1909.06515). IWSLT 2019.
 1. Kyle Gorman, **Arya D. McCarthy**, Miikka Silfverberg, Ekaterina Vylomova, and Magdalena Markowska. [*Weird Inflects but OK: Making Sense of Morphological Generation Errors*](https://ling.auf.net/lingbuzz/004787). CoNLL 2019 (to appear).
 1. **Arya D. McCarthy**, Winston Wu, Aaron Mueller, Bill Watson, and David Yarowsky. [*Modeling color terminology across thousands of languages*](https://arxiv.org/abs/1910.01531). EMNLP 2019 (to appear).
 1. Tiago Pimentel, **Arya D. McCarthy**, Damian Blasi, Brian Roark, and Ryan Cotterell. [*Meaning to form: Measuring systematicity as information*](https://www.aclweb.org/anthology/P19-1171). ACL 2019.
@@ -21,9 +22,8 @@ title: "Publications"
 
 {:start="12"}
 **Arya D. McCarthy**, Xian Li, Jiatao Gu, and Ning Dong. [*Improved variational neural machine translation by promoting mutual information*](https://arxiv.org/abs/1909.09237). arXiv.
-<!--1. **Arya D. McCarthy**, Tongfei Chen, and Seth Ebner. [*An exact No Free Lunch Theorem for community detection*](https://arxiv.org/pdf/1903.10092.pdf). arXiv.
-1. **Arya D. McCarthy**, Tongfei Chen, Rachel Rudinger, and David W. Matula. [*Metrics matter in community detection*](https://arxiv.org/pdf/1901.01354.pdf). arXiv.
- -->
+
+
 ## Refereed Abstracts
 
 {:start="13"}
