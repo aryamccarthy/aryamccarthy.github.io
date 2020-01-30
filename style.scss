@@ -365,12 +365,13 @@ table {
 		color: #999	
 	}
   
-  a {
-    color: #e39777;
-  }
-	
+  a: 
   .wrapper-footer {
     color: #444;
+  }
+  
+  p a:visited {
+    color: #966fd6;
   }
 }
 
