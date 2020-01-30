@@ -344,7 +344,7 @@ table {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #444;
+    background-color: #222;
     color: #ccc;
   }
 	
@@ -359,6 +359,10 @@ table {
   img {
     filter: grayscale(30%);
   }
+	
+	.site-description {
+		color: #999	
+	}
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
