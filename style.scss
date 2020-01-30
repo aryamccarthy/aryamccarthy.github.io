@@ -36,6 +36,10 @@ body {
   nav a {
     color: #eee;
   }
+	
+  img {
+    filter: grayscale(30%);
+  }
 }
 
 dl {
