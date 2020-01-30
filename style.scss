@@ -67,9 +67,10 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 30px;
   line-height: 1.4;
-  a {
+}
+
+#site-name a {
     color: $darkerGray;
-  }
 }
 
 h2 {
@@ -363,6 +364,10 @@ table {
 	.site-description {
 		color: #999	
 	}
+  
+  a {
+    color: #e39777;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
