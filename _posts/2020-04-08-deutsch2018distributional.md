@@ -25,7 +25,7 @@ The authors do rescoring by including both the seq2seq model's score and the wor
 
 ## Other notes
 
-- They found that shortest-path search was mot much more expensive than beam search, so why not try it? Does about as well.
+- They found that shortest-path search was not much more expensive than beam search, so why not try it? Does about as well.
     - They say shortest path explores far fewer states than beam search. How can this be, when beam search restricts the search space and shortest path is exhaustive?
 - Nominal transformations were the biggest improvement over the baseline—there are lots of possible affixes, so the dictionary constraint helps restrict them to reasonable ones.
 
