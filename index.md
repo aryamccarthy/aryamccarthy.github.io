@@ -72,7 +72,7 @@ In my spare time (hah), I enjoy:
 - bagpiping
 - ballroom dancing
 - biking—I have a 1982 Schwinn Le Tour that I maintain.
-- books; [add me on Goodreads](https://www.goodreads.com/user/show/19488650-arya-mccarthy)
+- books; [add me on Goodreads](https://www.goodreads.com/user/show/19488650-arya-mccarthy) and recommend your favorites
 - learning languages through Duolingo (currently Romanian, [rather unique](https://en.wikipedia.org/wiki/History_of_Romanian) among Romance tongues)
 - reading [xkcd](http://xkcd.com)—and now [PHD Comics](http://www.phdcomics.com)
 
