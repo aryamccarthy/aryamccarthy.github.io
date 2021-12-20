@@ -42,7 +42,7 @@ I completed my M.S. in CS, as well as a B.S. in CS and math, in my four years at
 I [was](https://www.smu.edu/Academics/PS/Alumni/2017Alumni) a [President's Scholar](http://www.smu.edu/academics/PS), SMU's highest academic scholarship.
 My [thesis](https://search.proquest.com/docview/1907180434?pq-origsite=gscholar) advisor was [David Matula](http://lyle.smu.edu/~matula/).
 My research with him  lives in the union of convex optimization (linear programming), graph theory, and number theory.
-<!--- I conducted additional work in ubiquitous computing, computational neuroscience, security, optics, and high-energy particle physics. -->
+
 
 ### News
 
