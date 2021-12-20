@@ -34,18 +34,19 @@ layout: page
 
 Hi, I'm Arya. (And occasionally,  <span class="tooltip">安力仁<span class="tooltiptext"> Bestowed upon me by the boundlessly clever Shuoyang Ding. <a href="http://www.cs.jhu.edu/~sding/">http://www.cs.jhu.edu/~sding/</a></span></span>.) I squeeze blood from a stone for low-resource NLP.
 
-I am a third-year Ph.D. student in [computer science (CS)](https://www.cs.jhu.edu) at [Johns Hopkins University](https://www.jhu.edu), affiliated with the [Center for Language and Speech Processing](https://www.clsp.jhu.edu).
+I am a Ph.D. candidate in [computer science (CS)](https://www.cs.jhu.edu) at [Johns Hopkins University](https://www.jhu.edu), affiliated with the [Center for Language and Speech Processing](https://www.clsp.jhu.edu).
 I am advised by [David Yarowsky](https://www.cs.jhu.edu/faculty/david-yarowsky/), with whom I work on low-resource [machine translation](https://en.wikipedia.org/wiki/Machine_translation) in JHU's [LoReLab](https://www.cs.jhu.edu/~arya/yarowsky-lab/).
 My research interests are [computational linguistics](https://en.wikipedia.org/wiki/Computational_linguistics), [morphology](https://en.wikipedia.org/wiki/Morphology_(linguistics)), and [network science](https://en.wikipedia.org/wiki/Network_science). You're welcome to look at my [publications](publications).
 
 I completed my M.S. in CS, as well as a B.S. in CS and math, in my four years at [SMU](https://en.wikipedia.org/wiki/Southern_Methodist_University).
 I [was](https://www.smu.edu/Academics/PS/Alumni/2017Alumni) a [President's Scholar](http://www.smu.edu/academics/PS), SMU's highest academic scholarship.
 My [thesis](https://search.proquest.com/docview/1907180434?pq-origsite=gscholar) advisor was [David Matula](http://lyle.smu.edu/~matula/).
-My research with him  lives at the intersection of convex optimization (linear programming), graph theory, and randomness for stable, mathematically motivated hierarchical clustering.
-I conducted additional work in ubiquitous computing, computational neuroscience, security, optics, and high-energy particle physics.
+My research with him  lives in the union of convex optimization (linear programming), graph theory, and number theory.
+<!--- I conducted additional work in ubiquitous computing, computational neuroscience, security, optics, and high-energy particle physics. -->
 
 ### News
 
+- 2019–2021: Long hiatus from updating the site. Stay safe and healthy, everyone.
 - 2019-10: Gave a talk at Johns Hopkins University
 - 2019-10: Gave a talk at City University New York
 - 2019-09: Accepted to IWSLT: "Harnessing Indirect Training Data for End-to-End Automatic Speech Translation: Tricks of the Trade" with collaborators at Facebook AI
