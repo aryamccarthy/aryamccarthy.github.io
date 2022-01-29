@@ -46,6 +46,7 @@ My research with him  lives in the union of convex optimization (linear programm
 
 ### News
 
+- 2022-01: Accepted as ICLR Spotlight paper: [On the Uncomputability of Partition Functions in Energy-Based Sequence Models](https://openreview.net/forum?id=SsPCtEY6yCl)
 - 2019–2021: Long hiatus from updating the site. Stay safe and healthy, everyone.
 - 2019-10: Gave a talk at Johns Hopkins University
 - 2019-10: Gave a talk at City University New York
