@@ -19,9 +19,9 @@ Along the way, I also studied at briefly at Stanford University and the Universi
 
 Selected publications:
 
-* [On the Uncomputability of Partition Functions in Energy-Based Sequence Models](https://openreview.net/forum?id=SsPCtEY6yCl) with Chu-Cheng Lin. ICLR 2022 Spotlight.
-* [Addressing Posterior Collapse with Mutual Information for Improved Variational Neural Machine Translation](https://aclanthology.org/2020.acl-main.753/) with Xian Li, Jiatao Gu, and Ning Dong. ACL 2020.
-* [Modeling Color Terminology Across Thousands of Languages](http://dx.doi.org/10.18653/v1/D19-1229) with Winston Wu, Aaron Mueller, William Watson, and David Yarowsky. EMNLP 2019.
+* [On the uncomputability of partition functions in energy-based sequence models](https://openreview.net/forum?id=SsPCtEY6yCl) with Chu-Cheng Lin. ICLR 2022 Spotlight.
+* [Addressing posterior collapse with mutual information for improved variational neural machine translation](http://dx.doi.org/10.18653/v1/2020.acl-main.753) with Xian Li, Jiatao Gu, and Ning Dong. ACL 2020.
+* [Modeling color terminology across thousands of languages](http://dx.doi.org/10.18653/v1/D19-1229) with Winston Wu, Aaron Mueller, William Watson, and David Yarowsky. EMNLP 2019.
 
 [See 30 more publications...](publications)
 
