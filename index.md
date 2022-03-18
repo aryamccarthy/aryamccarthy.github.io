@@ -10,7 +10,7 @@ This summer, I will intern at Google in New York. Previously, I have interned an
 
 ## Music
 
-I've played the bagpipe for over a decade. Nowadays, it's a great way to social-distance. I also typeset original bagpipe compositions in LaTeX, which is criminally underestimated as a tool for bringing beauty into the world.
+I've played the bagpipe for over a decade. These days, it's a great way to social-distance. I also typeset original bagpipe compositions in LaTeX, which is criminally underestimated as a tool for bringing beauty into the world.
 
 ## Academic
 
@@ -23,7 +23,7 @@ Selected publications:
 * [Addressing Posterior Collapse with Mutual Information for Improved Variational Neural Machine Translation](https://aclanthology.org/2020.acl-main.753/) with Xian Li, Jiatao Gu, and Ning Dong. ACL 2020.
 * [Modeling Color Terminology Across Thousands of Languages](http://dx.doi.org/10.18653/v1/D19-1229) with Winston Wu, Aaron Mueller, William Watson, and David Yarowsky. EMNLP 2019.
 
-[See more...](publications)
+[See 30 more publications...](publications)
 
 ## Beauty
 
