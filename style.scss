@@ -106,10 +106,10 @@ a {
 }
 
 h1 > a {
-   color: $crimson;
+   color: inherit;
 	
    &:hover {
-     color: $crimson;
+     color: inherit;
    }
 }
 
@@ -346,6 +346,11 @@ table {
     background-color: #222;
     color: #ccc;
   }
+	
+  strong, b {
+    color: white;
+  }
+
 	
   h1 a {
     color: #eee;
