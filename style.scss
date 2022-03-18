@@ -13,6 +13,9 @@
 /* BASE RULES */
 /**************/
 
+html {
+	font-family: $helveticaNeue;	
+}
 @media (min-width: 48em) {
 	html {
 		font-size: 16px;
@@ -26,8 +29,7 @@
 
 body {
 	background: $white;
-  font: 18px/1.4 $helveticaNeue;
-  color: $darkGray;
+ 	color: $darkGray;
 }
 
 
@@ -44,7 +46,7 @@ dt {
 }
 dt::after {
   content: ":";
-}
+} 
 dd {
   margin: 0 0 0 110px;
   padding: 0 0 0.5em 0;
@@ -58,13 +60,14 @@ dd {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
   color: $crimson;
   font-weight: bold;
 
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
+	
+  text-rendering: optimizeLegibility;
 
   @include mobile {
     line-height: 1.4;
@@ -72,30 +75,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 2rem;
   line-height: 1.4;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
+  margin-top: 1rem;
 }
 
 h3 {
-  font-size: 20px;
+  margin-top: 1.5rem
+  font-size: 1.25rem;
 }
 
-h4 {
-  font-size: 18px;
+h4, h5, h6 {
+  font-size: 1rem;
+  margin-top: 1rem;
   color: $gray;
 }
 
 p {
-  margin: 15px 0;
-  a {
-    &:visited {
-        color: #551A8B;
-    }
-  }
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 a {
@@ -115,9 +117,9 @@ h1 > a {
    }
 }
 
-ul, ol {
-  margin: 15px 0;
-  padding-left: 30px;
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 1rem;	
 }
 
 ul {
@@ -146,6 +148,8 @@ strong, b {
 
 img {
   max-width: 100%;
+  margin: 0 0 1rem;
+  border-radius: 5px;
 }
 
 abbr {
@@ -243,7 +247,6 @@ abbr {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
   font-size: 18px;
 
   @include mobile {
