@@ -106,6 +106,10 @@ a {
 
 h1 > a {
    color: inherit;
+	
+   &:hover {
+     color: inherit;
+   }
 }
 
 ul, ol {
@@ -220,7 +224,7 @@ abbr {
   cursor: pointer;
   font-family: $georgia;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 32px;
   letter-spacing: 1px;
 }
 
