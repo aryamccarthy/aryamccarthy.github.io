@@ -3,7 +3,7 @@ layout: page
 ---
 
 
-Hi! I'm Arya McCarthy. I am a computer scientist, musician, cyclist, runner, and politics lover. A Texas expat, I've had the good fortune to wander before making the DC area my home. A constant drive for me is to make the communities we're a part of healthier, effective, and welcoming. I'm convinced that the impossible, the improbable, and the inevitable are separated by your grit, and I hope to bridge the new digital divide through understanding humans and their languages.
+Hi! I'm Arya McCarthy. I am a computer scientist, musician, cyclist, runner, and world politics aficionado. A Texas expat, I've had the good fortune to wander before making the DC area my home. A constant drive for me is to make the communities we're a part of healthier, effective, and welcoming. I'm convinced that the impossible, the improbable, and the inevitable are separated by your grit, and I hope to bridge the new digital divide through understanding humans and their languages.
 
 ## Music
 
