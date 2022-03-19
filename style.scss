@@ -380,7 +380,7 @@ table {
 }
 
 // Nicer mathjax: don't make super-long equations overflow the margin
-.MathJax_CHTML {
+.MathJax_CHTML.mjx-chtml {
 	display: inline-block;
 	max-width: 100%;
 	overflow-x: auto;
