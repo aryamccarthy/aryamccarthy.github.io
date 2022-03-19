@@ -362,8 +362,7 @@ table {
   }
 	
   img {
-    filter: grayscale(30%);
-    background-color: thistle;
+    opacity: 0.75;
   }
 	
 	.site-description {
