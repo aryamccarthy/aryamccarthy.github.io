@@ -379,6 +379,13 @@ table {
   }
 }
 
+// Nicer mathjax: don't make super-long equations overflow the margin
+MathJax_CHTML {
+	display: inline-block;
+	max-width: 100%;
+	overflow-x: auto;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
