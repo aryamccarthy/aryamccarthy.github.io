@@ -27,6 +27,6 @@ Selected publications:
 
 ## Beauty
 
-[I can't feel anything but gratitude for every single moment of my stupid little life.](https://thrive.davidkanigan.com/post/77573489137/i-cant-feel-anything-but-gratitude-for-every) Friends and strangers on trains have shared their tenderness with me. Whether clinging to scaffolding in bell towers, sloshing for miles through stormwater drains, mountainside sunrises in New Mexico, or jumping over filched restaurant candles for Charshanbe Suri, the world finds a way to rekindle the creative spark. The past year has left me, I hope, strong in the broken places.
+[I can't feel anything but gratitude for every single moment of my stupid little life.](http://philhaverstick.com/8-09-02.html) Friends and strangers on trains have shared their tenderness with me. Whether clinging to scaffolding in bell towers, sloshing for miles through stormwater drains, mountainside sunrises in New Mexico, or jumping over filched restaurant candles for Charshanbe Suri, the world finds a way to rekindle the creative spark. The past year has left me, I hope, strong in the broken places.
 
 For fellow graduate students, I encourage you to do one thing when you travel to conferences. Book a few extra days if you can afford it, push back your return flight, and take in the area's UNESCO World Heritage Sites and museums.
