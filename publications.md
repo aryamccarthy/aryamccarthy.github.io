@@ -3,6 +3,11 @@ layout: page
 title: "Publications"
 ---
 
+
+[last updated 2019-08-13] 
+
+[Find up-to-date info on [my Google Scholar page](https://scholar.google.com/citations?hl=en&user=erysFsoAAAAJ&view_op=list_works&sortby=pubdate)] 
+
 ## Papers
 
 1. **Arya D. McCarthy**, Tongfei Chen, and Seth Ebner. [*An exact No Free Lunch Theorem for community detection*](https://arxiv.org/abs/1903.10092). Complex Networks 2019.
@@ -41,5 +46,3 @@ title: "Publications"
 {:start="20"}
 
 1. **Arya D. McCarthy**. Gridlock in networks: [*The leximin method for hierarchical community detection*](https://search.proquest.com/docview/1907180434). Master's thesis, SMU. 2017.
-
-[last updated 2019-08-13]

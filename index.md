@@ -1,82 +1,32 @@
 ---
 layout: page
+title: About
 ---
 
-<style>
-/* Tooltip container */
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-}
 
-/* Tooltip text */
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 300px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
- 
-  /* Position the tooltip text - see examples below! */
-  position: absolute;
-  z-index: 1;
-}
+Hi! I'm Arya McCarthy. I am a computer scientist, musician, cyclist, runner, and world politics aficionado. Expatriated from Texas, I've had the good fortune to wander before making the DC area my home. A constant drive for me is to make the communities we're a part of healthier, effective, and welcoming. I'm convinced that the impossible, the improbable, and the inevitable are separated by your grit, and I hope to bridge [the new digital divide](https://hilltopicssmu.wordpress.com/2017/04/08/the-new-digital-divide-language-is-the-impediment-to-information-access/) through understanding humans and their languages.
 
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-</style>
+This summer, I will intern at Google in New York. Previously, I have interned and published at Duolingo and Facebook.
 
+## Music
 
-Hi, I'm Arya. (And occasionally,  <span class="tooltip">安力仁<span class="tooltiptext"> Bestowed upon me by the boundlessly clever Shuoyang Ding. <a href="http://www.cs.jhu.edu/~sding/">http://www.cs.jhu.edu/~sding/</a></span></span>.) I squeeze blood from a stone for low-resource NLP.
+I've played the bagpipe for over a decade. These days, it's a great way to social-distance. I also typeset original bagpipe compositions in LaTeX, which is criminally underestimated as a tool for bringing beauty into the world.
 
-I am a third-year Ph.D. student in [computer science (CS)](https://www.cs.jhu.edu) at [Johns Hopkins University](https://www.jhu.edu), affiliated with the [Center for Language and Speech Processing](https://www.clsp.jhu.edu).
-I am advised by [David Yarowsky](https://www.cs.jhu.edu/faculty/david-yarowsky/), with whom I work on low-resource [machine translation](https://en.wikipedia.org/wiki/Machine_translation) in JHU's [LoReLab](https://www.cs.jhu.edu/~arya/yarowsky-lab/).
-My research interests are [computational linguistics](https://en.wikipedia.org/wiki/Computational_linguistics), [morphology](https://en.wikipedia.org/wiki/Morphology_(linguistics)), and [network science](https://en.wikipedia.org/wiki/Network_science). You're welcome to look at my [publications](publications).
+## Academic
 
-I completed my M.S. in CS, as well as a B.S. in CS and math, in my four years at [SMU](https://en.wikipedia.org/wiki/Southern_Methodist_University).
-I [was](https://www.smu.edu/Academics/PS/Alumni/2017Alumni) a [President's Scholar](http://www.smu.edu/academics/PS), SMU's highest academic scholarship.
-My [thesis](https://search.proquest.com/docview/1907180434?pq-origsite=gscholar) advisor was [David Matula](http://lyle.smu.edu/~matula/).
-My research with him  lives at the intersection of convex optimization (linear programming), graph theory, and randomness for stable, mathematically motivated hierarchical clustering.
-I conducted additional work in ubiquitous computing, computational neuroscience, security, optics, and high-energy particle physics.
+I'm a Ph.D. candidate at [Johns Hopkins University](https://www.jhu.edu), designing [machine translation](https://en.wikipedia.org/wiki/Machine_translation) that uses [panlingual weak supervision](https://aclanthology.org/2020.lrec-1.352/) with [David Yarowsky](https://www.cs.jhu.edu/faculty/david-yarowsky/) in JHU's [LoReLab](https://www.cs.jhu.edu/~arya/yarowsky-lab/). I graduated from [SMU](https://en.wikipedia.org/wiki/Southern_Methodist_University) in 2017 with a bachelor's in mathematics and computer science and a master's in computer science. There, I worked with [David Matula](http://lyle.smu.edu/~matula/) on convex optimization, graph theory, and number theory.
+Along the way, I also studied briefly at Stanford University and the University of Edinburgh.
 
-### News
+Selected publications:
 
-- 2019-10: Gave a talk at Johns Hopkins University
-- 2019-10: Gave a talk at City University New York
-- 2019-09: Accepted to IWSLT: "Harnessing Indirect Training Data for End-to-End Automatic Speech Translation: Tricks of the Trade" with collaborators at Facebook AI
-- 2019-08: Accepted to EMNLP: "Modeling Color Terminology Across Thousands of Languages". See you in Hong Kong!
-- 2019-07: The first workshop on [typology for multilingual NLP](https://typology-and-nlp.github.io) was a smash hit! Thanks to our panelists, invited speakers, and abstract contributers.
-- 2019-06: The [SIGMORPHON 2019 shared task](https://sigmorphon.github.io/sharedtasks/2019/) has concluded. Thanks to all that submitted; read about it [here](https://www.aclweb.org/anthology/W19-4226/). I'll present findings in Florence during ACL.
-- 2019-05: I'm attending [MTMA 2019](http://www.statmt.org/mtma19/) at UMD, working on typology as a tool for multilingual models.
-- 2019-05: Accepted to ACL: "[Meaning to Form: Measuring Systematicity as Information](https://aclweb.org/anthology/papers/P/P19/P19-1171/)" with a great crew of co-authors. See you in Florence!
-- 2019-03: Another preprint on arXiv: a No Free Lunch theorem for clustering and related tasks.
-- 2019-02: I'll be working at Facebook AI this summer, on translation.
-- 2019-02: Accepted to [SIAM NS19](https://www.siam.org/Conferences/CM/Main/ns19): "Community Detection, The No Free Lunch Theorem, and Attack Games"
-- 2019-01: We've put a preprint on arXiv: how to properly evaluate community detection.
-- 2018-10: I've had two submissions accepted to [Complex Networks (ICCNA) 2018](https://www.complexnetworks.org). See you at Cambridge!
-- 2018-09: This semester, I'll be a teaching assistant! My course is [Natural Language Processing](http://www.cs.jhu.edu/~jason/465/) with [Jason Eisner](http://www.cs.jhu.edu/~jason/).
-- 2018-08: I've had papers accepted at the Conference on Machine Translation (WMT) and the EMNLP Universal Dependencies Workshop (UDW). See you in Brussels!
-- 2018-07: I'll be at the [SIAM Annual Meeting](http://www.siam.org/meetings/an18/) in Portland, presenting work on evaluation measures for clustering.
-- 2018-06: This summer, I'm participating on the translation side of [SCALE 2018](https://hltcoe.jhu.edu/research/scale/scale-2018/). 
-- 2018-05: I'm attending [MTMA 2018](http://www.statmt.org/mtma18/) at CMU, working on continued training of translation models.
+* [On the uncomputability of partition functions in energy-based sequence models](https://openreview.net/forum?id=SsPCtEY6yCl) with Chu-Cheng Lin. ICLR 2022 Spotlight.
+* [Addressing posterior collapse with mutual information for improved variational neural machine translation](http://dx.doi.org/10.18653/v1/2020.acl-main.753) with Xian Li, Jiatao Gu, and Ning Dong. ACL 2020.
+* [Modeling color terminology across thousands of languages](http://dx.doi.org/10.18653/v1/D19-1229) with Winston Wu, Aaron Mueller, William Watson, and David Yarowsky. EMNLP 2019.
 
-### More Information
+[See 30 more publications...](publications)
 
-In my spare time (hah), I enjoy:
+## Beauty
 
-- bagpiping
-- ballroom dancing
-- biking—I have a 1982 Schwinn Le Tour that I maintain.
-- learning languages through Duolingo (currently Romanian, [rather unique](https://en.wikipedia.org/wiki/History_of_Romanian) among Romance tongues)
-- reading [xkcd](http://xkcd.com)—and now [PHD Comics](http://www.phdcomics.com)
+[I can't feel anything but gratitude for every single moment of my stupid little life.](http://philhaverstick.com/8-09-02.html) Friends and strangers on trains have shared their tenderness with me. Whether clinging to scaffolding in bell towers, sloshing for miles through stormwater drains, mountainside sunrises in New Mexico, or jumping over filched restaurant candles for Charshanbe Suri, the world finds a way to rekindle the creative spark. The past year has left me, I hope, strong in the broken places.
 
-![Picture of the Schwinn that got stolen, not the new one in Baltimore. U-bolt locks are your friend.]({{ site.baseurl }}/images/schwinn_le_tour.JPG)
-
-### Contact me
-
-[first name]@jhu.edu
+For fellow graduate students, I encourage you to do one thing when you travel to conferences. Book a few extra days if you can afford it, push back your return flight, and take in the area's UNESCO World Heritage Sites and museums.
