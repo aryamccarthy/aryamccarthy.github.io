@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: "Interpolating between types and tokens by estimating power-law generators"
-author: "Goldwater, Griffiths, and Johnson"
+authors: "Goldwater, Griffiths, and Johnson"
 year: 2006
 venue: NIPS
 link: "http://papers.nips.cc/paper/2941-interpolating-between-types-and-tokens-by-estimating-power-law-generators.pdf"

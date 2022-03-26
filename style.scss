@@ -14,13 +14,23 @@
 /**************/
 
 html {
-  font-size: 100%;
+	font-family: $helveticaNeue;	
+	line-height: 1.5;
+}
+@media (min-width: 48em) {
+	html {
+		font-size: 16px;
+	}
+}
+@media (min-width: 58em) {
+	html {
+		font-size: 20px;
+	}
 }
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+ 	color: $darkGray;
 }
 
 
@@ -37,7 +47,7 @@ dt {
 }
 dt::after {
   content: ":";
-}
+} 
 dd {
   margin: 0 0 0 110px;
   padding: 0 0 0.5em 0;
@@ -45,68 +55,73 @@ dd {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
+  max-width: 38rem;
+//   padding: 0 10px;
   width: 100%;
 }
 
+@media (min-width: 48em) {
+	.container {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
+
+@media (min-width: 64em) {
+	.container {
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+}
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
   color: $crimson;
   font-weight: bold;
 
-  line-height: 1.7;
+  line-height: 1.25;
   margin: 1em 0 15px;
   padding: 0;
-
-  @include mobile {
-    line-height: 1.4;
-  }
+	
+  text-rendering: optimizeLegibility;
 }
 
 h1 {
-  font-size: 30px;
-  line-height: 1.4;
-}
-
-#site-name a {
-    color: $darkerGray;
+  font-size: 2rem;
 }
 
 h2 {
-  font-size: 24px;
+  margin-top: 1rem;
+  font-size: 1.5rem;
 }
 
 h3 {
-  font-size: 20px;
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
 }
 
-h4 {
-  font-size: 18px;
+h4, h5, h6 {
+  font-size: 1rem;
+  margin-top: 1rem;
   color: $gray;
 }
 
 p {
-  margin: 15px 0;
-  a {
-    &:visited {
-        color: #551A8B;
-    }
-  }
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
-a {
+a, a:hover {
   color: $blue;
   text-decoration: none;
-
-  &:hover {
-    color: $blue;
-  }
 }
 
-ul, ol {
-  margin: 15px 0;
-  padding-left: 30px;
+h1 > a, h1 > a:hover {
+   color: inherit;
+}
+
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 1rem;	
 }
 
 ul {
@@ -135,6 +150,8 @@ strong, b {
 
 img {
   max-width: 100%;
+  margin: 0 0 1rem;
+  border-radius: 5px;
 }
 
 abbr {
@@ -213,12 +230,10 @@ abbr {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
+  font-family: $georgia;
+  font-weight: 700;
+  font-size: 2.5rem;
 }
 
 .site-description {
@@ -234,7 +249,6 @@ abbr {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
   font-size: 18px;
 
   @include mobile {
@@ -261,16 +275,6 @@ nav {
 //
 // .main
 //
-
-.posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
-}
-
-.posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
-}
 
 .post {
   blockquote {
@@ -349,17 +353,16 @@ table {
     color: #ccc;
   }
 	
-  h1 a {
-    color: #eee;
+  strong, b {
+    color: white;
   }
 	
-  nav a {
+  nav > a, nav > a:hover {
     color: #eee;
   }
 	
   img {
-    filter: grayscale(30%);
-    background-color: thistle;
+    opacity: 0.75;
   }
 	
 	.site-description {
@@ -373,6 +376,13 @@ table {
   p a:visited {
     color: #966fd6;
   }
+}
+
+// Nicer mathjax: don't make super-long equations overflow the margin
+.MathJax_CHTML.mjx-chtml {
+	display: inline-block;
+	max-width: 100%;
+	overflow-x: auto;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
