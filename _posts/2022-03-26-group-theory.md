@@ -9,9 +9,11 @@ Each semester, I work through one or two textbooks. I've just picked up Dummit a
 
 First, I had a different route for solving Section 1.2's problem 10 than the two suggested in the book. It's not a particularly involved, problem, but it's still interesting.
 
+<!--more-->
+
 The question asks:
 
-> (10.) Let $G$ be the group of rigid motions in $\mathbb{R}^3$ of a cube. Show that $|G| = 24$.
+> (10.) Let $G$ be the group of rigid motions in $\mathbb{R}^3$ of a cube. Show that $\lvert G \rvert = 24$.
 
 The advice given is:
 
@@ -19,9 +21,9 @@ The advice given is:
 
 It's worthwhile to see that there are actually three natural perspectives here, not just two. I've included my third one at the end.
 
-1. **The vertex perspective.** We can consider the vertices, as suggested. Consider adjacent vertices $i$ and $j$. Their motion will totally determine all other positions. The first vertex $i$ can be sent to 8 possible positions—the 8 vertices, including its initial position. The other vertex $j$ can then move to any of the 3 vertices adjacent to the repositioned $i$. No flips are possible, after all—rigid motions only. There are 8 repositionings of the vertex, with 3 corresponding rotations each. $|G| = 8 \times 3 = 24$.
-2. **The face perspective.** Similarly, consider a given face $f$ and incident vertex $v$. Move $f$ to any of the possible faces, of which 6 exist (including its initial position). To remain incident, $v$ can be in any of 4 positions. Thus there are 6 possible repositionings and 4 rotations. $|G| = 6 \times 4 = 24$.
-3. **The edge perspective.** This one was more natural to me. Consider any edge $\{u, v\}$ in the cube. It can be moved to any of the 12 edges' initial positions, including its starting point. There are two orientations of this edge, though: placing $u$ and $v$ in different positions. $|G| = 12 \times 2 = 24$.
+1. **The vertex perspective.** We can consider the vertices, as suggested. Consider adjacent vertices $i$ and $j$. Their motion will totally determine all other positions. The first vertex $i$ can be sent to 8 possible positions—the 8 vertices, including its initial position. The other vertex $j$ can then move to any of the 3 vertices adjacent to the repositioned $i$. No flips are possible, after all—rigid motions only. There are 8 repositionings of the vertex, with 3 corresponding rotations each. $\lvert G \rvert = 8 \times 3 = 24$.
+2. **The face perspective.** Similarly, consider a given face $f$ and incident vertex $v$. Move $f$ to any of the possible faces, of which 6 exist (including its initial position). To remain incident, $v$ can be in any of 4 positions. Thus there are 6 possible repositionings and 4 rotations. $\lvert G \rvert = 6 \times 4 = 24$.
+3. **The edge perspective.** This one was more natural to me. Consider any edge $\{u, v\}$ in the cube. It can be moved to any of the 12 edges' initial positions, including its starting point. There are two orientations of this edge, though: placing $u$ and $v$ in different positions. $\lvert G \rvert = 12 \times 2 = 24$.
 
 Of course, these should—and do—all lead to the same answer.
 
