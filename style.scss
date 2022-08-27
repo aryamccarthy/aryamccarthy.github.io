@@ -364,10 +364,11 @@ table {
    background-color: $crimson;
  }
 
-@media (min-width: 64em)
-.wrapper-footer > .container {
-margin-left: 22rem;
-margin-right: 4rem;
+@media (min-width: 64em) {
+	.wrapper-footer > .container {
+	margin-left: 22rem;
+	margin-right: 4rem;
+	}
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
