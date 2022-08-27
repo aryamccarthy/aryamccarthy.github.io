@@ -11,7 +11,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == "" %} active{% endif %}" href="{{ site.baseurl }}">About {{ page.url }} {{ site.baseurl }}</a>
+      <a class="sidebar-nav-item{% if page.url == "" %} active{% endif %}" href="{{ "/" }}">About {{ page.url }} {{ site.baseurl }}</a>
       <a class="sidebar-nav-item{% if page.url == '/blog/' %} active{% endif %}" href="{{ site.baseurl }}/blog">Blog {{ page.url }} {{ site.baseurl | append: 'blog/' }}</a>
       <a class="sidebar-nav-item{% if page.url == '/publications/' %} active{% endif %}" href="{{ site.baseurl }}/publications">Publications {{ page.url }} {{ site.baseurl | append: 'publications/' }}</a>
     </nav>
