@@ -2,18 +2,18 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="{{ site.baseurl }}">
-          {{ site.title }}
+        <a href="{{ site.url }}">
+          {{ site.name }}
         </a>
       </h1>
       <p class="lead">{{ site.description }}</p>
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.url %} active{% endif %}" href="{{ site.url }}">Home</a>
 
-      <a class="sidebar-nav-item" href="{{ site.baseurl }}">About</a>
-      <a class="sidebar-nav-item" href="{{ site.baseurl }}/blog">Blog</a>
+      <a class="sidebar-nav-item" href="{{ site.url }}">About</a>
+      <a class="sidebar-nav-item" href="{{ site.url }}/blog">Blog</a>
       <a class="sidebar-nav-item" href="https://github.com/aryamccarthy?tab=repositories">Code</a>
     </nav>
 
