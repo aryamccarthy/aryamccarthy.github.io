@@ -77,7 +77,7 @@ The loss isn't convex in both arguments, which makes optimizing difficult. Other
 
 Now we'll look at the **[exponential distribution](https://en.wikipedia.org/wiki/Exponential_distribution)**, which is a *member* of the exponential family. Different things. Similar names. The distribution is over nonnegative real numbers. The density is usually expressed \\(P(x; \alpha) = \alpha e^{-\alpha x}\\), and the mean is \\(\frac{1}{\alpha}\\). Keeping this in the form of \\(e^{\theta x}\\) means \\(\theta = -\alpha\\). Pushing the front \\(\alpha\\) into the numerator, the density is now \\(P(x; \theta) = e^{\theta x - G(\theta)}\\) with our log-normalizer \\(G(\theta) = - \log(-\theta)\\). Our **link function**, which should approximate the mean, is \\(G'(\theta) \equiv F'(\theta) = - \frac{1}{\theta}\\). The authors give a closed-form update rule here, too. And they show on two toy examples that exponential PCA (which, because of its link function, must produce a line) is more resiliant to outliers.
 
-![The generalized PCA handles outliers better.]({{ "/images/collins2001generalization-exponential.png" \mid absolute_url }})
+![The generalized PCA handles outliers better.]({{ "/images/collins2001generalization-exponential.png" | absolute_url }})
 
 
 The authors also give us a 1D projection of Bernoulli PCA, which has an eerily Ising model–like feel to it. Could you reduce the decision of some subset of a set?
