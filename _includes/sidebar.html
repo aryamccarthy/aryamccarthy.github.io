@@ -11,10 +11,8 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.url %} active{% endif %}" href="{{ site.url }}">Home</a>
-
-      <a class="sidebar-nav-item" href="{{ site.url }}">About</a>
-      <a class="sidebar-nav-item" href="{{ site.url }}/blog">Blog</a>
+      <a class="sidebar-nav-item{% if page.url == site.url %} active{% endif %}" href="{{ site.url }}">About</a>
+      <a class="sidebar-nav-item{% if page.url == site.url %} active{% endif %}" href="{{ site.url }}/blog">Blog</a>
       <a class="sidebar-nav-item" href="https://github.com/aryamccarthy?tab=repositories">Code</a>
     </nav>
 
