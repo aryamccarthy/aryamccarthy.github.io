@@ -3,7 +3,7 @@
     <div class="sidebar-about">
       <img src="{{ site.avatar }}" alt="Picture of Arya McCarthy" class="inline" style="border-radius: 10px;">
       <h1>
-        <a href="{{ site.url }}">
+        <a href="{{ site.baseurl }}">
           {{ site.name }}
         </a>
       </h1>
@@ -11,8 +11,8 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.url %} active{% endif %}" href="{{ site.url }}">About</a>
-      <a class="sidebar-nav-item{% if page.url == site.url %} active{% endif %}" href="{{ site.url }}/blog">Blog</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">About</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/blog">Blog</a>
       <a class="sidebar-nav-item" href="https://github.com/aryamccarthy?tab=repositories">Code</a>
     </nav>
 
