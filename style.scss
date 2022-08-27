@@ -43,13 +43,6 @@ dd {
   padding: 0 0 0.5em 0;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 44rem;
-//   padding: 0 10px;
-//   width: 100%;
-}
-
 h1, h2, h3, h4, h5, h6 {
   color: $crimson;
   font-weight: bold;
@@ -371,6 +364,11 @@ table {
    background-color: $crimson;
  }
 
+@media (min-width: 64em)
+.wrapper-footer > .container {
+margin-left: 22rem;
+margin-right: 4rem;
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
