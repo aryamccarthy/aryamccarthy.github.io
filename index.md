@@ -16,9 +16,9 @@ I've played the bagpipe for over a decade. These days, it's a great way to socia
 
 I'm a Ph.D. candidate and the Jelinek Fellow at [Johns Hopkins University](https://www.jhu.edu), designing [machine translation](https://en.wikipedia.org/wiki/Machine_translation) that uses [panlingual weak supervision](https://aclanthology.org/2020.lrec-1.352/) with [David Yarowsky](https://www.cs.jhu.edu/faculty/david-yarowsky/) in JHU's [LoReLab](https://www.cs.jhu.edu/~arya/yarowsky-lab/). 
 I graduated from [SMU](https://en.wikipedia.org/wiki/Southern_Methodist_University) in 2017 with a bachelor's in mathematics and computer science and a master's in computer science. There, I worked with [David Matula](http://lyle.smu.edu/~matula/) on convex optimization, graph theory, and number theory.
-Along the way, I studied at Stanford University and the University of Edinburgh.
+Along the way, I studied at [Stanford University](https://www.stanford.edu) and the [University of Edinburgh](https://www.ed.ac.uk).
 
-**Selected publications:**
+### Selected publications:
 
 * [On the uncomputability of partition functions in energy-based sequence models](https://openreview.net/forum?id=SsPCtEY6yCl) with Chu-Cheng Lin. ICLR 2022 Spotlight.
 * [Addressing posterior collapse with mutual information for improved variational neural machine translation](http://dx.doi.org/10.18653/v1/2020.acl-main.753) with Xian Li, Jiatao Gu, and Ning Dong. ACL 2020.
