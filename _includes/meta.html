@@ -18,7 +18,7 @@
     <meta name="author" content="{{ site.name }}" />
 
 
-    {% if page.title %}
+    {% if page.title and page.title != "About" %}
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="twitter:title" content="{{ page.title }}" />
     {% else %}
