@@ -6,19 +6,19 @@ title: About
 
 Hi! I'm Arya McCarthy. I am a computer scientist, musician, cyclist, runner, and world politics aficionado. Expatriated from Texas, I've had the good fortune to wander before making the DC area my home. A constant drive for me is to make the communities we're a part of healthier, effective, and welcoming. I'm convinced that the impossible, the improbable, and the inevitable are separated by your grit, and I hope to bridge [the new digital divide](https://hilltopicssmu.wordpress.com/2017/04/08/the-new-digital-divide-language-is-the-impediment-to-information-access/) through understanding humans and their languages.
 
-I am an [Amazon Fellow](https://ai2ai.engineering.jhu.edu/2022-2023-ai2ai-fellows/). Previously, I have interned and [published][1] at Google, Duolingo, and Facebook.
+I am an [Amazon Fellow](https://ai2ai.engineering.jhu.edu/2022-2023-ai2ai-fellows/) and the 2022–2023 [Frederick Jelinek Fellow](https://www.clsp.jhu.edu/about/jelinek-fellowship/). Previously, I have interned and [published][1] at Google, Duolingo, and Facebook.
 
 ## News
 
-- [March 2023] Led [panel discussion on integrating textual and non-textual data](https://cassandra.cs.jhu.edu/roundtables/mit/) at MIT.
-- [February 2023] Led [panel discussion on LLMs and the future of data](https://cassandra.cs.jhu.edu/roundtables/berkeley/) at UC Berkeley.
-- [February 2023] Gave a talk at Columbia University.
-- [January 2023] Paper accepted at EACL 2023 on large language models for low-reosurce word alignment.
-- [December 2022] Gave a talk at the Allen Institute for AI (AI2).
-- [October 2022] Paper accepted at EMNLP 2022.
-- [October 2022] Presented "Deciphering and characterizing out-of-vocabulary words in morphologically rich languages" at COLING 2022 in Korea.
-- [September 2022] Gave a talk at UC Berkeley.
-- [September 2022] Gave a talk at Stanford University.
+- **March 2023.** Led [panel discussion on integrating textual and non-textual data](https://cassandra.cs.jhu.edu/roundtables/mit/) at MIT.
+- **February 2023.** Led [panel discussion on LLMs and the future of data](https://cassandra.cs.jhu.edu/roundtables/berkeley/) at UC Berkeley.
+- **February 2023.** Gave a talk at Columbia University.
+- **January 2023.** Paper accepted at EACL 2023 on large language models for low-reosurce word alignment.
+- **December 2022.** Gave a talk at the Allen Institute for AI (AI2).
+- **October 2022.** Paper accepted at EMNLP 2022.
+- **October 2022.** Presented "Deciphering and characterizing out-of-vocabulary words in morphologically rich languages" at COLING 2022 in Korea.
+- **September 2022.** Gave a talk at UC Berkeley.
+- **September 2022.** Gave a talk at Stanford University.
 
 ## Music
 
@@ -26,7 +26,7 @@ I've played the bagpipe for over a decade. These days, it's a great way to socia
 
 ## Academic
 
-I'm a Ph.D. candidate and the Jelinek Fellow at [Johns Hopkins University](https://www.jhu.edu), designing [machine translation](https://en.wikipedia.org/wiki/Machine_translation) that uses [panlingual weak supervision](https://aclanthology.org/2020.lrec-1.352/) with [David Yarowsky](https://www.cs.jhu.edu/faculty/david-yarowsky/) in JHU's [LoReLab](https://www.cs.jhu.edu/~arya/yarowsky-lab/). 
+I'm a Ph.D. candidate at [Johns Hopkins University](https://www.jhu.edu), designing [machine translation](https://en.wikipedia.org/wiki/Machine_translation) that uses [panlingual weak supervision](https://aclanthology.org/2020.lrec-1.352/) with [David Yarowsky](https://www.cs.jhu.edu/faculty/david-yarowsky/) in JHU's [LoReLab](https://www.cs.jhu.edu/~arya/yarowsky-lab/). 
 I graduated from [SMU](https://en.wikipedia.org/wiki/Southern_Methodist_University) in 2017 with a bachelor's in mathematics and computer science and a master's in computer science. There, I worked with [David Matula](http://lyle.smu.edu/~matula/) on convex optimization, graph theory, and number theory.
 Along the way, I studied at [Stanford University](https://www.stanford.edu) and the [University of Edinburgh](https://www.ed.ac.uk).
 
