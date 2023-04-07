@@ -12,7 +12,7 @@ I am an [Amazon Fellow](https://ai2ai.engineering.jhu.edu/2022-2023-ai2ai-fellow
 
 - **March 2023.** Led [panel discussion on integrating textual and non-textual data](https://cassandra.cs.jhu.edu/roundtables/mit/) at MIT.
 - **February 2023.** Led [panel discussion on LLMs and the future of data](https://cassandra.cs.jhu.edu/roundtables/berkeley/) at UC Berkeley.
-- **February 2023.** Gave a talk at Columbia University.
+- **February 2023.** Gave [a talk at Columbia University](http://www.cs.columbia.edu/nlp/nlp_seminar.html) on translation at the scale of 1000+ languages.
 - **January 2023.** Paper accepted at EACL 2023 on large language models for low-resource word alignment: "Meeting the
 needs of low-resource languages: Automatic alignments via pretrained models."
 - **December 2022.** Gave a talk at the Allen Institute for AI (AI2).
