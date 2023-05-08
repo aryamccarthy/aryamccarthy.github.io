@@ -9,6 +9,15 @@ title: "Publications"
 [Find up-to-date info on [my Google Scholar page](https://scholar.google.com/citations?hl=en&user=erysFsoAAAAJ&view_op=list_works&sortby=pubdate)] 
 
 ## Papers
+
+{% for paper in site.data.publications %}
+  <li>
+    {{ paper.title }}<br />
+    {{ paper.authors }}
+  </li>
+{% endfor %}
+
+
 1. **Arya D. McCarthy**, Xian Li, Jiatao Gu, and Ning Dong. [*Addressing Posterior Collapse with Mutual Information for Improved Variational Neural Machine Translation*](https://aclanthology.org/2020.acl-main.753/). ACL 2020.
 1. Huiming Jin, Liwei Cai, Yihui Peng, Chen Xia, **Arya D. McCarthy**, and Katharina Kann. [Unsupervised Morphological Paradigm Completion](https://aclanthology.org/2020.acl-main.598/). ACL 2020.
 1. Adina Williams, Tiago Pimentel, Hagen Blix, **Arya D. McCarthy**, Eleanor Chodroff, and Ryan Cotterell. [*Predicting Declension Class from Form and Meaning*](https://aclanthology.org/2020.acl-main.597/). ACL 2020.
