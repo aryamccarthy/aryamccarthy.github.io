@@ -73,7 +73,22 @@
 - name: "Measuring the Similarity of Grammatical Gender Systems by Comparing Partitions"
   authors: "Arya D. McCarthy, Adina Williams, Shijia Liu, David Yarowsky, Ryan Cotterell"
   venue: "EMNLP"
-  year: 2022
+  year: 2020
   month: 11
   url: "https://aclanthology.org/2020.emnlp-main.456/"
   tldr: "We craft novel information theoretic metrics for measuring similarity between gender systems, then use these to test hypotheses about Indo-European phylogeny"
+- name: "The JHU Submission to the 2020 Duolingo Shared Task on Simultaneous Translation and Paraphrase for Language Education"
+  authors: "Huda Khayrallah, Jacob Bremerman, Arya D. McCarthy, Kenton Murray, Winston Wu, Matt Post"
+  venue: "Workshop on Neural Generation and Translation @ACL"
+  year: 2020
+  month: 7
+  url: "https://aclanthology.org/2020.ngt-1.22/"
+  tldr: "Fine-tuning strong machine translation models with in-domain data and filtering n-best lists yields top performance in the shared task."
+  note: "First place system"
+- name: "The SIGMORPHON 2020 Shared Task on Multilingual Grapheme-to-Phoneme Conversion"
+  authors: "Kyle Gorman, Lucas F. E. Ashby, Aaron Goyzueta, Arya D. McCarthy, Shijie Wu, Daniel You"
+  venue: "SIGMORPHON"
+  year: 2020
+  month: 7
+  url: "https://aclanthology.org/2020.sigmorphon-1.2/"
+  tldr: "Design and findings of the SIGMORPHON 2020 shared task on multilingual grapheme-to-phoneme conversion"
