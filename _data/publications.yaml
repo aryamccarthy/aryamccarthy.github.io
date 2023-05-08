@@ -49,6 +49,20 @@
   year: 2022
   month: 11
   tldr: "A multi-faceted distributional analysis of the underlying word-formation processes that can aid in OOV words' compositional translation, tag- ging, parsing, language modeling, and other NLP tasks."
+- name: "Hong Kong: Longitudinal and Synchronic Characterisations of Protest News between 1998 and 2020"
+  authors: "Arya D. McCarthy, G. Dore"
+  url: "https://www.aclanthology.org/2022.lrec-1.310/"
+  venue: "LREC"
+  month: 6
+  year: 2022
+  tldr: "Construction of a useful and timely corpus: the Hong Kong Protest News Dataset, along with investigation of patterns of journalistic practice"
+- name: "UniMorph 4.0: Universal Morphology"
+  authors: "Khuyagbaatar Batsuren, Omer Goldman, and 92 others including Arya D. McCarthy"
+  url: "https://www.aclanthology.org/2022.lrec-1.89/"
+  venue: "LREC"
+  year: 2022
+  month: 6
+  tldr: "A push towards inclusion of derivational morphology in UniMorph"
 - name: "Learning to play with the machines in social science research: Bringing the theory back in."
   authors: "Giovanna Maria Dora Dore*, Arya D. McCarthy*"
   venue: "ICML Workshop on Human–Machine Collaboration and Teaming (HMCaT)"
