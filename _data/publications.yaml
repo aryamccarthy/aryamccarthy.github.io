@@ -1,11 +1,11 @@
-- name: "Theory-grounded computational text analysis"
+- name: "Theory-Grounded Computational Text Analysis"
   authors: "Arya D. McCarthy and Giovanna Maria Dora Dore"
   venue: "ACL"
   year: 2023
   month: 7
   tldr: "A framework for integrative research in text analysis by connecting findings to social science theories"
   note: "To appear"
-- name: "Meeting the needs of low-resource languages: The value of automatic alignments via pretrained models"
+- name: "Meeting the Needs of Low-Resource Languages: The Value of Automatic Alignments via Pretrained Models"
   authors: "Abteen Ebrahimi, Arya D. McCarthy, Arturo Oncevay, John Ortega, Luis Chiruzzo, Rolando Coto-Solano, Gustavo A. Giménez-Lugo and Katharina Kann"
   url: "https://aclanthology.org/2023.eacl-main.280/"
   tldr: "Large language models extract useful representations for alignment, annotation projection, and downstream tasks like POS tagging and NER."
