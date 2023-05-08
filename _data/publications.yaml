@@ -43,14 +43,14 @@
   note: "Spotlight"
   tldr: "Energy-based sequence models backed by expressive parametric families can result in uncomputable and inapproximable partition functions. Statistical procedures with asymptotic guarantees and sheer amounts of compute are not the only things that make sequence modeling work."
 - name: "Deciphering and Characterizing Out-of-Vocabulary Words for Morphologically Rich Languages"
-  author: "G. Botev, Arya D. McCarthy, Winston Wu, David Yarowsky"
+  authors: "G. Botev, Arya D. McCarthy, Winston Wu, David Yarowsky"
   url: "https://aclanthology.org/2022.coling-1.472/"
   venue: "COLING"
   year: 2022
   month: 11
   tldr: "A multi-faceted distributional analysis of the underlying word-formation processes that can aid in OOV words' compositional translation, tag- ging, parsing, language modeling, and other NLP tasks."
 - name: "Learning to play with the machines in social science research: Bringing the theory back in."
-  author: "Giovanna Maria Dora Dore*, Arya D. McCarthy*"
+  authors: "Giovanna Maria Dora Dore*, Arya D. McCarthy*"
   venue: "ICML Workshop on Human–Machine Collaboration and Teaming (HMCaT)"
   year: 2022
   month: 6
