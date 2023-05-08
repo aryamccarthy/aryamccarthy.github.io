@@ -15,9 +15,7 @@ title: "Publications"
   <li>
   <strong>{% if paper.url %}<a href="{{ paper.url }}">{% endif %}{{ paper.name }}{% if paper.url %}</a>{% endif %}</strong>
   <br>
-    <small>{{ paper.authors }}.</small>
-  <br>
-    <small>{{ paper.venue }} {{ paper.year }}.</small>
+    <small>{{ paper.authors }}. {{ paper.venue }} {{ paper.year }}.</small>
   {% if paper.tldr %}<br><small><strong>TLDR:</strong> {{ paper.tldr }}</small>{% endif %}
     {% if paper.note %}<br><small><strong>Note:</strong> {{ paper.note }}</small>{% endif %}
   </li>
