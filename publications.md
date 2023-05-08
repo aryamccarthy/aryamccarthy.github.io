@@ -10,12 +10,18 @@ title: "Publications"
 
 ## Papers
 
+<ol>
 {% for paper in site.data.publications %}
   <li>
-  {% if paper.url %}<a href="{{ paper.url }}">{% endif %}{{ paper.name }}{% if paper.url %}</a>{% endif %}<br />{{ paper.authors }}
+  {% if paper.url %}<a href="{{ paper.url }}">{% endif %}{{ paper.name }}{% if paper.url %}</a>{% endif %}.
+  <br>
+  {{ paper.authors }}.
+  <br>
+  {{ paper.venue }} {{ paper.year }}.
+  {% if paper.tldr %}<br><strong>TLDR:</strong> {{ paper.tldr }}{% endif %}
   </li>
 {% endfor %}
-
+</ol>
 
 1. **Arya D. McCarthy**, Xian Li, Jiatao Gu, and Ning Dong. [*Addressing Posterior Collapse with Mutual Information for Improved Variational Neural Machine Translation*](https://aclanthology.org/2020.acl-main.753/). ACL 2020.
 1. Huiming Jin, Liwei Cai, Yihui Peng, Chen Xia, **Arya D. McCarthy**, and Katharina Kann. [Unsupervised Morphological Paradigm Completion](https://aclanthology.org/2020.acl-main.598/). ACL 2020.
