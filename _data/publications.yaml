@@ -69,7 +69,7 @@
   year: 2020
   month: 12
   url: "https://aclanthology.org/2020.coling-main.387/"
-  tldr: "A probabilistic approach to synthesize new word forms, allowing it to operate in settings where correct translations have not been observed in text"
+  tldr: "We design a probabilistic approach to synthesize new word forms, allowing it to operate in settings where correct translations have not been observed in text"
 - name: "Measuring the Similarity of Grammatical Gender Systems by Comparing Partitions"
   authors: "Arya D. McCarthy, Adina Williams, Shijia Liu, David Yarowsky, Ryan Cotterell"
   venue: "EMNLP"
@@ -92,3 +92,25 @@
   month: 7
   url: "https://aclanthology.org/2020.sigmorphon-1.2/"
   tldr: "Design and findings of the SIGMORPHON 2020 shared task on multilingual grapheme-to-phoneme conversion"
+- name: "Addressing Posterior Collapse with Mutual Information for Improved Variational Neural Machine Translation"
+  authors: "Arya D. McCarthy, Xian Li, Jiatao Gu, Ning Dong"
+  venue: "EMNLP"
+  year: 2020
+  month: 7
+  url: "https://aclanthology.org/2020.acl-main.753/"
+  tldr: "A simple and effective approach to address posterior collapse in conditional variational autoencoders (CVAEs). Yields improved translation with noisy or monolingual data."
+- name: "The SIGMORPHON 2020 Shared Task on Unsupervised Morphological Paradigm Completion"
+  authors: "Katharina Kann*, Arya D. McCarthy*, Garrett Nicolai, Mans Hulden"
+  venue: "SIGMORPHON"
+  year: 2020
+  month: 5
+  url: "https://aclanthology.org/2020.sigmorphon-1.3/"
+  tldr: "A novel task in the field of inflectional morphology, where none of the submitted systems was able to improve over the baseline on average over all 9 test languages"
+- name: "Unsupervised Morphological Paradigm Completion"
+  authors: "Huiming Jin, Liwei Cai, Yihui Peng, Chen Xia, Arya D. McCarthy, Katharina Kann"
+  venue: "ACL"
+  year: 2020
+  month: 5
+  url: "https://www.aclweb.org/anthology/2020.acl-main.598/"
+  tldr: "Discovery of morphological paradigms from raw text, with the potential to improve tools for low-resource languages or to assist linguistic annotators"
+  
