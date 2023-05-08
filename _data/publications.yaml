@@ -6,9 +6,23 @@
 - name: "Meeting the needs of low-resource languages: The value of automatic alignments via pretrained models"
   authors: "Abteen Ebrahimi, Arya D. McCarthy, Arturo Oncevay, John Ortega, Luis Chiruzzo, Rolando Coto-Solano, Gustavo A. Giménez-Lugo and Katharina Kann"
   url: "https://aclanthology.org/2023.eacl-main.280/"
-  tldr: "Although large language models are deficient for directly translating low-resource languages, they extract useful representations for alignment, annotation projection, and downstream tasks like POS tagging and NER."
+  tldr: "Large language models extract useful representations for alignment, annotation projection, and downstream tasks like POS tagging and NER."
   venue: "EACL"
   year: 2023
   month: 5
   arxiv: "https://arxiv.org/abs/2302.07912"
+- name: "A Major Obstacle for NLP Research: Let’s Talk about Time Allocation!"
+  authors: "Katharina Kann, Shiran Dudy, Arya D. McCarthy"
+  url: "https://aclanthology.org/2022.emnlp-main.612/"
+  tldr: "In recent years, subpar time allocation by the field has been a major obstacle for NLP research. We propose remedies to improve the status quo."
+  venue: "EMNLP"
+  year: 2022
+  month: 12
+- name: "Morphological Processing of Low-Resource Languages: Where We Are and What’s Next"
+  authors: "Adam Wiemerslage, Miikka Silfverberg, Changbing Yang, Arya D. McCarthy, Garrett Nicolai, Eliana Colunga, Katharina Kann"
+  url: "https://aclanthology.org/2022.findings-acl.80/"
+  venue: "Findings of ACL"
+  year: 2022
+  month: 5
+  tldr: "We learn a language's morphology from raw text alone, without even external word lists."
   
