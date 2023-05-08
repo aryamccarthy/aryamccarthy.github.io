@@ -70,6 +70,13 @@
   month: 6
   url: "https://sites.google.com/view/icml-2022-hmcat/accepted-papers?pli=1"
   tldr: "Computational and social science can benefit from greater interaction, considering the questions of big data versus theory, prediction versus explanation, and praxis versus substance."
+- name: "Findings of the SIGMORPHON 2021 Shared Task on Unsupervised Morphological Paradigm Clustering"
+  authors: "Adam Wiemerslage, Arya D. McCarthy, Alexander Erdmann, Garrett Nicolai, Manex Agirrezabal, Miikka Silfverberg, Mans Hulden, Katharina Kann"
+  url: "https://www.aclanthology.org/2021.sigmorphon-1.8/"
+  venue: "SIGMORPHON"
+  year: 2021
+  month: 8
+  tldr: "The goal of the shared task is to cluster word types from a raw text corpus into paradigms, and the best performing system is based on adaptor grammars"
 - name: "Jump-Starting Item Parameters for Adaptive Language Tests"
   authors: "Arya D. McCarthy, K. Yancey, Geoffrey T. LaFlair, Jesse Egbert, Manqian Liao, Burr Settles"
   venue: "EMNLP"
