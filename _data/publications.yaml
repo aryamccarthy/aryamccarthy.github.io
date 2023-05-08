@@ -1,0 +1,14 @@
+- name: "Theory-grounded computational text analysis"
+  authors: "Arya D. McCarthy and Giovanna Maria Dora Dore"
+  venue: "ACL"
+  year: 2023
+  month: 7
+- name: "Meeting the needs of low-resource languages: The value of automatic alignments via pretrained models"
+  authors: "Abteen Ebrahimi, Arya D. McCarthy, Arturo Oncevay, John Ortega, Luis Chiruzzo, Rolando Coto-Solano, Gustavo A. Giménez-Lugo and Katharina Kann"
+  url: "https://aclanthology.org/2023.eacl-main.280/"
+  tldr: "Although large language models are deficient for directly translating low-resource languages, they extract useful representations for alignment, annotation projection, and downstream tasks like POS tagging and NER."
+  venue: "EACL"
+  year: 2023
+  month: 5
+  arxiv: "https://arxiv.org/abs/2302.07912"
+  
