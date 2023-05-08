@@ -19,6 +19,7 @@ title: "Publications"
   <br>
   {{ paper.venue }} {{ paper.year }}.
   {% if paper.tldr %}<small><br><strong>TLDR:</strong> {{ paper.tldr }}</small>{% endif %}
+    {% if paper.note %}<br><strong>{{ paper.note }}</strong>{% endif %}
   </li>
 {% endfor %}
 </ol>
