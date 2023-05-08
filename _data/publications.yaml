@@ -27,4 +27,25 @@
   year: 2022
   month: 5
   tldr: "We learn a language's morphology from raw text alone, without even external word lists."
-  
+- name: "Pre-Trained Multilingual Sequence-to-Sequence Models: A Hope for Low-Resource Language Translation?"
+  authors: "E. Lee, Sarubi Thillainathan, Shravan Nayak, Surangika Ranathunga, David Ifeoluwa Adelani, Ruisi Su, Arya D. McCarthy"
+  url: "https://aclanthology.org/2022.findings-acl.6/"
+  venue: "Findings of ACL"
+  year: 2022
+  month: 5
+  tldr: "Considering five dimensions of training data and domain, we show that mBART and mT5 cannot learn to translate languages phylogenically unrelated to their pre-training languages."
+- name: "On the Uncomputability of Partition Functions in Energy-Based Sequence Models"
+  authors: "Chu-Cheng Lin, Arya D. McCarthy"
+  url: "https://openreview.net/forum?id=SsPCtEY6yCl"
+  venue: "ICLR"
+  year: 2022
+  month: 4
+  note: "Spotlight"
+  tldr: "Energy-based sequence models backed by expressive parametric families can result in uncomputable and inapproximable partition functions. Statistical procedures with asymptotic guarantees and sheer amounts of compute are not the only things that make sequence modeling work."
+- name: "Deciphering and Characterizing Out-of-Vocabulary Words for Morphologically Rich Languages"
+  author: "G. Botev, Arya D. McCarthy, Winston Wu, David Yarowsky"
+  url: "https://aclanthology.org/2022.coling-1.472/"
+  venue: "COLING"
+  year: 2022
+  month: 11
+  tldr: "A multi-faceted distributional analysis of the underlying word-formation processes that can aid in OOV words' compositional translation, tag- ging, parsing, language modeling, and other NLP tasks."
