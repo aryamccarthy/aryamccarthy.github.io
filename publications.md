@@ -4,8 +4,6 @@ title: "Publications"
 ---
 
 
-[last updated 2020-08-11] 
-
 [Find up-to-date info on [my Google Scholar page](https://scholar.google.com/citations?hl=en&user=erysFsoAAAAJ&view_op=list_works&sortby=pubdate)] 
 
 ## Papers
