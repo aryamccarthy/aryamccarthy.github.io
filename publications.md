@@ -13,12 +13,12 @@ title: "Publications"
 <ol>
 {% for paper in site.data.publications %}
   <li>
-  {% if paper.url %}<a href="{{ paper.url }}">{% endif %}{{ paper.name }}{% if paper.url %}</a>{% endif %}.
+  <strong>{% if paper.url %}<a href="{{ paper.url }}">{% endif %}{{ paper.name }}{% if paper.url %}</a>{% endif %}</strong>
   <br>
   {{ paper.authors }}.
   <br>
   {{ paper.venue }} {{ paper.year }}.
-  {% if paper.tldr %}<br><strong>TLDR:</strong> {{ paper.tldr }}{% endif %}
+  {% if paper.tldr %}<small><br><strong>TLDR:</strong> {{ paper.tldr }}</small>{% endif %}
   </li>
 {% endfor %}
 </ol>
