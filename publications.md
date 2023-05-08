@@ -12,8 +12,7 @@ title: "Publications"
 
 {% for paper in site.data.publications %}
   <li>
-    {{ paper.title }}<br />
-    {{ paper.authors }}
+    {{ paper.name }}<br />{{ paper.authors }}
   </li>
 {% endfor %}
 
