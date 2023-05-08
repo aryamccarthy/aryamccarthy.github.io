@@ -12,7 +12,7 @@ title: "Publications"
 
 {% for paper in site.data.publications %}
   <li>
-    {{ paper.name }}<br />{{ paper.authors }}
+  {% if paper.url %}<a href="{{ paper.url }}">{% endif %}{{ paper.name }}{% if paper.url %}</a>{% endif %}<br />{{ paper.authors }}
   </li>
 {% endfor %}
 
