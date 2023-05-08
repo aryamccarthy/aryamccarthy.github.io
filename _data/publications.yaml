@@ -49,3 +49,31 @@
   year: 2022
   month: 11
   tldr: "A multi-faceted distributional analysis of the underlying word-formation processes that can aid in OOV words' compositional translation, tag- ging, parsing, language modeling, and other NLP tasks."
+- name: "Learning to play with the machines in social science research: Bringing the theory back in."
+  author: "Giovanna Maria Dora Dore*, Arya D. McCarthy*"
+  venue: "ICML Workshop on Human–Machine Collaboration and Teaming (HMCaT)"
+  year: 2022
+  month: 6
+  url: "https://sites.google.com/view/icml-2022-hmcat/accepted-papers?pli=1"
+  tldr: "Computational and social science can benefit from greater interaction, considering the questions of big data versus theory, prediction versus explanation, and praxis versus substance."
+- name: "Jump-Starting Item Parameters for Adaptive Language Tests"
+  authors: "Arya D. McCarthy, K. Yancey, Geoffrey T. LaFlair, Jesse Egbert, Manqian Liao, Burr Settles"
+  venue: "EMNLP"
+  year: 2021
+  month: 11
+  url: "https://aclanthology.org/2021.emnlp-main.67/"
+  tldr: "A multi-task generalized linear model with BERT features enables new item difficulty estimates without piloting them first, which in turn limits item exposure and thus enhances test item security."
+- name: "Neural Transduction for Multilingual Lexical Translation"
+  authors: "D. Lewis, Winston Wu, Arya D. McCarthy, David Yarowsky"
+  venue: "COLING"
+  year: 2020
+  month: 12
+  url: "https://aclanthology.org/2020.coling-main.387/"
+  tldr: "A probabilistic approach to synthesize new word forms, allowing it to operate in settings where correct translations have not been observed in text"
+- name: "Measuring the Similarity of Grammatical Gender Systems by Comparing Partitions"
+  authors: "Arya D. McCarthy, Adina Williams, Shijia Liu, David Yarowsky, Ryan Cotterell"
+  venue: "EMNLP"
+  year: 2022
+  month: 11
+  url: "https://aclanthology.org/2020.emnlp-main.456/"
+  tldr: "We craft novel information theoretic metrics for measuring similarity between gender systems, then use these to test hypotheses about Indo-European phylogeny"
