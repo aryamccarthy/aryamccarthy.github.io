@@ -42,6 +42,9 @@ title: "Publications"
 1. Ryan Cotterell, Christo Kirov, John Sylak-Glassman, Géraldine Walther, Ekaterina Vylomova, **Arya D. McCarthy**, Katharina Kann, Sebastian Mielke, Garrett Nicolai, Miikka Silfverberg, David Yarowsky, Jason Eisner, and Mans Hulden. [*The CoNLL–SIGMORPHON 2018 Shared Task: Universal Morphological Reinflection*](https://aclweb.org/anthology/K18-3001). CoNLL 2018.
 1. Christo Kirov, Ryan Cotterell, John Sylak-Glassman, Géraldine Walther, Ekaterina Vylomova, Patrick Xia, Manaal Faruqui, **Arya D. McCarthy**, Sandra Kübler, David Yarowsky, Jason Eisner, and Mans Hulden. [*UniMorph 2.0: Universal morphology*](https://www.aclweb.org/anthology/L18-1293). Proceedings of [LREC 2018](http://lrec2018.lrec-conf.org/en/).
 
+## Books
+{:start="22"}
+1. Giovanna Maria Dora Dore, **Arya D. McCarthy**, and James A. Scharf. [*A Free Press, If You Can Keep It: What Natural Language Processing Reveals About Freedom of the Press in Hong Kong*](https://link.springer.com/book/9783031275852). Springer 2022.
 
 ## Preprints
 
