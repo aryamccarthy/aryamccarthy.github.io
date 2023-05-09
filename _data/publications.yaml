@@ -5,6 +5,12 @@
   month: 7
   tldr: "A framework for integrative research in text analysis by connecting findings to social science theories"
   note: "To appear"
+- name: "The SIGMORPHON 2022 Shared Task on Cross-Lingual and Low-Resource Grapheme-to-Phoneme Conversion"
+  authors: "Arya D. McCarthy, Jackson L. Lee, Alexandra DeLucia, Travis Bartley, Milind Agarwal, Lucas F.E. Ashby, Luca Del Signore, Cameron Gibson, Reuben Raff, and Winston Wu."
+  venue: "SIGMORPHON"
+  year: 2022
+  tldr: "Transfer learning of grapheme-to-phoneme conversion in truly low-resource settings"
+  note: "To appear"
 - name: "Meeting the Needs of Low-Resource Languages: The Value of Automatic Alignments via Pretrained Models"
   authors: "Abteen Ebrahimi, Arya D. McCarthy, Arturo Oncevay, John Ortega, Luis Chiruzzo, Rolando Coto-Solano, Gustavo A. Giménez-Lugo and Katharina Kann"
   url: "https://aclanthology.org/2023.eacl-main.280/"
@@ -134,4 +140,54 @@
   month: 5
   url: "https://www.aclweb.org/anthology/2020.acl-main.598/"
   tldr: "Discovery of morphological paradigms from raw text, with the potential to improve tools for low-resource languages or to assist linguistic annotators"
+- name: "Predicting Declension Class from Form and Meaning"
+  authors: "Adina Williams, Tiago Pimentel, Arya D. McCarthy, Hagen Blix, Eleanor Chodroff, Ryan Cotterell"
+  venue: "ACL"
+  year: 2020
+  month: 5
+  url: "https://www.aclweb.org/anthology/2020.acl-main.597/"
+  tldr: "An information-theoretic method supporting the finding that form and meaning are relevant to grouping nouns into declension classes, with variation across languages"
+- name: "SkinAugment: Auto-Encoding Speaker Conversions for Automatic Speech Translation"
+  authors: "Arya D. McCarthy, Liezl Puzon, J. Pino"
+  venue: "ICASSP"
+  year: 2020
+  month: 2
+  url: "https://ieeexplore.ieee.org/document/"
+  tldr: "Autoencoding speaker conversion is combined with augmentation by machine-translated transcripts to obtain a competitive end-to-end AST model that outperforms a very strong cascade model"
+- name: "Fine-grained Morphosyntactic Analysis and Generation Tools for More Than One Thousand Languages"
+  authors: "Garrett Nicolai, D. Lewis, Arya D. McCarthy, Aaron Mueller, Winston Wu, David Yarowsky"
+  venue: "LREC"
+  year: 2020
+  month: 5
+  url: "https://www.aclweb.org/anthology/2020.lrec-1.488/"
+  tldr: "Kilolanguage generation, lemmatization, and fine-grained tagging, supplemented and improved through ensembling and dictionary-based reranking, for 1000+ languages"
+- name: "The Johns Hopkins University Bible Corpus: 1600+ Tongues for Typological Exploration"
+  authors: "Arya D. McCarthy, R. Wicks, D. Lewis, Aaron Mueller, Winston Wu, Oliver Adams, Garrett Nicolai, Matt Post, David Yarowsky"
+  venue: "LREC"
+  year: 2020
+  month: 5
+  url: "https://www.aclweb.org/anthology/2020.lrec-1.352/"
+  tldr: "Findings from the creation of a massively parallel corpus in over 1600 languages, the Johns Hopkins University Bible Corpus (JHUBC)"
+- name: "An Analysis of Massively Multilingual Neural Machine Translation for Low-Resource Languages"
+  authors: "Aaron Mueller, Garrett Nicolai, Arya D. McCarthy, D. Lewis, Winston Wu, David Yarowsky"
+  venue: "LREC"
+  year: 2020
+  month: 5
+  url: "https://www.aclweb.org/anthology/2020.lrec-1.458.pdf"
+  tldr: "Adding more languages to a training set is often better, but too many harms performance—the best number depends on the source language"
+- name: "Massively Multilingual Pronunciation Modeling with WikiPron"
+  authors: "Jackson L. Lee, Lucas F. E. Ashby, M. E. Garza, Yeonju Lee-Sikka, Sean Miller, A. Wong, Arya D. McCarthy, Kyle Gorman"
+  venue: "LREC"
+  year: 2020
+  month: 5
+  url: "https://www.aclweb.org/anthology/2020.lrec-1.521/"
+  tldr: "We introduce WikiPron, an open-source command-line tool for extracting pronunciation data from Wiktionary, a collaborative multilingual online dictionary."
+- name: "UniMorph 3.0: Universal Morphology"
+  authors: "Arya D. McCarthy, Christo Kirov, Matteo Grella, Amrit Nidhi, Patrick Xia, Kyle Gorman, Ekaterina Vylomova, Sabrina J. Mielke, Garrett Nicolai, Miikka Silfverberg, 11 others, and David Yarowsky"
+  venue: "LREC"
+  year: 2020
+  month: 5
+  url: "https://aclanthology.org/2020.lrec-1.483/"
+  tldr: "More than 2x the number of languages, as well a snew parts of speech and validation tools, in the latest UniMorph morphological inventory release"
+
   
