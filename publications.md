@@ -10,7 +10,7 @@ title: "Publications"
 
 <ol>
 {% for paper in site.data.publications %}
-  <li>
+  <li style="padding-bottom: 0.5em;">
   <strong>{% if paper.url %}<a href="{{ paper.url }}">{% endif %}{{ paper.name }}{% if paper.url %}</a>{% endif %}</strong>
   <br>
     <small><i>{{ paper.authors }}. {{ paper.venue }} {{ paper.year }}.</i></small>
