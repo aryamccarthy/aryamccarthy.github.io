@@ -203,5 +203,82 @@
   month: 5
   url: "https://aclanthology.org/2020.lrec-1.483/"
   tldr: "More than 2x the number of languages, as well a snew parts of speech and validation tools, in the latest UniMorph morphological inventory release."
-
-  
+- name: "An Exact No Free Lunch Theorem for Community Detection"
+  authors: "Arya D. McCarthy, Tongfei Chen, Seth Ebner"
+  venue: "Complex Networks"
+  year: 2019
+  month: 12
+  url: "https://link.springer.com/chapter/10.1007/978-3-030-36687-2_15"
+  arxiv: "https://arxiv.org/abs/1903.10092"
+  tldr: "By using the correct random model for the problem domain, this work provides a stronger, exact No Free Lunch theorem for community detection and generalizes to other set-partitioning tasks including core/periphery separation, k-clustering, and graph partitioning."
+- name: "Metrics Matter in Community Detection"
+  authors: "Arya D. McCarthy, Tongfei Chen, Rachel Rudinger, D. Matula"
+  venue: "Complex Networks"
+  year: 2019
+  month: 12
+  url: "https://link.springer.com/chapter/10.1007/978-3-030-36687-2_14"
+  arxiv: "https://arxiv.org/abs/1901.01354"
+  tldr: "A critical evaluation of normalized mutual information (NMI) as an evaluation metric for community detection is presented, and one-sided AMI under the 𝕄ₐₗₗ model (all partitions of 𝑛 nodes) is advised."
+- name: "Modeling Color Terminology Across Thousands of Languages"
+  authors: "Arya D. McCarthy, Winston Wu, Aaron Mueller, Bill Watson, David Yarowsky"
+  venue: "EMNLP"
+  year: 2019
+  month: 11
+  url: "https://aclanthology.org/D19-1229/"
+  tldr: "This paper employs a set of diverse measures on massively cross-linguistic data to operationalize and critique the Berlin and Kay color term hypotheses, showing the value of learning from weak supervision."
+- name: "Weird Inflects but OK: Making Sense of Morphological Generation Errors"
+  authors: "Kyle Gorman, Arya D. McCarthy, Ryan Cotterell, Ekaterina Vylomova, Miikka Silfverberg, M. Markowska"
+  venue: "CoNLL"
+  year: 2019
+  month: 11
+  url: "https://www.aclweb.org/anthology/K19-1014/"
+  tldr: "A manual error analysis of the CoNLL-SIGMORPHON Shared Task on Morphological Reinflection and proposes an error taxonomy, which is used to annotate errors made by the top two systems across twelve languages."
+- name: "Harnessing Indirect Training Data for End-to-End Automatic Speech Translation: Tricks of the Trade"
+  authors: "J. Pino, Liezl Puzon, Jiatao Gu, Xutai Ma, Arya D. McCarthy, D. Gopinath"
+  venue: "IWSLT"
+  year: 2019
+  month: 11
+  url: "https://aclanthology.org/2019.iwslt-1.18/"
+  tldr: "A variety of approaches like data augmentation by translating ASR transcripts proves most effective on the English–French augmented LibriSpeech dataset, closing the performance gap from 8.2 to 1.4 BLEU, compared to a very strong cascade that could directly utilize copious ASR and MT data."
+- name: "Meaning to Form: Measuring Systematicity as Information"
+  authors: "Tiago Pimentel, Arya D. McCarthy, Damián E. Blasi, Brian Roark, Ryan Cotterell"
+  venue: "ACL"
+  year: 2019
+  month: 6
+  url: "https://www.aclweb.org/anthology/P19-1171/"
+  tldr: "A holistic quantification of the systematicity of the sign using mutual information and recurrent neural networks."
+  note: "Best paper nominee."
+- name: "The SIGMORPHON 2019 Shared Task: Morphological Analysis in Context and Cross-Lingual Transfer for Inflection"
+  authors: "Arya D. McCarthy, Ekaterina Vylomova, Shijie Wu, Chaitanya Malaviya, Lawrence Wolf-Sonkin, Garrett Nicolai, Christo Kirov, Miikka Silfverberg, Sabrina J. Mielke, Jeffrey Heinz, Ryan Cotterell, Mans Hulden"
+  venue: "SIGMORPHON"
+  year: 2019
+  month: 6
+  url: "https://www.aclweb.org/anthology/W19-4226/"
+  tldr: "Cross-lingual transfer and contextual analysis in morphology examined transfer learning of inflection between 100 language pairs, as well as contextual lemmatization and morphosyntactic description in 66 languages."
+- name: "Marrying Universal Dependencies and Universal Morphology"
+  authors: "Arya D. McCarthy, Miikka Silfverberg, Ryan Cotterell, Mans Hulden, David Yarowsky"
+  venue: "UDW @EMNLP"
+  year: 2018
+  month: 10
+  url: "https://www.aclweb.org/anthology/W18-6011/"
+  tldr: "A deterministic mapping from Universal Dependencies v2 features into the UniMorph schema is presented to ease interoperability and a critical evaluation of the foundations, strengths, and weaknesses of the two annotation projects is presented."
+- name: "Freezing Subnetworks to Analyze Domain Adaptation in Neural Machine Translation"
+  authors: "Brian Thompson, Huda Khayrallah, Antonios Anastasopoulos, Arya D. McCarthy, Kevin Duh, Rebecca Marvin, Paul McNamee, Jeremy Gwinnup, Tim Anderson, Philipp Koehn"
+  venue: "WMT"
+  year: 2018
+  month: 9
+  url: "https://www.aclweb.org/anthology/W18-6313/"
+  tldr: "A precursor to modern parameter-efficient finetuning approaches: performance is surprisingly good when a single component is adapted while holding the rest of the model fixed."
+- name: "The CoNLL–SIGMORPHON 2018 Shared Task: Universal Morphological Reinflection"
+  authors: "Ryan Cotterell, Christo Kirov, John Sylak-Glassman, Géraldine Walther, Ekaterina Vylomova, Arya D. McCarthy, Katharina Kann, Sabrina J. Mielke, Garrett Nicolai, Miikka Silfverberg, David Yarowsky, Jason Eisner, Mans Hulden"
+  venue: "CoNLL"
+  year: 2018
+  month: 10
+  url: "https://www.aclweb.org/anthology/K18-3001/"
+  tldr: "Morphological generation in 103 languages and inflecting words in sentential context, similar to a cloze task."
+- name: "UniMorph 2.0: Universal Morphology"
+  authors: "Christo Kirov, Ryan Cotterell, John Sylak-Glassman, Géraldine Walther, Ekaterina Vylomova, Patrick Xia, Manaal Faruqui, Sabrina J. Mielke, Arya D. McCarthy, Sandra Kübler, David Yarowsky, Jason Eisner, Mans Hulden"
+  venue: "LREC"
+  month: 10
+  url: "https://www.aclweb.org/anthology/L18-1293/"
+  tldr: "A projcet hosted at the Johns Hopkins University. Advances made to the schema, tooling, and dissemination of project resources since the UniMorph 1.0 release described at LREC 2016 are detailed."
