@@ -9,7 +9,7 @@
   authors: "Arya D. McCarthy, Jackson L. Lee, Alexandra DeLucia, Travis Bartley, Milind Agarwal, Lucas F.E. Ashby, Luca Del Signore, Cameron Gibson, Reuben Raff, and Winston Wu."
   venue: "SIGMORPHON"
   year: 2022
-  tldr: "Transfer learning of grapheme-to-phoneme conversion in truly low-resource settings"
+  tldr: "Transfer learning of grapheme-to-phoneme conversion in truly low-resource settings."
   note: "To appear."
 - name: "Meeting the Needs of Low-Resource Languages: The Value of Automatic Alignments via Pretrained Models"
   authors: "Abteen Ebrahimi, Arya D. McCarthy, Arturo Oncevay, John Ortega, Luis Chiruzzo, Rolando Coto-Solano, Gustavo A. Giménez-Lugo and Katharina Kann"
