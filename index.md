@@ -37,7 +37,7 @@ Along the way, I studied at [Stanford University](https://www.stanford.edu) and 
 * [Addressing posterior collapse with mutual information for improved variational neural machine translation](http://dx.doi.org/10.18653/v1/2020.acl-main.753) with Xian Li, Jiatao Gu, and Ning Dong. ACL 2020.
 * [Modeling color terminology across thousands of languages](http://dx.doi.org/10.18653/v1/D19-1229) with Winston Wu, Aaron Mueller, William Watson, and David Yarowsky. EMNLP 2019.
 
-[See all 40 publications...](publications)
+[See all {{ site.data.publications | size }} publications...](publications)
 
 ## Beauty
 
