@@ -6,7 +6,7 @@ title: About
 
 Hi! I'm Arya McCarthy. I am a computer scientist, musician, cyclist, runner, and world politics aficionado. Expatriated from Texas, I've had the good fortune to wander before making the DC area my home. A constant drive for me is to make the communities we're a part of healthier, effective, and welcoming. I'm convinced that the impossible, the improbable, and the inevitable are separated by your grit, and I hope to bridge [the new digital divide](https://hilltopicssmu.wordpress.com/2017/04/08/the-new-digital-divide-language-is-the-impediment-to-information-access/) through understanding humans and their languages.
 
-I am an [Amazon Fellow](https://ai2ai.engineering.jhu.edu/2022-2023-ai2ai-fellows/) and the 2022–2023 [Frederick Jelinek Fellow](https://www.clsp.jhu.edu/about/jelinek-fellowship/). Previously, I have interned and [published][1] at Google, Duolingo, and Facebook.
+I am an [Amazon Fellow](https://ai2ai.engineering.jhu.edu/2022-2023-ai2ai-fellows/) and the 2022–2023 [Frederick Jelinek Fellow](https://www.clsp.jhu.edu/about/jelinek-fellowship/). Previously, I have interned and published at Google, Duolingo, and Facebook. I invite you to explore my [publications](publications) (i.e., 40 research papers and a book).
 
 ## News
 
