@@ -68,7 +68,7 @@
   venue: "LREC"
   year: 2022
   month: 6
-  tldr: "A push towards inclusion of derivational morphology in UniMorph"
+  tldr: "A push towards inclusion of derivational morphology in UniMorph, expanding on UniMorph 3.0 (McCarthy et al., 2020)."
 - name: "Learning to play with the machines in social science research: Bringing the theory back in."
   authors: "Giovanna Maria Dora Dore*, Arya D. McCarthy*"
   venue: "ICML Workshop on Human–Machine Collaboration and Teaming (HMCaT)"
