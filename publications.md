@@ -15,7 +15,7 @@ title: "Publications"
   <br>
     <small><i>{{ paper.authors }}. {{ paper.venue }} {{ paper.year }}.</i></small>
   {% if paper.tldr %}<br><small><strong>TLDR:</strong> {{ paper.tldr }}</small>{% endif %}
-    {% if paper.note %}<br><small><span style="color: rgb(165, 28, 48);">{{ paper.note }}</span></small>{% endif %}
+    {% if paper.note %} <small><span style="color: rgb(165, 28, 48);">{{ paper.note }}</span></small>{% endif %}
   </li>
 {% endfor %}
 </ol>
