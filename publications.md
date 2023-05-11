@@ -43,7 +43,6 @@ Jump to...
 
 {:start="45"}
 1. David Yarowsky, **Arya D. McCarthy**, Garrett Nicolai, Winston Wu, Aaron Mueller, Dylan Lewis, Yingqi Ding, Abhinav Nigam, Emre Ozgu, Debanik Purkayastha, James Scharf and Kenneth Zheng. *[A 1000-language Collaborative Universal Dictionary and Universal Translator](https://en.unesco.org/sites/default/files/lt4all_programme_day2and3.pdf)*. UNESCO Language Technologies for All (LT4All) 2019.
-
 1. Xian Li, Jiatao Gu, Ning Dong, and **Arya D. McCarthy**. Improved variational neural machine translation via promoting mutual information. EMNLP Workshop on Neural Generation and Translation 2019.
 1. Xian Li, Jiatao Gu, **Arya D. McCarthy**, and Ning Dong. Improving variational NMT by promoting mutual information. West Coast NLP Summit (WeCNLP) 2019.
 1. **Arya D. McCarthy**. *Community Detection, The No Free Lunch Theorem, and Attack Games*. SIAM Workshop on Network Science 2019.
