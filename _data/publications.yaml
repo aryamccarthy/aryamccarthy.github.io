@@ -6,13 +6,13 @@
   tldr: "A framework for integrative research in text analysis by connecting findings to social science theories."
   note: "To appear."
 - name: "The SIGMORPHON 2022 Shared Task on Cross-Lingual and Low-Resource Grapheme-to-Phoneme Conversion"
-  authors: "Arya D. McCarthy, Jackson L. Lee, Alexandra DeLucia, Travis Bartley, Milind Agarwal, Lucas F.E. Ashby, Luca Del Signore, Cameron Gibson, Reuben Raff, and Winston Wu."
+  authors: "**Arya D. McCarthy**, Jackson L. Lee, Alexandra DeLucia, Travis Bartley, Milind Agarwal, Lucas F.E. Ashby, Luca Del Signore, Cameron Gibson, Reuben Raff, and Winston Wu."
   venue: "SIGMORPHON"
   year: 2022
   tldr: "Transfer learning of grapheme-to-phoneme conversion in truly low-resource settings."
   note: "To appear."
 - name: "Meeting the Needs of Low-Resource Languages: The Value of Automatic Alignments via Pretrained Models"
-  authors: "Abteen Ebrahimi, Arya D. McCarthy, Arturo Oncevay, John Ortega, Luis Chiruzzo, Rolando Coto-Solano, Gustavo A. Giménez-Lugo and Katharina Kann"
+  authors: "Abteen Ebrahimi, **Arya D. McCarthy**, Arturo Oncevay, John Ortega, Luis Chiruzzo, Rolando Coto-Solano, Gustavo A. Giménez-Lugo and Katharina Kann"
   url: "https://aclanthology.org/2023.eacl-main.280/"
   tldr: "Large language models extract useful representations for alignment, annotation projection, and downstream tasks like POS tagging and NER."
   venue: "EACL"
@@ -20,28 +20,28 @@
   month: 5
   arxiv: "https://arxiv.org/abs/2302.07912"
 - name: "A Major Obstacle for NLP Research: Let’s Talk about Time Allocation!"
-  authors: "Katharina Kann, Shiran Dudy, Arya D. McCarthy"
+  authors: "Katharina Kann, Shiran Dudy, **Arya D. McCarthy**"
   url: "https://aclanthology.org/2022.emnlp-main.612/"
   tldr: "In recent years, subpar time allocation by the field has been a major obstacle for NLP research. We propose remedies to improve the status quo."
   venue: "EMNLP"
   year: 2022
   month: 12
 - name: "Morphological Processing of Low-Resource Languages: Where We Are and What’s Next"
-  authors: "Adam Wiemerslage, Miikka Silfverberg, Changbing Yang, Arya D. McCarthy, Garrett Nicolai, Eliana Colunga, Katharina Kann"
+  authors: "Adam Wiemerslage, Miikka Silfverberg, Changbing Yang, **Arya D. McCarthy**, Garrett Nicolai, Eliana Colunga, Katharina Kann"
   url: "https://aclanthology.org/2022.findings-acl.80/"
   venue: "Findings of ACL"
   year: 2022
   month: 5
   tldr: "We learn a language's morphology from raw text alone, without even external word lists."
 - name: "Pre-Trained Multilingual Sequence-to-Sequence Models: A Hope for Low-Resource Language Translation?"
-  authors: "E. Lee, Sarubi Thillainathan, Shravan Nayak, Surangika Ranathunga, David Ifeoluwa Adelani, Ruisi Su, Arya D. McCarthy"
+  authors: "E. Lee, Sarubi Thillainathan, Shravan Nayak, Surangika Ranathunga, David Ifeoluwa Adelani, Ruisi Su, **Arya D. McCarthy**"
   url: "https://aclanthology.org/2022.findings-acl.6/"
   venue: "Findings of ACL"
   year: 2022
   month: 5
   tldr: "Considering five dimensions of training data and domain, we show that mBART and mT5 cannot learn to translate languages phylogenically unrelated to their pre-training languages."
 - name: "On the Uncomputability of Partition Functions in Energy-Based Sequence Models"
-  authors: "Chu-Cheng Lin, Arya D. McCarthy"
+  authors: "Chu-Cheng Lin, **Arya D. McCarthy**"
   url: "https://openreview.net/forum?id=SsPCtEY6yCl"
   venue: "ICLR"
   year: 2022
@@ -49,7 +49,7 @@
   note: "Spotlight."
   tldr: "Energy-based sequence models backed by expressive parametric families can result in uncomputable and inapproximable partition functions. Statistical procedures with asymptotic guarantees and sheer amounts of compute are not the only things that make sequence modeling work."
 - name: "Deciphering and Characterizing Out-of-Vocabulary Words for Morphologically Rich Languages"
-  authors: "G. Botev, Arya D. McCarthy, Winston Wu, David Yarowsky"
+  authors: "G. Botev, **Arya D. McCarthy**, Winston Wu, David Yarowsky"
   url: "https://aclanthology.org/2022.coling-1.472/"
   venue: "COLING"
   year: 2022
