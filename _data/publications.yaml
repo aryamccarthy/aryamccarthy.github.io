@@ -70,7 +70,7 @@
   month: 6
   tldr: "A push towards inclusion of derivational morphology in UniMorph, expanding on UniMorph 3.0 (McCarthy et al., 2020)."
 - name: "Learning to play with the machines in social science research: Bringing the theory back in."
-  authors: "Giovanna Maria Dora Dore\*, **Arya D. McCarthy**\*"
+  authors: "Giovanna Maria Dora Dore\\*, **Arya D. McCarthy**\\*"
   venue: "ICML Workshop on Human–Machine Collaboration and Teaming (HMCaT)"
   year: 2022
   month: 6
@@ -141,7 +141,7 @@
   url: "https://aclanthology.org/2020.acl-main.753/"
   tldr: "A simple and effective approach to address posterior collapse in conditional variational autoencoders (CVAEs). Yields improved translation with noisy or monolingual data."
 - name: "The SIGMORPHON 2020 Shared Task on Unsupervised Morphological Paradigm Completion"
-  authors: "Katharina Kann\*, **Arya D. McCarthy**\*, Garrett Nicolai, Mans Hulden"
+  authors: "Katharina Kann\\*, **Arya D. McCarthy**\\*, Garrett Nicolai, Mans Hulden"
   venue: "SIGMORPHON"
   year: 2020
   month: 5
