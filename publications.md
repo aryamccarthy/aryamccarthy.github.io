@@ -6,12 +6,7 @@ title: "Publications"
 
 [Find up-to-date info on [my Google Scholar page](https://scholar.google.com/citations?hl=en&user=erysFsoAAAAJ&view_op=list_works&sortby=pubdate)] 
 
-Jump to...
-* [Papers](#papers)
-* [Books](#books)
-* [Preprints](#preprints)
-* [Refereed Abstracts](#refereed-abstracts)
-* [Master's Thesis](#masters-thesis)
+Jump to... [[Papers](#papers)] [[Books](#books)] [[Preprints](#preprints)] [[Refereed Abstracts](#refereed-abstracts)] [[Master's Thesis](#masters-thesis)]
 
 ## Papers
 
