@@ -6,7 +6,7 @@
   tldr: "A framework for integrative research in text analysis by connecting findings to social science theories."
   note: "To appear."
 - name: "The SIGMORPHON 2022 Shared Task on Cross-Lingual and Low-Resource Grapheme-to-Phoneme Conversion"
-  authors: "**Arya D. McCarthy**, Jackson L. Lee, Alexandra DeLucia, Travis Bartley, Milind Agarwal, Lucas F.E. Ashby, Luca Del Signore, Cameron Gibson, Reuben Raff, and Winston Wu."
+  authors: "**Arya D. McCarthy**, Jackson L. Lee, Alexandra DeLucia, Travis Bartley, Milind Agarwal, Lucas F.E. Ashby, Luca Del Signore, Cameron Gibson, Reuben Raff, and Winston Wu"
   venue: "SIGMORPHON"
   year: 2022
   tldr: "Transfer learning of grapheme-to-phoneme conversion in truly low-resource settings."
