@@ -15,7 +15,7 @@ Jump to... [[Papers](#papers)] [[Books](#books)] [[Preprints](#preprints)] [[Ref
   <li style="padding-bottom: 0.5em;">
   <strong>{% if paper.url %}<a href="{{ paper.url }}">{% endif %}{{ paper.name }}{% if paper.url %}</a>{% endif %}</strong>
   <br>
-    <small><i>{{ paper.authors }}. {{ paper.venue }} {{ paper.year }}.</i></small>
+    <small><i>{{ paper.authors  | markdownify }}. {{ paper.venue }} {{ paper.year }}.</i></small>
   {% if paper.tldr %}<br><small><strong>TLDR:</strong> {{ paper.tldr }}</small>{% endif %}
     {% if paper.note %} <small><span style="color: rgb(165, 28, 48);">{{ paper.note }}</span></small>{% endif %}
   </li>
