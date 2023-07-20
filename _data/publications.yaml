@@ -1,16 +1,17 @@
 - name: "Theory-Grounded Computational Text Analysis"
   authors: "**Arya D. McCarthy** and Giovanna Maria Dora Dore"
+  url: "https://aclanthology.org/2023.acl-short.136/"
   venue: "ACL"
   year: 2023
   month: 7
   tldr: "A framework for integrative research in text analysis by connecting findings to social science theories."
-  note: "To appear."
+  note: "Honrable mention for best paper."
 - name: "The SIGMORPHON 2022 Shared Task on Cross-Lingual and Low-Resource Grapheme-to-Phoneme Conversion"
   authors: "**Arya D. McCarthy**, Jackson L. Lee, Alexandra DeLucia, Travis Bartley, Milind Agarwal, Lucas F.E. Ashby, Luca Del Signore, Cameron Gibson, Reuben Raff, and Winston Wu"
+  url: "https://aclanthology.org/2023.sigmorphon-1.27/"
   venue: "SIGMORPHON"
-  year: 2022
+  year: 2023
   tldr: "Transfer learning of grapheme-to-phoneme conversion in truly low-resource settings."
-  note: "To appear."
 - name: "Meeting the Needs of Low-Resource Languages: The Value of Automatic Alignments via Pretrained Models"
   authors: "Abteen Ebrahimi, **Arya D. McCarthy**, Arturo Oncevay, John Ortega, Luis Chiruzzo, Rolando Coto-Solano, Gustavo A. Giménez-Lugo and Katharina Kann"
   url: "https://aclanthology.org/2023.eacl-main.280/"
