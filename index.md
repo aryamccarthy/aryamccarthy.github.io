@@ -10,6 +10,8 @@ I am an [Amazon Fellow](https://ai2ai.engineering.jhu.edu/2022-2023-ai2ai-fellow
 
 ## News
 
+- **July 2023.** Our paper earned honorable mention for best paper at ACL 2023: "[Theory-Grounded Computational Text Analysis](https://aclanthology.org/2023.acl-short.136/)".
+- **May 2023.** Our book on NLP methods in social science is published: "[A Free Press, If You Can Keep It: What Natural Language Processing Reveals About Freedom of the Press in Hong Kong](https://link.springer.com/book/10.1007/978-3-031-27584-5)".
 - **March 2023.** Led [panel discussion on integrating textual and non-textual data](https://cassandra.cs.jhu.edu/roundtables/mit/) at MIT.
 - **February 2023.** Led [panel discussion on LLMs and the future of data](https://cassandra.cs.jhu.edu/roundtables/berkeley/) at UC Berkeley.
 - **February 2023.** Gave [a talk at Columbia University](http://www.cs.columbia.edu/nlp/nlp_seminar.html) on translation at the scale of 1000+ languages.
