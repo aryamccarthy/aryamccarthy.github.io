@@ -7,7 +7,7 @@ Each semester, I work through one or two textbooks. I've just picked up Dummit a
 
 ## Faces, vertices, edges
 
-First, I had a different route for solving Section 1.2's problem 10 than the two suggested in the book. It's not a particularly involved, problem, but it's still interesting.
+First, I had a different route for solving Section 1.2's problem 10 than the two suggested in the book. It's not a particularly involved problem, but it's still interesting.
 
 <!--more-->
 
