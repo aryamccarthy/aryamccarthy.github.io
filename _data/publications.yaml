@@ -1,3 +1,9 @@
+- name: "Improving Long-form Speech Translation through Segmentation with Large Language Models and Finite State Decoding Constraints"
+  authors: "**Arya D. McCarthy**, Hao Zhang, Shankar Kumar, Felix Stahlberg, and Ke Wu"
+  venue: "Findings of EMNLP"
+  year: 2023
+  month: 12
+  note: "To appear."
 - name: "Theory-Grounded Computational Text Analysis"
   authors: "**Arya D. McCarthy** and Giovanna Maria Dora Dore"
   url: "https://aclanthology.org/2023.acl-short.136/"
