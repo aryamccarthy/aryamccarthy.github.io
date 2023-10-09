@@ -24,7 +24,7 @@ Jump to... [[Papers](#papers)] [[Books](#books)] [[Preprints](#preprints)] [[Ref
 
 ## Books
 
-{:start="42"}
+{:start="{{ site.data.publications | size | plus: 1 }}"}
 1. Giovanna Maria Dora Dore, **Arya D. McCarthy**, and James A. Scharf. [*A Free Press, If You Can Keep It: What Natural Language Processing Reveals About Freedom of the Press in Hong Kong*](https://link.springer.com/book/9783031275852). Springer 2022.
 
 ## Preprints
