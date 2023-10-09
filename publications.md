@@ -24,19 +24,19 @@ Jump to... [[Papers](#papers)] [[Books](#books)] [[Preprints](#preprints)] [[Ref
 
 ## Books
 
-{:start="41"}
+{:start="42"}
 1. Giovanna Maria Dora Dore, **Arya D. McCarthy**, and James A. Scharf. [*A Free Press, If You Can Keep It: What Natural Language Processing Reveals About Freedom of the Press in Hong Kong*](https://link.springer.com/book/9783031275852). Springer 2022.
 
 ## Preprints
 
-{:start="42"}
+{:start="43"}
 1. **Arya D. McCarthy**, Hao Zhang, Shankar Kumar, Felix Stahlberg, Axel H. Ng. [*Improved Long-Form Spoken Language Translation with Large Language Models*](https://arxiv.org/abs/2212.09895). arXiv.
 1. Nibhrat Lohia, Raunak Mundada, **Arya D. McCarthy**, Eric C. Larson. [*AirWare: Utilizing Embedded Audio and Infrared Signals for In-Air Hand-Gesture Recognition*](https://arxiv.org/abs/2101.10245). arXiv.
 1. **Arya D. McCarthy**, Xian Li, Jiatao Gu, and Ning Dong. [*Improved variational neural machine translation by promoting mutual information*](https://arxiv.org/abs/1909.09237). arXiv.
 
 ## Refereed Abstracts
 
-{:start="45"}
+{:start="46"}
 1. David Yarowsky, **Arya D. McCarthy**, Garrett Nicolai, Winston Wu, Aaron Mueller, Dylan Lewis, Yingqi Ding, Abhinav Nigam, Emre Ozgu, Debanik Purkayastha, James Scharf and Kenneth Zheng. *[A 1000-language Collaborative Universal Dictionary and Universal Translator](https://en.unesco.org/sites/default/files/lt4all_programme_day2and3.pdf)*. UNESCO Language Technologies for All (LT4All) 2019.
 1. Xian Li, Jiatao Gu, Ning Dong, and **Arya D. McCarthy**. Improved variational neural machine translation via promoting mutual information. EMNLP Workshop on Neural Generation and Translation 2019.
 1. Xian Li, Jiatao Gu, **Arya D. McCarthy**, and Ning Dong. Improving variational NMT by promoting mutual information. West Coast NLP Summit (WeCNLP) 2019.
@@ -48,6 +48,6 @@ Jump to... [[Papers](#papers)] [[Books](#books)] [[Preprints](#preprints)] [[Ref
 ## Master's thesis
 
 
-{:start="52"}
+{:start="53"}
 
 1. **Arya D. McCarthy**. Gridlock in networks: [*The leximin method for hierarchical community detection*](https://search.proquest.com/docview/1907180434). Master's thesis, SMU. 2017.
