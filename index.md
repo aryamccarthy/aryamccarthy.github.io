@@ -4,7 +4,7 @@ title: About
 ---
 
 
-Hi! I'm Arya McCarthy. I am a computer scientist, musician, cyclist, runner, and world politics aficionado. Expatriated from Texas, I've had the good fortune to wander before making Cambridge, MA my home. A constant drive for me is to make the communities we're a part of healthier, effective, and welcoming. I'm convinced that the impossible, the improbable, and the inevitable are separated by your grit, and I hope to bridge [the new digital divide](https://hilltopicssmu.wordpress.com/2017/04/08/the-new-digital-divide-language-is-the-impediment-to-information-access/) through understanding humans and their languages.
+Hi! I'm Arya McCarthy. I am a computer scientist, musician, cyclist, runner, and world politics aficionado. Expatriated from Texas, I've had the good fortune to wander. A constant drive for me is to make the communities we're a part of healthier, effective, and welcoming. I'm convinced that the impossible, the improbable, and the inevitable are separated by your grit, and I hope to bridge [the new digital divide](https://hilltopicssmu.wordpress.com/2017/04/08/the-new-digital-divide-language-is-the-impediment-to-information-access/) through understanding humans and their languages.
 
 I am a research scientist at [Scaled Cognition][sc], where I work on rational, controllable AI models for high-trust scenarios. I earned my Ph.D. while introducing on structure-grounded translation and morphology techniques for 1,000+ languages. I also interned and published at Google, Duolingo, and Facebook. I invite you to explore my [publications](publications) (i.e., {{ site.data.publications | size }} research papers and a book).
 
