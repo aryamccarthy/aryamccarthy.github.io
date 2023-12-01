@@ -50,4 +50,4 @@ Along the way, I studied at [Stanford University](https://www.stanford.edu) and 
 For fellow graduate students, I encourage you to do one thing when you travel to conferences. Book a few extra days if you can afford it, push back your return flight, and take in the area's UNESCO World Heritage Sites and museums.
 
 [1]: https://scholar.google.com/citations?user=erysFsoAAAAJ&hl=en&oi=ao
-[sc]: https://scaledcognition.ai
+[sc]: https://scaledcognition.com
