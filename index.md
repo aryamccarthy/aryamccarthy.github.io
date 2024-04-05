@@ -10,7 +10,7 @@ I am a research scientist at [Scaled Cognition][sc], where I work on rational, c
 
 ## News
 
-- **October 2023.** Ph.Done! I defended and submitted my dissertation, _Structured Analysis and Translation of Thousands of Languages_.
+- **October 2023.** Ph.Done! I defended and submitted my dissertation, [_Structured Analysis and Translation of Thousands of Languages_](https://jscholarship.library.jhu.edu/items/6d8993a9-321e-40d6-987e-2b62dfd4b372).
 - **October 2023.** Check out our new Findings of EMNLP paper: "[Long-Form Speech Translation through Segmentation with Finite-State Decoding Constraints on Large Language Models](https://arxiv.org/abs/2310.13678)"
 - **July 2023.** Our paper earned honorable mention for best paper at ACL 2023: "[Theory-Grounded Computational Text Analysis](https://aclanthology.org/2023.acl-short.136/)".
 - **May 2023.** Our book on NLP methods in social science is published: "[A Free Press, If You Can Keep It: What Natural Language Processing Reveals About Freedom of the Press in Hong Kong](https://link.springer.com/book/10.1007/978-3-031-27584-5)".
