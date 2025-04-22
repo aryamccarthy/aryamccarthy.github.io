@@ -1,9 +1,15 @@
-- name: "Improving Long-form Speech Translation through Segmentation with Large Language Models and Finite State Decoding Constraints"
+- name: "LawInstruct: A Resource for Studying Language Model Adaptation to the Legal Domain"
+  authors: "Joel Niklaus, Lucia Zheng, **Arya D. McCarthy**, Christopher Hahn, Brian M. Rosen, Peter Henderson, Daniel E. Ho, Garrett Honke, Percy Liang, Christopher Manning"
+  venue: "Findings of NAACL"
+  year: 2025
+  month: 4
+  note: "To appear."
+- name: "Long-Form Speech Translation through Segmentation with Finite-State Decoding Constraints on Large Language Models"
   authors: "**Arya D. McCarthy**, Hao Zhang, Shankar Kumar, Felix Stahlberg, and Ke Wu"
+  url: "https://aclanthology.org/2023.findings-emnlp.19/"
   venue: "Findings of EMNLP"
   year: 2023
   month: 12
-  note: "To appear."
 - name: "Theory-Grounded Computational Text Analysis"
   authors: "**Arya D. McCarthy** and Giovanna Maria Dora Dore"
   url: "https://aclanthology.org/2023.acl-short.136/"
