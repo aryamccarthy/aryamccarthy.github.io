@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-family: "Poppins", "Raleway", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48em) {
   html {
