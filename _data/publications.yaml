@@ -68,7 +68,7 @@
   url: "https://aclanthology.org/2022.coling-1.472/"
   venue: "COLING"
   year: 2022
-  month: 11
+  month: 10
   tldr: "A multi-faceted distributional analysis of the underlying word-formation processes that can aid in OOV words' compositional translation, tagging, parsing, language modeling, and other NLP tasks."
 - name: "Hong Kong: Longitudinal and Synchronic Characterisations of Protest News between 1998 and 2020"
   authors: "**Arya D. McCarthy**, G. Dore"
@@ -152,7 +152,7 @@
   authors: "**Arya D. McCarthy**, Xian Li, Jiatao Gu, Ning Dong"
   venue: "EMNLP"
   year: 2020
-  month: 7
+  month: 11
   url: "https://aclanthology.org/2020.acl-main.753/"
   tldr: "A simple and effective approach to address posterior collapse in conditional variational autoencoders (CVAEs). Yields improved translation with noisy or monolingual data."
 - name: "The SIGMORPHON 2020 Shared Task on Unsupervised Morphological Paradigm Completion"
@@ -166,14 +166,14 @@
   authors: "Huiming Jin, Liwei Cai, Yihui Peng, Chen Xia, **Arya D. McCarthy**, Katharina Kann"
   venue: "ACL"
   year: 2020
-  month: 5
+  month: 7
   url: "https://aclanthology.org/2020.acl-main.598/"
   tldr: "Discovery of morphological paradigms from raw text, with the potential to improve tools for low-resource languages or to assist linguistic annotators."
 - name: "Predicting Declension Class from Form and Meaning"
   authors: "Adina Williams, Tiago Pimentel, **Arya D. McCarthy**, Hagen Blix, Eleanor Chodroff, Ryan Cotterell"
   venue: "ACL"
   year: 2020
-  month: 5
+  month: 7
   url: "https://aclanthology.org/2020.acl-main.597/"
   tldr: "An information-theoretic method supporting the finding that form and meaning are relevant to grouping nouns into declension classes, with variation across languages."
 - name: "SkinAugment: Auto-Encoding Speaker Conversions for Automatic Speech Translation"
@@ -281,7 +281,7 @@
   authors: "Brian Thompson, Huda Khayrallah, Antonios Anastasopoulos, **Arya D. McCarthy**, Kevin Duh, Rebecca Marvin, Paul McNamee, Jeremy Gwinnup, Tim Anderson, Philipp Koehn"
   venue: "WMT"
   year: 2018
-  month: 9
+  month: 11
   url: "https://aclanthology.org/W18-6313/"
   tldr: "A precursor to modern parameter-efficient finetuning approaches: performance is surprisingly good when a single component is adapted while holding the rest of the model fixed."
 - name: "The CoNLL–SIGMORPHON 2018 Shared Task: Universal Morphological Reinflection"

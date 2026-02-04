@@ -11,7 +11,7 @@ Jump to... [[Papers](#papers)] [[Books](#books)] [[Preprints](#preprints)] [[Ref
 ## Papers
 
 <ol>
-{% for paper in site.data.publications %}
+{% for paper in site.data.publications | sort: 'year' | sort: 'month' | reverse %}
   <li style="padding-bottom: 0.5em;">
   <strong>{% if paper.url %}<a href="{{ paper.url }}">{% endif %}{{ paper.name }}{% if paper.url %}</a>{% endif %}</strong>
   <br>
