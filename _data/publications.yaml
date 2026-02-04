@@ -19,7 +19,7 @@
   year: 2023
   month: 7
   tldr: "A framework for integrative research in text analysis by connecting findings to social science theories."
-  note: "Honrable mention for best paper."
+  note: "Honorable mention for best paper."
 - name: "The SIGMORPHON 2022 Shared Task on Cross-Lingual and Low-Resource Grapheme-to-Phoneme Conversion"
   authors: "**Arya D. McCarthy**, Jackson L. Lee, Alexandra DeLucia, Travis Bartley, Milind Agarwal, Lucas F.E. Ashby, Luca Del Signore, Cameron Gibson, Reuben Raff, and Winston Wu"
   url: "https://aclanthology.org/2023.sigmorphon-1.27/"
@@ -69,7 +69,7 @@
   venue: "COLING"
   year: 2022
   month: 11
-  tldr: "A multi-faceted distributional analysis of the underlying word-formation processes that can aid in OOV words' compositional translation, tag- ging, parsing, language modeling, and other NLP tasks."
+  tldr: "A multi-faceted distributional analysis of the underlying word-formation processes that can aid in OOV words' compositional translation, tagging, parsing, language modeling, and other NLP tasks."
 - name: "Hong Kong: Longitudinal and Synchronic Characterisations of Protest News between 1998 and 2020"
   authors: "**Arya D. McCarthy**, G. Dore"
   url: "https://www.aclanthology.org/2022.lrec-1.310/"
@@ -217,7 +217,7 @@
   year: 2020
   month: 5
   url: "https://aclanthology.org/2020.lrec-1.483/"
-  tldr: "More than 2x the number of languages, as well a snew parts of speech and validation tools, in the latest UniMorph morphological inventory release."
+  tldr: "More than 2x the number of languages, as well as new parts of speech and validation tools, in the latest UniMorph morphological inventory release."
 - name: "An Exact No Free Lunch Theorem for Community Detection"
   authors: "**Arya D. McCarthy**, Tongfei Chen, Seth Ebner"
   venue: "Complex Networks"
@@ -294,6 +294,6 @@
 - name: "UniMorph 2.0: Universal Morphology"
   authors: "Christo Kirov, Ryan Cotterell, John Sylak-Glassman, Géraldine Walther, Ekaterina Vylomova, Patrick Xia, Manaal Faruqui, Sabrina J. Mielke, **Arya D. McCarthy**, Sandra Kübler, David Yarowsky, Jason Eisner, Mans Hulden"
   venue: "LREC"
-  month: 10
+  month: 5
   url: "https://aclanthology.org/L18-1293/"
-  tldr: "A projcet hosted at the Johns Hopkins University. Advances made to the schema, tooling, and dissemination of project resources since the UniMorph 1.0 release described at LREC 2016 are detailed."
+  tldr: "A project hosted at the Johns Hopkins University. Advances made to the schema, tooling, and dissemination of project resources since the UniMorph 1.0 release described at LREC 2016 are detailed."
