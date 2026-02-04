@@ -167,14 +167,14 @@
   venue: "ACL"
   year: 2020
   month: 5
-  url: "https://www.aclweb.org/anthology/2020.acl-main.598/"
+  url: "https://aclanthology.org/2020.acl-main.598/"
   tldr: "Discovery of morphological paradigms from raw text, with the potential to improve tools for low-resource languages or to assist linguistic annotators."
 - name: "Predicting Declension Class from Form and Meaning"
   authors: "Adina Williams, Tiago Pimentel, **Arya D. McCarthy**, Hagen Blix, Eleanor Chodroff, Ryan Cotterell"
   venue: "ACL"
   year: 2020
   month: 5
-  url: "https://www.aclweb.org/anthology/2020.acl-main.597/"
+  url: "https://aclanthology.org/2020.acl-main.597/"
   tldr: "An information-theoretic method supporting the finding that form and meaning are relevant to grouping nouns into declension classes, with variation across languages."
 - name: "SkinAugment: Auto-Encoding Speaker Conversions for Automatic Speech Translation"
   authors: "**Arya D. McCarthy**, Liezl Puzon, J. Pino"
@@ -188,28 +188,28 @@
   venue: "LREC"
   year: 2020
   month: 5
-  url: "https://www.aclweb.org/anthology/2020.lrec-1.488/"
+  url: "https://aclanthology.org/2020.lrec-1.488/"
   tldr: "Kilolanguage generation, lemmatization, and fine-grained tagging, supplemented and improved through ensembling and dictionary-based reranking, for 1000+ languages."
 - name: "The Johns Hopkins University Bible Corpus: 1600+ Tongues for Typological Exploration"
   authors: "**Arya D. McCarthy**, R. Wicks, D. Lewis, Aaron Mueller, Winston Wu, Oliver Adams, Garrett Nicolai, Matt Post, David Yarowsky"
   venue: "LREC"
   year: 2020
   month: 5
-  url: "https://www.aclweb.org/anthology/2020.lrec-1.352/"
+  url: "https://aclanthology.org/2020.lrec-1.352/"
   tldr: "Findings from the creation of a massively parallel corpus in over 1600 languages, the Johns Hopkins University Bible Corpus (JHUBC)."
 - name: "An Analysis of Massively Multilingual Neural Machine Translation for Low-Resource Languages"
   authors: "Aaron Mueller, Garrett Nicolai, **Arya D. McCarthy**, D. Lewis, Winston Wu, David Yarowsky"
   venue: "LREC"
   year: 2020
   month: 5
-  url: "https://www.aclweb.org/anthology/2020.lrec-1.458.pdf"
+  url: "https://aclanthology.org/2020.lrec-1.458.pdf"
   tldr: "Adding more languages to a training set is often better, but too many harms performance—the best number depends on the source language."
 - name: "Massively Multilingual Pronunciation Modeling with WikiPron"
   authors: "Jackson L. Lee, Lucas F. E. Ashby, M. E. Garza, Yeonju Lee-Sikka, Sean Miller, A. Wong, **Arya D. McCarthy**, Kyle Gorman"
   venue: "LREC"
   year: 2020
   month: 5
-  url: "https://www.aclweb.org/anthology/2020.lrec-1.521/"
+  url: "https://aclanthology.org/2020.lrec-1.521/"
   tldr: "We introduce WikiPron, an open-source command-line tool for extracting pronunciation data from Wiktionary, a collaborative multilingual online dictionary."
 - name: "UniMorph 3.0: Universal Morphology"
   authors: "**Arya D. McCarthy**, Christo Kirov, Matteo Grella, Amrit Nidhi, Patrick Xia, Kyle Gorman, Ekaterina Vylomova, Sabrina J. Mielke, Garrett Nicolai, Miikka Silfverberg, 11 others, and David Yarowsky"
@@ -246,7 +246,7 @@
   venue: "CoNLL"
   year: 2019
   month: 11
-  url: "https://www.aclweb.org/anthology/K19-1014/"
+  url: "https://aclanthology.org/K19-1014/"
   tldr: "A manual error analysis of the CoNLL-SIGMORPHON Shared Task on Morphological Reinflection and proposes an error taxonomy, which is used to annotate errors made by the top two systems across twelve languages."
 - name: "Harnessing Indirect Training Data for End-to-End Automatic Speech Translation: Tricks of the Trade"
   authors: "J. Pino, Liezl Puzon, Jiatao Gu, Xutai Ma, **Arya D. McCarthy**, D. Gopinath"
@@ -260,7 +260,7 @@
   venue: "ACL"
   year: 2019
   month: 6
-  url: "https://www.aclweb.org/anthology/P19-1171/"
+  url: "https://aclanthology.org/P19-1171/"
   tldr: "A holistic quantification of the systematicity of the sign using mutual information and recurrent neural networks."
   note: "Best paper nominee."
 - name: "The SIGMORPHON 2019 Shared Task: Morphological Analysis in Context and Cross-Lingual Transfer for Inflection"
@@ -268,32 +268,32 @@
   venue: "SIGMORPHON"
   year: 2019
   month: 6
-  url: "https://www.aclweb.org/anthology/W19-4226/"
+  url: "https://aclanthology.org/W19-4226/"
   tldr: "Cross-lingual transfer and contextual analysis in morphology examined transfer learning of inflection between 100 language pairs, as well as contextual lemmatization and morphosyntactic description in 66 languages."
 - name: "Marrying Universal Dependencies and Universal Morphology"
   authors: "**Arya D. McCarthy**, Miikka Silfverberg, Ryan Cotterell, Mans Hulden, David Yarowsky"
   venue: "UDW @EMNLP"
   year: 2018
   month: 10
-  url: "https://www.aclweb.org/anthology/W18-6011/"
+  url: "https://aclanthology.org/W18-6011/"
   tldr: "A deterministic mapping from Universal Dependencies v2 features into the UniMorph schema is presented to ease interoperability and a critical evaluation of the foundations, strengths, and weaknesses of the two annotation projects is presented."
 - name: "Freezing Subnetworks to Analyze Domain Adaptation in Neural Machine Translation"
   authors: "Brian Thompson, Huda Khayrallah, Antonios Anastasopoulos, **Arya D. McCarthy**, Kevin Duh, Rebecca Marvin, Paul McNamee, Jeremy Gwinnup, Tim Anderson, Philipp Koehn"
   venue: "WMT"
   year: 2018
   month: 9
-  url: "https://www.aclweb.org/anthology/W18-6313/"
+  url: "https://aclanthology.org/W18-6313/"
   tldr: "A precursor to modern parameter-efficient finetuning approaches: performance is surprisingly good when a single component is adapted while holding the rest of the model fixed."
 - name: "The CoNLL–SIGMORPHON 2018 Shared Task: Universal Morphological Reinflection"
   authors: "Ryan Cotterell, Christo Kirov, John Sylak-Glassman, Géraldine Walther, Ekaterina Vylomova, **Arya D. McCarthy**, Katharina Kann, Sabrina J. Mielke, Garrett Nicolai, Miikka Silfverberg, David Yarowsky, Jason Eisner, Mans Hulden"
   venue: "CoNLL"
   year: 2018
   month: 10
-  url: "https://www.aclweb.org/anthology/K18-3001/"
+  url: "https://aclanthology.org/K18-3001/"
   tldr: "Morphological generation in 103 languages and inflecting words in sentential context, similar to a cloze task."
 - name: "UniMorph 2.0: Universal Morphology"
   authors: "Christo Kirov, Ryan Cotterell, John Sylak-Glassman, Géraldine Walther, Ekaterina Vylomova, Patrick Xia, Manaal Faruqui, Sabrina J. Mielke, **Arya D. McCarthy**, Sandra Kübler, David Yarowsky, Jason Eisner, Mans Hulden"
   venue: "LREC"
   month: 10
-  url: "https://www.aclweb.org/anthology/L18-1293/"
+  url: "https://aclanthology.org/L18-1293/"
   tldr: "A projcet hosted at the Johns Hopkins University. Advances made to the schema, tooling, and dissemination of project resources since the UniMorph 1.0 release described at LREC 2016 are detailed."
