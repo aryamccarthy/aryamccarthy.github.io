@@ -48,6 +48,7 @@ Along the way, I studied at [Stanford University](https://www.stanford.edu) and 
 
 ### Selected publications:
 
+* [LawInstruct: A Resource for Studying Language Model Adaptation to the Legal Domain](https://aclanthology.org/2025.findings-naacl.7/) with Joel Niklaus, Lucia Zheng, Christopher Hahn, Brian M. Rosen, Peter Henderson, Daniel E. Ho, Garrett Honke, Percy Liang, and Chris Manning. Findings of NAACL 2025.
 * [On the uncomputability of partition functions in energy-based sequence models](https://openreview.net/forum?id=SsPCtEY6yCl) with Chu-Cheng Lin. ICLR 2022 Spotlight.
 * [Addressing posterior collapse with mutual information for improved variational neural machine translation](http://dx.doi.org/10.18653/v1/2020.acl-main.753) with Xian Li, Jiatao Gu, and Ning Dong. ACL 2020.
 * [Modeling color terminology across thousands of languages](http://dx.doi.org/10.18653/v1/D19-1229) with Winston Wu, Aaron Mueller, William Watson, and David Yarowsky. EMNLP 2019.
