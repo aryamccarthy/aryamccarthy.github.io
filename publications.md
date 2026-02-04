@@ -26,7 +26,7 @@ Jump to... [[Papers](#papers)] [[Books](#books)] [[Preprints](#preprints)] [[Ref
 
 {:start="{{ site.data.publications | size | plus: 1 }}"}
 1. Giovanna Maria Dora Dore, **Arya D. McCarthy**, and James A. Scharf. [*A Free Press, If You Can Keep It: What Natural Language Processing Reveals About Freedom of the Press in Hong Kong*](https://link.springer.com/book/9783031275852). Springer 2022.
-   <br><small><strong>TLDR:</strong> Interdisciplinary analyses of protest coverate in print media that will "appeal to a wide range of readers with interests in computational social science, public policy, political sciences as well as policy-makers, think tanks, and practitioners who focus on the China-Hong Kong nexus".</small>
+   <br><small><strong>TLDR:</strong> Interdisciplinary analyses of protest coverage in print media that will "appeal to a wide range of readers with interests in computational social science, public policy, political sciences as well as policy-makers, think tanks, and practitioners who focus on the China-Hong Kong nexus".</small>
 
 ## Preprints
 
