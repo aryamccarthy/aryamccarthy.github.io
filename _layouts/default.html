@@ -12,13 +12,24 @@
   <!-- CSS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/poole.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/syntax.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/hyde.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Poppins:400,400italic,700|Abril+Fatface">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+  <style>
+    /* Site fonts. Defined after poole.css/hyde.css (loaded in meta.html) so they win. */
+    :root {
+      --font-serif: "DM Serif Display", Georgia, serif;
+      --font-serif-text: "DM Serif Text", Georgia, serif; /* For serif body copy; unused by default. */
+      --font-sans: "DM Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      --font-mono: "DM Mono", Menlo, Monaco, monospace;
+    }
+    html, body, .pagination { font-family: var(--font-sans); }
+    h1, h2, h3, h4, h5, h6, .sidebar-about h1 {
+      font-family: var(--font-serif);
+      font-weight: 400; /* DM Serif Display ships one weight; avoid faux bold. */
+    }
+    .serif-text { font-family: var(--font-serif-text); }
+    code, kbd, pre, samp, .highlight pre, .gist .gist-file { font-family: var(--font-mono) !important; }
+  </style>
+      <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
   {% if page.title %}
     <meta content="{{ site.title }} - {{ site.description }}" property="og:site_name">
