@@ -12,7 +12,7 @@
   venue: "Findings of EMNLP"
   year: 2023
   month: 12
-+ arxiv: "https://arxiv.org/abs/2310.13678"
+  arxiv: "https://arxiv.org/abs/2310.13678"
   tldr: "The first application of structured outputs and constrained decoding to large language models; 74% error reduction in speech translation performance (relative to an oracle) across languages."
 - name: "Theory-Grounded Computational Text Analysis"
   authors: "**Arya D. McCarthy** and Giovanna Maria Dora Dore"
