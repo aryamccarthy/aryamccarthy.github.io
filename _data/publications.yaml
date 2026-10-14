@@ -184,7 +184,7 @@
   venue: "ICASSP"
   year: 2020
   month: 2
-  url: "https://ieeexplore.ieee.org/document/"
+  url: "https://ieeexplore.ieee.org/document/9053406/"
   tldr: "Autoencoding speaker conversion is combined with augmentation by machine-translated transcripts to obtain a competitive end-to-end AST model that outperforms a very strong cascade model."
 - name: "Fine-grained Morphosyntactic Analysis and Generation Tools for More Than One Thousand Languages"
   authors: "Garrett Nicolai, D. Lewis, **Arya D. McCarthy**, Aaron Mueller, Winston Wu, David Yarowsky"

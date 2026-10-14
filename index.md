@@ -33,7 +33,7 @@ I invite you to explore my [publications](publications) (i.e., {{ site.data.publ
 
 ## Music
 
-I've played the bagpipe for over a decade. These days, it's a great way to social-distance. I also typeset original bagpipe compositions in LaTeX, which is criminally underestimated as a tool for bringing beauty into the world.
+I've played the bagpipe for over a decade. <!--These days, it's a great way to social-distance.--> I also typeset original bagpipe compositions in LaTeX, which is criminally underestimated as a tool for bringing beauty into the world.
 
 ## Academic
 
@@ -60,5 +60,3 @@ Along the way, I studied at [Stanford University](https://www.stanford.edu) and 
 [I can't feel anything but gratitude for every single moment of my stupid little life.](https://web.archive.org/web/20190723152726/http://philhaverstick.com/8-09-02.html) Friends and strangers on trains have shared their tenderness with me. Clinging to scaffolding in bell towers. Sloshing for miles through stormwater drains. Bridge-jumping into the cold night Charles River. Mountainside sunrises in New Mexico. Jumping over filched restaurant candles for Charshanbe Suri. The world keeps rekindling things you didn't know had gone out.
 
 <!--For graduate students: I encourage you to do one thing when you travel to conferences. Stay a few extra days. Push back your return flight, and take in the area's UNESCO World Heritage Sites and museums. Let the place have you for a little while longer.-->
-
-[1]: https://scholar.google.com/citations?user=erysFsoAAAAJ&hl=en&oi=ao

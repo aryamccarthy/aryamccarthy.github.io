@@ -31,10 +31,7 @@ Jump to... [[Papers](#papers)] [[Books](#books)] [[Preprints](#preprints)] [[Ref
 ## Preprints
 
 {:start="43"}
-1. Joel Niklaus, Lucia Zheng, **Arya D. McCarthy**, Christopher Hahn, Brian M. Rosen, Peter Henderson, Daniel E. Ho, Garrett Honke, Percy Liang, Christopher D. Manning. [*FLawN-T5: An Empirical Examination of Effective Instruction-Tuning Data Mixtures for Legal Reasoning*](https://arxiv.org/abs/2404.02127). arXiv.
-1. **Arya D. McCarthy**, Hao Zhang, Shankar Kumar, Felix Stahlberg, Axel H. Ng. [*Improved Long-Form Spoken Language Translation with Large Language Models*](https://arxiv.org/abs/2212.09895). arXiv.
 1. Nibhrat Lohia, Raunak Mundada, **Arya D. McCarthy**, Eric C. Larson. [*AirWare: Utilizing Embedded Audio and Infrared Signals for In-Air Hand-Gesture Recognition*](https://arxiv.org/abs/2101.10245). arXiv.
-1. **Arya D. McCarthy**, Xian Li, Jiatao Gu, and Ning Dong. [*Improved variational neural machine translation by promoting mutual information*](https://arxiv.org/abs/1909.09237). arXiv.
 
 ## Refereed Abstracts
 
