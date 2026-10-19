@@ -6,7 +6,7 @@ title: "Publications"
 
 [Find up-to-date info on [my Google Scholar page](https://scholar.google.com/citations?hl=en&user=erysFsoAAAAJ&view_op=list_works&sortby=pubdate)] 
 
-Jump to... [[Papers](#papers)] [[Books](#books)] [[Preprints](#preprints)] [[Refereed Abstracts](#refereed-abstracts)] [[Theses](#doctoral-and-masters-theses)]
+[Papers](#papers) · [Books](#books) · [Preprints](#preprints) · [Abstracts](#refereed-abstracts) · [Theses](#doctoral-and-masters-theses)
 
 {% assign s_books = site.data.publications | size | plus: 1 %}
 {% assign s_preprints = site.data.books | size | plus: s_books %}

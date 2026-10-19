@@ -30,7 +30,18 @@
     .blog-list { list-style: none; padding-left: 0; margin-top: 0.25rem; }
     .blog-list li { display: flex; gap: 1rem; margin-bottom: 0.35rem; }
     .blog-date { flex: 0 0 3.75rem; color: #9a9a9a; font-variant-numeric: tabular-nums; }
-
+    /* Publications */
+    .pub { margin-bottom: 1.1rem; }
+    .pub-title { color: #222; font-weight: 600; text-decoration: none; }
+    .pub-title:hover { color: #a41034; text-decoration: underline; }
+    .pub-meta { font-size: 0.85rem; color: #666; margin-top: 0.15rem; }
+    .pub-meta strong { color: #222; }
+    .pub-tldr { font-size: 0.85rem; color: #444; margin-top: 0.2rem; }
+    .pub-note { font-weight: 600; color: #a41034; }
+    .pub-note::before { content: "· "; color: #999; font-weight: 400; }
+    /* Sidebar */
+    .sidebar .lead { color: rgba(255,255,255,.85); }
+    .sidebar-links { display: flex; flex-wrap: wrap; gap: 0.25rem 0.9rem; font-size: 0.9rem; }
     </style>
 
   {% if page.title %}
