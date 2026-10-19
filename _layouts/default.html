@@ -42,7 +42,12 @@
     /* Sidebar */
     .sidebar .lead { color: rgba(255,255,255,.85); }
     .sidebar-links { display: flex; flex-wrap: wrap; gap: 0.25rem 0.9rem; font-size: 0.9rem; }
-    </style>
+    .page a { color: inherit; text-decoration: underline; text-decoration-color: rgba(164,16,52,.35); text-underline-offset: 2px; }
+    .page a:hover { color: #a41034; text-decoration-color: currentColor; }
+    .pub-year-block { display: grid; grid-template-columns: 3.5rem 1fr; column-gap: 1.25rem; margin-bottom: 0.75rem; }
+    .pub-year { font-family: var(--font-serif); font-size: 1.35rem; color: #b5b5b5; line-height: 1.5; }
+    .pub-list { margin: 0; padding-left: 1.75rem; }
+    @media (max-width: 38em) { .pub-year-block { grid-template-columns: 1fr; } }    </style>
 
   {% if page.title %}
     <meta content="{{ site.title }} - {{ site.description }}" property="og:site_name">
