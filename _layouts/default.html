@@ -1,13 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
 
     {% include meta.html %}
-
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
 
   <!-- CSS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,8 +24,10 @@
     }
     .serif-text { font-family: var(--font-serif-text); }
     code, kbd, pre, samp, .highlight pre, .gist .gist-file { font-family: var(--font-mono) !important; }
+    @media (max-width: 47.99em) {
+      .sidebar-about img { width: 120px; height: 120px; object-fit: cover; margin: 0 auto 1rem; }
+    }
   </style>
-      <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
   {% if page.title %}
     <meta content="{{ site.title }} - {{ site.description }}" property="og:site_name">
