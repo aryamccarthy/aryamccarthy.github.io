@@ -1,0 +1,90 @@
+- name: "(j × i<sup>th</sup> prime) adj (i × j<sup>th</sup> prime): The Fundamental Relation of Arithmetic"
+  authors: "David W. Matula and **Arya D. McCarthy**"
+  venue: "Summit280: Frankl, Füredi, Győri, and Pach are 70."
+  year: 2024
+- name: "Bridging Topic Modeling and Framing Theory"
+  authors: "**Arya D. McCarthy** and Giovanna Maria Dora Dore"
+  venue: "Text as Data (TADA)"
+  year: 2022
+- name: "Pre-Trained Multilingual Sequence-to-Sequence Models: A Hope for Low-Resource Language Translation?"
+  authors: "En-Shiun Annie Lee, Sarubi Thillainathan, Shravan Nayak, Surangika Ranathunga, David Ifeoluwa Adelani, Ruisi Su, and **Arya D. McCarthy**"
+  venue: "Updatable Machine Learning (UpML)"
+  year: 2022
+- name: "It Is Not Just Fun and Games: An NLP Perspective on Signaling and the Intangible Legacy of the Olympics"
+  authors: "**Arya D. McCarthy**, Eva M.E. Klaus, and Giovanna Maria Dora Dore"
+  venue: "Politics and Computational Social Science (PaCSS)"
+  year: 2022
+- name: "Protesting the Paradigm in Hong Kong"
+  authors: "**Arya D. McCarthy** and Giovanna Maria Dora Dore"
+  venue: "Politics and Computational Social Science (PaCSS)"
+  year: 2022
+- name: "Characterizing News Portrayal of Civil Unrest in Hong Kong 2019–2020"
+  authors: "**Arya D. McCarthy**, James Scharf, and Giovanna Maria Dora Dore"
+  venue: "Midwest Political Science Association (MPSA)"
+  year: 2022
+- name: "Measuring Differences in News Portrayal of the 2019–2020 Hong Kong Protests"
+  authors: "**Arya D. McCarthy**, James A. Scharf, and Giovanna Maria Dora Dore"
+  venue: "New Directions in Analyzing Text as Data (TADA)"
+  year: 2021
+- name: "Evolution and Bias: News Portrayal of Civil Unrest in Hong Kong, 1998–2020"
+  authors: "James Scharf, Giovanna Maria Dora Dore, and **Arya D. McCarthy**"
+  venue: "Politics and Computational Social Science (PaCSS)"
+  year: 2021
+- name: "Improving and Evaluating Language Item Difficulty Estimation with BERT and Multi-Task Learning"
+  authors: "**Arya D. McCarthy**, Kevin Yancey, Geoff T. LaFlair, and Jesse Egbert"
+  venue: "Language Testing Research Colloquium (LTRC)"
+  year: 2021
+- name: "Improving Language Item Difficulty Estimation with BERT and Multi-Task Learning"
+  authors: "**Arya D. McCarthy**, Kevin Yancey, Geoff T. LaFlair, and Jesse Egbert"
+  venue: "National Council on Measurement in Education (NCME)"
+  year: 2021
+- name: "Individual Level Clustering in the World Color Survey"
+  authors: "Mikael Vejdemo-Johansson and **Arya D. McCarthy**"
+  venue: "Progress in Colour Studies (PICS)"
+  year: 2020
+- name: "On the Relationship Between Form and Information Content"
+  authors: "Cassandra L. Jacobs, **Arya D. McCarthy**, and Maryellen C. MacDonald"
+  venue: "Architecture and Mechanisms for Language Processing (AMLaP)"
+  year: 2020
+- name: "The Human Unlikeness of Neural Language Models in Next-Word Prediction"
+  authors: "Cassandra L. Jacobs and **Arya D. McCarthy**"
+  venue: "Widening NLP (WiNLP)"
+  year: 2020
+- name: "Community Structure and Flow in Random Graphs"
+  authors: "**Arya D. McCarthy** and David W. Matula"
+  venue: "SIAM Discrete Mathematics"
+  year: 2020
+- name: "A 1000-language Collaborative Universal Dictionary and Universal Translator"
+  authors: "David Yarowsky, **Arya D. McCarthy**, Garrett Nicolai, Winston Wu, Aaron Mueller, Dylan Lewis, Yingqi Ding, Abhinav Nigam, Emre Ozgu, Debanik Purkayastha, James Scharf, and Kenneth Zheng"
+  url: "https://web.archive.org/web/20201101033221/https://en.unesco.org/sites/default/files/lt4all_programme_day2and3.pdf"
+  venue: "UNESCO Language Technologies for All (LT4All)"
+  year: 2019
+- name: "Improved variational neural machine translation via promoting mutual information"
+  authors: "Xian Li, Jiatao Gu, Ning Dong, and **Arya D. McCarthy**"
+  venue: "EMNLP Workshop on Neural Generation and Translation"
+  year: 2019
+- name: "Improving variational NMT by promoting mutual information"
+  authors: "Xian Li, Jiatao Gu, **Arya D. McCarthy**, and Ning Dong"
+  venue: "West Coast NLP Summit (WeCNLP)"
+  year: 2019
+- name: "Community Detection, The No Free Lunch Theorem, and Attack Games"
+  authors: "**Arya D. McCarthy**"
+  venue: "SIAM Workshop on Network Science"
+  year: 2019
+- name: "An exact No Free Lunch theorem for community detection"
+  authors: "**Arya D. McCarthy**"
+  url: "https://arxiv.org/abs/1903.10092"
+  venue: "Complex Networks (ICCNA)"
+  venue_url: "https://www.complexnetworks.org"
+  year: 2018
+- name: "Evaluating the leximin method for community detection"
+  authors: "**Arya D. McCarthy** and David W. Matula"
+  venue: "Complex Networks (ICCNA)"
+  venue_url: "https://www.complexnetworks.org"
+  year: 2018
+- name: "Normalized mutual information exaggerates community detection performance"
+  authors: "**Arya D. McCarthy** and David W. Matula"
+  url: "https://web.archive.org/web/20220623062534/http://cs.jhu.edu/~arya/mccarthy+matula.ns18.pdf"
+  venue: "SIAM Workshop on Network Science"
+  venue_url: "https://www.siam.org/conferences/CM/Main/ns18"
+  year: 2018

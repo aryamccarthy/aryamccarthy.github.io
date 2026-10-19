@@ -6,47 +6,26 @@ title: "Publications"
 
 [Find up-to-date info on [my Google Scholar page](https://scholar.google.com/citations?hl=en&user=erysFsoAAAAJ&view_op=list_works&sortby=pubdate)] 
 
-Jump to... [[Papers](#papers)] [[Books](#books)] [[Preprints](#preprints)] [[Refereed Abstracts](#refereed-abstracts)] [[Master's Thesis](#masters-thesis)]
+Jump to... [[Papers](#papers)] [[Books](#books)] [[Preprints](#preprints)] [[Refereed Abstracts](#refereed-abstracts)] [[Theses](#doctoral-and-masters-theses)]
+
+{% assign s_books = site.data.publications | size | plus: 1 %}
+{% assign s_preprints = site.data.books | size | plus: s_books %}
+{% assign s_abstracts = site.data.preprints | size | plus: s_preprints %}
+{% assign s_theses = site.data.abstracts | size | plus: s_abstracts %}
 
 ## Papers
-
-<ol>
-{% for paper in site.data.publications | sort: 'year' | sort: 'month' | reverse %}
-  <li style="padding-bottom: 0.5em;">
-  <strong>{% if paper.url %}<a href="{{ paper.url }}">{% endif %}{{ paper.name }}{% if paper.url %}</a>{% endif %}</strong>
-  <br>
-    <small><i>{{ paper.authors  | markdownify  | remove: '<p>' | remove: '</p>' | strip }}. {{ paper.venue }} {{ paper.year }}.</i></small>
-  {% if paper.tldr %}<br><small><strong>TLDR:</strong> {{ paper.tldr }}</small>{% endif %}
-    {% if paper.note %} <small><span style="color: rgb(165, 28, 48);">{{ paper.note }}</span></small>{% endif %}
-  </li>
-{% endfor %}
-</ol>
+{% include pub-section.html items=site.data.publications start=1 %}
 
 ## Books
-
-{:start="{{ site.data.publications | size | plus: 1 }}"}
-1. Giovanna Maria Dora Dore, **Arya D. McCarthy**, and James A. Scharf. [*A Free Press, If You Can Keep It: What Natural Language Processing Reveals About Freedom of the Press in Hong Kong*](https://link.springer.com/book/9783031275852). Springer 2022.
-   <br><small><strong>TLDR:</strong> Interdisciplinary analyses of protest coverage in print media that will "appeal to a wide range of readers with interests in computational social science, public policy, political sciences as well as policy-makers, think tanks, and practitioners who focus on the China-Hong Kong nexus".</small>
+{% include pub-section.html items=site.data.books start=s_books %}
 
 ## Preprints
-
-{:start="43"}
-1. Nibhrat Lohia, Raunak Mundada, **Arya D. McCarthy**, Eric C. Larson. [*AirWare: Utilizing Embedded Audio and Infrared Signals for In-Air Hand-Gesture Recognition*](https://arxiv.org/abs/2101.10245). arXiv.
+{% include pub-section.html items=site.data.preprints start=s_preprints %}
 
 ## Refereed Abstracts
+{% include pub-section.html items=site.data.abstracts start=s_abstracts %}
 
-{:start="47"}
-1. David Yarowsky, **Arya D. McCarthy**, Garrett Nicolai, Winston Wu, Aaron Mueller, Dylan Lewis, Yingqi Ding, Abhinav Nigam, Emre Ozgu, Debanik Purkayastha, James Scharf and Kenneth Zheng. *[A 1000-language Collaborative Universal Dictionary and Universal Translator](https://en.unesco.org/sites/default/files/lt4all_programme_day2and3.pdf)*. UNESCO Language Technologies for All (LT4All) 2019.
-1. Xian Li, Jiatao Gu, Ning Dong, and **Arya D. McCarthy**. Improved variational neural machine translation via promoting mutual information. EMNLP Workshop on Neural Generation and Translation 2019.
-1. Xian Li, Jiatao Gu, **Arya D. McCarthy**, and Ning Dong. Improving variational NMT by promoting mutual information. West Coast NLP Summit (WeCNLP) 2019.
-1. **Arya D. McCarthy**. *Community Detection, The No Free Lunch Theorem, and Attack Games*. SIAM Workshop on Network Science 2019.
-1. **Arya D. McCarthy**. [*An exact No Free Lunch theorem for community detection*](http://cs.jhu.edu/~arya/mccarthy.iccna18.pdf). [Complex Networks (ICCNA) 2018](https://www.complexnetworks.org).
-1. **Arya D. McCarthy** and David W. Matula. [*Evaluating the leximin method for community detection*](http://cs.jhu.edu/~arya/mccarthy+matula.iccna18.pdf). [Complex Networks (ICCNA) 2018](https://www.complexnetworks.org).
-1. **Arya D. McCarthy** and David W. Matula. [*Normalized mutual information exaggerates community detection performance*](http://cs.jhu.edu/~arya/mccarthy+matula.ns18.pdf). SIAM [Workshop on Network Science 2018](https://www.siam.org/conferences/CM/Main/ns18). 
+## Doctoral and Master's Theses
+{% include pub-section.html items=site.data.theses start=s_theses %}
 
-## Master's thesis
-
-
-{:start="54"}
-
-1. **Arya D. McCarthy**. Gridlock in networks: [*The leximin method for hierarchical community detection*](https://search.proquest.com/docview/1907180434). Master's thesis, SMU. 2017.
+  

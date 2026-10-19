@@ -27,7 +27,11 @@
     @media (max-width: 47.99em) {
       .sidebar-about img { width: 120px; height: 120px; object-fit: cover; margin: 0 auto 1rem; }
     }
-  </style>
+    .blog-list { list-style: none; padding-left: 0; margin-top: 0.25rem; }
+    .blog-list li { display: flex; gap: 1rem; margin-bottom: 0.35rem; }
+    .blog-date { flex: 0 0 3.75rem; color: #9a9a9a; font-variant-numeric: tabular-nums; }
+
+    </style>
 
   {% if page.title %}
     <meta content="{{ site.title }} - {{ site.description }}" property="og:site_name">

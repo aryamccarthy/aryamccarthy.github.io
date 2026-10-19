@@ -27,6 +27,7 @@
   url: "https://aclanthology.org/2023.sigmorphon-1.27/"
   venue: "SIGMORPHON"
   year: 2023
+  month: 7
   tldr: "Transfer learning of grapheme-to-phoneme conversion in truly low-resource settings."
 - name: "Meeting the Needs of Low-Resource Languages: The Value of Automatic Alignments via Pretrained Models"
   authors: "Abteen Ebrahimi, **Arya D. McCarthy**, Arturo Oncevay, John Ortega, Luis Chiruzzo, Rolando Coto-Solano, Gustavo A. Giménez-Lugo and Katharina Kann"

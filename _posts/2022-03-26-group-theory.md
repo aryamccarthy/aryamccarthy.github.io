@@ -31,7 +31,7 @@ Of course, these should—and do—all lead to the same answer.
 
 There's an intro algorithms connection to cycle decomposition which I thought worth sharing.
 
-Cycle decompositions can be found with an algorithm provided in the book, which they (naturally) call the **Cycle Decomposition Algorithm**. Not stated in the book, these cycles are really strongly connected components of the graph. But because each must form a cycle, we don't need to use an algorithm for strongly connected components. The weakly connected components (WCC) are necessarily strongly connected. We can use a simpler, cheaper algorithm to find the strongly connected components of a graph with this structure—not everything is a nail that need's, e.g., a Kosaraju's algorithm hammer.
+Cycle decompositions can be found with an algorithm provided in the book, which they (naturally) call the **Cycle Decomposition Algorithm**. Not stated in the book, these cycles are really strongly connected components of the graph. But because each must form a cycle, we don't need to use an algorithm for strongly connected components. The weakly connected components (WCC) are necessarily strongly connected. We can use a simpler, cheaper algorithm to find the strongly connected components of a graph with this structure—not everything is a nail that needs, e.g., a [Kosaraju's algorithm][1] hammer.
 Here's a WCC algorithm, defined in the vocabulary of abstract algebra.
 
 Excerpted below:

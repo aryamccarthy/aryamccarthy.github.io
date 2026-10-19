@@ -1,0 +1,16 @@
+{% comment %}
+Renders include.items newest first, numbered from include.start.
+Years descend; within a year, months descend, and entries without a month come last.
+Liquid's sort isn't stable, so months are selected with `where`, which keeps YAML order for ties.
+{% endcomment %}
+<ol start="{{ include.start }}">
+{% assign year_groups = include.items | group_by: "year" | sort: "name" | reverse %}
+{% for group in year_groups %}
+  {% for m in (1..12) reversed %}
+    {% assign month_items = group.items | where: "month", m %}
+    {% for paper in month_items %}{% include pub-item.html paper=paper %}{% endfor %}
+  {% endfor %}
+  {% assign undated = group.items | where_exp: "item", "item.month == nil" %}
+  {% for paper in undated %}{% include pub-item.html paper=paper %}{% endfor %}
+{% endfor %}
+</ol>

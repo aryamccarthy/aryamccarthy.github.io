@@ -1,0 +1,7 @@
+<li style="padding-bottom: 0.5em;">
+  <strong>{% if include.paper.url %}<a href="{{ include.paper.url }}">{% endif %}{{ include.paper.name }}{% if include.paper.url %}</a>{% endif %}</strong>
+  <br>
+  <small><i>{{ include.paper.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}. {% if include.paper.venue_url %}<a href="{{ include.paper.venue_url }}">{{ include.paper.venue }}</a>{% else %}{{ include.paper.venue }}{% endif %} {{ include.paper.year }}.</i>{% if include.paper.arxiv %} [<a href="{{ include.paper.arxiv }}">arXiv</a>]{% endif %}</small>
+  {% if include.paper.tldr %}<br><small><strong>TLDR:</strong> {{ include.paper.tldr }}</small>{% endif %}
+  {% if include.paper.note %} <small><span style="color: rgb(165, 28, 48);">{{ include.paper.note }}</span></small>{% endif %}
+</li>
