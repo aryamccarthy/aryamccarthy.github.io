@@ -23,9 +23,8 @@ Our adaptor of choice is the Pitman–Yor process (PYP), which generalizes the C
 $$
 \Pr(z_i=k \mid \mathbf{z}_{<i}) = 
 \begin{cases} 
-      0 & x\leq 0 \\
-      \frac{100-x}{100} & 0\leq x\leq 100 \\
-      0 & 100\leq x 
+      \frac{n_k^{\mathbf{z}_{<i}} - a}{i - 1 + b} & 1 \le k \le K(\mathbf{z}_{<i}) \\
+      \frac{K(\mathbf{z}_{<i})\,a + b}{i - 1 + b} & k = K(\mathbf{z}_{<i}) + 1
    \end{cases}
 $$
 
@@ -33,13 +32,13 @@ And what's worse: it feeds into a bigger equation for the probability of the \\(
 
 $$
 \begin{align}
-\Pr(w_i = w \mid \mathbf{w}_{<i}, \mathbf{z}_{<I}, \theta)
- &= \sum_k \sum_{\ell_k} \Pr(w_i = w \mid z_i - k, \ell_k) \Pr(\ell_k \mid \mathbf{w}_{<i}, \mathbf{z}_{<I}, \theta) \Pr(z_i=k \mid \mathbf{z}_{<i})\\
-  &= \sum_k \sum_{\ell_k} [w_i =  \ell_k] \Pr(\ell_k \mid \mathbf{w}_{<i}, \mathbf{z}_{<I}, \theta) \Pr(z_i=k \mid \mathbf{z}_{<i})\\
+\Pr(w_i = w \mid \mathbf{w}_{<i}, \mathbf{z}_{<i}, \theta)
+ &= \sum_k \sum_{\ell_k} \Pr(w_i = w \mid z_i = k, \ell_k) \Pr(\ell_k \mid \mathbf{w}_{<i}, \mathbf{z}_{<i}, \theta) \Pr(z_i=k \mid \mathbf{z}_{<i})\\
+  &= \sum_k \sum_{\ell_k} [w_i =  \ell_k] \Pr(\ell_k \mid \mathbf{w}_{<i}, \mathbf{z}_{<i}, \theta) \Pr(z_i=k \mid \mathbf{z}_{<i})\\
 &= \sum_{k=1}^{K(\mathbf{z}_{<i})} \frac{n_k^{\mathbf{z}_{<i}}-a}{i - 1 + b} [w = \ell_k] + \frac{K(\mathbf{z}_{<i})a + b}{i - 1 + b}\theta_w
 \end{align}
 $$
-Here, \\(\theta\\) is the parameter for our multinomial distribution. \\(K\\) is the number of tables so far. \\(n_k^{\mathbf{z}_{<I}}\\) is the number of people at table \\(k\\) so far. \\(a\\) and \\(b\\) control the power law's intensity and the preference toward new tables, respectively.
+Here, \\(\theta\\) is the parameter for our multinomial distribution. \\(K\\) is the number of tables so far. \\(n_k^{\mathbf{z}_{<i}}\\) is the number of people at table \\(k\\) so far. \\(a\\) and \\(b\\) control the power law's intensity and the preference toward new tables, respectively.
 
 From this, you can get the probability of a *sequence* of words by summing over all category values \\(\mathbf{z}\\) and table labelings \\(\boldsymbol{\ell}\\).
 

@@ -20,4 +20,4 @@ The authors rely on the distributional hypothesis to include co-occurrence infor
 
 Their method of extracting aspects presupposes the number of aspects, so they test different values and evaluate them using a 'coherence score'. These aspects are then condensed into the four categories mentioned above by hand. (Why not community detection on these?) It also sits on top of \\(k\\)-means as initialization (so no wonder it outperforms \\(k\\)-means?). I hope they ran multiple rounds of \\(k\\)-means—\\(k\\)-means itself is sensitive to initialization.
 
-When the authors produce guest embeddings, they evaluate them by comparing the distance between them to the difference in ratings given by the users. 
+When the authors produce guest embeddings, they avoid star ratings; instead, they correlate KL between guests' profiles with how differently those profiles rank listings.

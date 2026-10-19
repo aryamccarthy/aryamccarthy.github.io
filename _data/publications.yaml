@@ -51,7 +51,7 @@
   month: 5
   tldr: "We learn a language's morphology from raw text alone, without even external word lists."
 - name: "Pre-Trained Multilingual Sequence-to-Sequence Models: A Hope for Low-Resource Language Translation?"
-  authors: "E. Lee, Sarubi Thillainathan, Shravan Nayak, Surangika Ranathunga, David Ifeoluwa Adelani, Ruisi Su, **Arya D. McCarthy**"
+  authors: "En-Shiun Annie Lee, Sarubi Thillainathan, Shravan Nayak, Surangika Ranathunga, David Ifeoluwa Adelani, Ruisi Su, **Arya D. McCarthy**"
   url: "https://aclanthology.org/2022.findings-acl.6/"
   venue: "Findings of ACL"
   year: 2022
@@ -66,14 +66,14 @@
   note: "Spotlight."
   tldr: "Energy-based sequence models backed by expressive parametric families can result in uncomputable and inapproximable partition functions. Statistical procedures with asymptotic guarantees and sheer amounts of compute are not the only things that make sequence modeling work."
 - name: "Deciphering and Characterizing Out-of-Vocabulary Words for Morphologically Rich Languages"
-  authors: "G. Botev, **Arya D. McCarthy**, Winston Wu, David Yarowsky"
+  authors: "Georgie Botev, **Arya D. McCarthy**, Winston Wu, David Yarowsky"
   url: "https://aclanthology.org/2022.coling-1.472/"
   venue: "COLING"
   year: 2022
   month: 10
   tldr: "A multi-faceted distributional analysis of the underlying word-formation processes that can aid in OOV words' compositional translation, tagging, parsing, language modeling, and other NLP tasks."
 - name: "Hong Kong: Longitudinal and Synchronic Characterisations of Protest News between 1998 and 2020"
-  authors: "**Arya D. McCarthy**, G. Dore"
+  authors: "**Arya D. McCarthy**, Giovanna Maria Dora Dore"
   url: "https://www.aclanthology.org/2022.lrec-1.310/"
   venue: "LREC"
   month: 6
@@ -101,28 +101,28 @@
   month: 8
   tldr: "The goal of the shared task is to cluster word types from a raw text corpus into paradigms, and the best performing system is based on adaptor grammars."
 - name: "Jump-Starting Item Parameters for Adaptive Language Tests"
-  authors: "**Arya D. McCarthy**, K. Yancey, Geoffrey T. LaFlair, Jesse Egbert, Manqian Liao, Burr Settles"
+  authors: "**Arya D. McCarthy**, Kevin P. Yancey, Geoffrey T. LaFlair, Jesse Egbert, Manqian Liao, Burr Settles"
   venue: "EMNLP"
   year: 2021
   month: 11
   url: "https://aclanthology.org/2021.emnlp-main.67/"
   tldr: "A multi-task generalized linear model with BERT features enables new item difficulty estimates without piloting them first, which in turn limits item exposure and thus enhances test item security. Deployed in the Duolingo English Test, cutting pilot testing time 10×."
 - name: "A Mixed-Methods Analysis of Western and Hong Kong–based Reporting on the 2019–2020 Protests"
-  authors: "**Arya D. McCarthy**, James Scharf, G. Dore"
+  authors: "**Arya D. McCarthy**, James Scharf, Giovanna Maria Dora Dore"
   venue: "LaTeCH-CLfL @EMNLP"
   year: 2021
   month: 11
   url: "https://aclanthology.org/2021.latechclfl-1.20/"
   tldr: "NLP discovers different media portrayals of the Hong Kong protests between the Hong Kong and Western presses, and analysis interprets it."
 - name: "Characterizing News Portrayal of Civil Unrest in Hong Kong, 1998–2020"
-  authors: "James Scharf, **Arya D. McCarthy**, G. Dore"
+  authors: "James Scharf, **Arya D. McCarthy**, Giovanna Maria Dora Dore"
   venue: "CASE @ACL"
   year: 2021
   month: 8
   url: "https://www.aclanthology.org/2021.case-1.7/"
   tldr: "We apply statistical techniques from natural language processing to a collection of Western and Hong Kong–based English-language newspaper articles spanning the years 1998–2020."
 - name: "Neural Transduction for Multilingual Lexical Translation"
-  authors: "D. Lewis, Winston Wu, **Arya D. McCarthy**, David Yarowsky"
+  authors: "Dylan Lewis, Winston Wu, **Arya D. McCarthy**, David Yarowsky"
   venue: "COLING"
   year: 2020
   month: 12
@@ -180,35 +180,35 @@
   url: "https://aclanthology.org/2020.acl-main.597/"
   tldr: "An information-theoretic method supporting the finding that form and meaning are relevant to grouping nouns into declension classes, with variation across languages."
 - name: "SkinAugment: Auto-Encoding Speaker Conversions for Automatic Speech Translation"
-  authors: "**Arya D. McCarthy**, Liezl Puzon, J. Pino"
+  authors: "**Arya D. McCarthy**, Liezl Puzon, Juan Pino"
   venue: "ICASSP"
   year: 2020
   month: 2
   url: "https://ieeexplore.ieee.org/document/9053406/"
   tldr: "Autoencoding speaker conversion is combined with augmentation by machine-translated transcripts to obtain a competitive end-to-end AST model that outperforms a very strong cascade model."
 - name: "Fine-grained Morphosyntactic Analysis and Generation Tools for More Than One Thousand Languages"
-  authors: "Garrett Nicolai, D. Lewis, **Arya D. McCarthy**, Aaron Mueller, Winston Wu, David Yarowsky"
+  authors: "Garrett Nicolai, Dylan Lewis, **Arya D. McCarthy**, Aaron Mueller, Winston Wu, David Yarowsky"
   venue: "LREC"
   year: 2020
   month: 5
   url: "https://aclanthology.org/2020.lrec-1.488/"
   tldr: "Kilolanguage generation, lemmatization, and fine-grained tagging, supplemented and improved through ensembling and dictionary-based reranking, for 1000+ languages."
 - name: "The Johns Hopkins University Bible Corpus: 1600+ Tongues for Typological Exploration"
-  authors: "**Arya D. McCarthy**, R. Wicks, D. Lewis, Aaron Mueller, Winston Wu, Oliver Adams, Garrett Nicolai, Matt Post, David Yarowsky"
+  authors: "**Arya D. McCarthy**, Rachel Wicks, Dylan Lewis, Aaron Mueller, Winston Wu, Oliver Adams, Garrett Nicolai, Matt Post, David Yarowsky"
   venue: "LREC"
   year: 2020
   month: 5
   url: "https://aclanthology.org/2020.lrec-1.352/"
   tldr: "Findings from the creation of a massively parallel corpus in over 1600 languages, the Johns Hopkins University Bible Corpus (JHUBC)."
 - name: "An Analysis of Massively Multilingual Neural Machine Translation for Low-Resource Languages"
-  authors: "Aaron Mueller, Garrett Nicolai, **Arya D. McCarthy**, D. Lewis, Winston Wu, David Yarowsky"
+  authors: "Aaron Mueller, Garrett Nicolai, **Arya D. McCarthy**, Dylan Lewis, Winston Wu, David Yarowsky"
   venue: "LREC"
   year: 2020
   month: 5
   url: "https://aclanthology.org/2020.lrec-1.458.pdf"
   tldr: "Adding more languages to a training set is often better, but too many harms performance—the best number depends on the source language."
 - name: "Massively Multilingual Pronunciation Modeling with WikiPron"
-  authors: "Jackson L. Lee, Lucas F. E. Ashby, M. E. Garza, Yeonju Lee-Sikka, Sean Miller, A. Wong, **Arya D. McCarthy**, Kyle Gorman"
+  authors: "Jackson L. Lee, Lucas F. E. Ashby, M. E. Garza, Yeonju Lee-Sikka, Sean Miller, Alan Wong, **Arya D. McCarthy**, Kyle Gorman"
   venue: "LREC"
   year: 2020
   month: 5
@@ -230,7 +230,7 @@
   arxiv: "https://arxiv.org/abs/1903.10092"
   tldr: "By using the correct random model for the problem domain, this work provides a stronger, exact No Free Lunch theorem for community detection and generalizes to other set-partitioning tasks including core/periphery separation, k-clustering, and graph partitioning."
 - name: "Metrics Matter in Community Detection"
-  authors: "**Arya D. McCarthy**, Tongfei Chen, Rachel Rudinger, D. Matula"
+  authors: "**Arya D. McCarthy**, Tongfei Chen, Rachel Rudinger, David W. Matula"
   venue: "Complex Networks"
   year: 2019
   month: 12
@@ -245,14 +245,14 @@
   url: "https://aclanthology.org/D19-1229/"
   tldr: "Tests the Berlin and Kay color-term hypotheses on thousands of languages at once, using massively parallel text as weak supervision."
 - name: "Weird Inflects but OK: Making Sense of Morphological Generation Errors"
-  authors: "Kyle Gorman, **Arya D. McCarthy**, Ryan Cotterell, Ekaterina Vylomova, Miikka Silfverberg, M. Markowska"
+  authors: "Kyle Gorman, **Arya D. McCarthy**, Ryan Cotterell, Ekaterina Vylomova, Miikka Silfverberg, Magdalena Markowska"
   venue: "CoNLL"
   year: 2019
   month: 11
   url: "https://aclanthology.org/K19-1014/"
   tldr: "An error taxonomy for morphological generation, applied by hand to the errors of the top two CoNLL–SIGMORPHON shared task systems across twelve languages."
 - name: "Harnessing Indirect Training Data for End-to-End Automatic Speech Translation: Tricks of the Trade"
-  authors: "J. Pino, Liezl Puzon, Jiatao Gu, Xutai Ma, **Arya D. McCarthy**, D. Gopinath"
+  authors: "Juan Pino, Liezl Puzon, Jiatao Gu, Xutai Ma, **Arya D. McCarthy**, Deepak Gopinath"
   venue: "IWSLT"
   year: 2019
   month: 11
