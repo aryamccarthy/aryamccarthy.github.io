@@ -47,7 +47,20 @@
     .pub-year-block { display: grid; grid-template-columns: 3.5rem 1fr; column-gap: 1.25rem; margin-bottom: 0.75rem; }
     .pub-year { font-family: var(--font-serif); font-size: 1.35rem; color: #b5b5b5; line-height: 1.5; }
     .pub-list { margin: 0; padding-left: 1.75rem; }
-    @media (max-width: 38em) { .pub-year-block { grid-template-columns: 1fr; } }    </style>
+    /* Wide screens: center the text column in the space beside the sidebar */
+    @media (min-width: 64em) {
+      .content { margin-left: max(22rem, calc(18rem + (100vw - 18rem - 38rem) / 2)); }
+    }
+    /* Very wide screens: scale everything up a step so the page fills the space */
+    @media (min-width: 100em) {
+      html { font-size: 22px; }
+    }
+    /* Sidebar: anchor the photo and name near the top instead of the bottom */
+    @media (min-width: 48em) {
+      .sidebar-sticky { top: 3rem; bottom: auto; }
+    }
+
+      @media (max-width: 38em) { .pub-year-block { grid-template-columns: 1fr; } }    </style>
 
   {% if page.title %}
     <meta content="{{ site.title }} - {{ site.description }}" property="og:site_name">
