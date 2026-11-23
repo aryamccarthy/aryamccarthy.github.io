@@ -81,13 +81,17 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-author: Arya McCarthy
+author:
+  name: Arya McCarthy
+  twitter: aryamccarthy
 twitter:
   username: aryamccarthy
 social:
   name: Arya McCarthy
   links:
     - https://scholar.google.com/citations?user=erysFsoAAAAJ
+    - https://aclanthology.org/people/arya-d-mccarthy/
+    - https://research.google/people/aryamccarthy/
     - https://github.com/aryamccarthy
     - https://www.linkedin.com/in/aryamccarthy
     - https://twitter.com/aryamccarthy
