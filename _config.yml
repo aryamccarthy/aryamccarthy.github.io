@@ -31,7 +31,6 @@ footer-links:
   twitter: aryamccarthy
   stackoverflow: users/7802200/aryamccarthy # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
@@ -39,7 +38,6 @@ footer-links:
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-158676539-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
@@ -49,7 +47,7 @@ url: https://aryamccarthy.github.io
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/"
+baseurl: ""
 
 #
 # !! You don't need to change any of the configuration flags below !!
@@ -78,12 +76,26 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
 plugins:
+  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-seo-tag
+
+author: Arya McCarthy
+twitter:
+  username: aryamccarthy
+social:
+  name: Arya McCarthy
+  links:
+    - https://scholar.google.com/citations?user=erysFsoAAAAJ
+    - https://github.com/aryamccarthy
+    - https://www.linkedin.com/in/aryamccarthy
+    - https://twitter.com/aryamccarthy
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: https://aryamccarthy.github.io/Arya.jpg
 
 # Exclude these files from your production _site
 exclude:

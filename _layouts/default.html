@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
 
     {% include meta.html %}
 
@@ -18,10 +17,11 @@
       --font-mono: "DM Mono", Menlo, Monaco, monospace;
     }
     html, body, .pagination { font-family: var(--font-sans); }
-    h1, h2, h3, h4, h5, h6, .sidebar-about h1 {
+    h1, h2, h3, h4, h5, h6, .sidebar-about .site-title {
       font-family: var(--font-serif);
       font-weight: 400; /* DM Serif Display ships one weight; avoid faux bold. */
     }
+    .sidebar-about .site-title { color: #fff; margin: 0 0 .5rem; font-size: 3.25rem; line-height: 1.25; }
     .serif-text { font-family: var(--font-serif-text); }
     code, kbd, pre, samp, .highlight pre, .gist .gist-file { font-family: var(--font-mono) !important; }
     @media (max-width: 47.99em) {
@@ -42,8 +42,8 @@
     /* Sidebar */
     .sidebar .lead { color: rgba(255,255,255,.85); }
     .sidebar-links { display: flex; flex-wrap: wrap; gap: 0.25rem 0.9rem; font-size: 0.9rem; }
-    .page a { color: inherit; text-decoration: underline; text-decoration-color: #a41034; text-underline-offset: 2px; }
-    .page a:hover { color: #a41034; text-decoration-color: currentColor; }
+    .page a { color: #a41034; }
+    .page a:hover { text-decoration: underline; text-decoration-color: #a41034; text-underline-offset: 2px; }
     .pub-year-block { display: grid; grid-template-columns: 3.5rem 1fr; column-gap: 1.25rem; margin-bottom: 0.75rem; }
     .pub-year { font-family: var(--font-serif); font-size: 1.35rem; color: #b5b5b5; line-height: 1.5; }
     .pub-list { margin: 0; padding-left: 1.75rem; }
@@ -62,19 +62,6 @@
 
       @media (max-width: 38em) { .pub-year-block { grid-template-columns: 1fr; } }    </style>
 
-  {% if page.title %}
-    <meta content="{{ site.title }} - {{ site.description }}" property="og:site_name">
-    <meta content="{{ page.title }}" property="og:title">
-  {% else %}
-    <meta content="{{ site.title }}" property="og:site_name">
-    <meta content="{{ site.title }}" property="og:title">
-  {% endif %}
-  {% if page.excerpt %}
-    <meta content="{{ page.excerpt | strip_html }}" property="og:description">
-  {% else %}
-    <meta content="{{ site.description }}" property="og:description">
-  {% endif %}
-
 
     {% include favicon.html %}
 
@@ -85,26 +72,6 @@
   <body>
     
     {% include sidebar.html %}
-    
-<!--    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
-          <nav>
-            <a href="{{ site.baseurl }}/"><b>A</b>bout</a>
-            <a href="{{ site.baseurl }}/blog"><b>B</b>log</a>
-            <a href="https://github.com/aryamccarthy?tab=repositories"><b>C</b>ode</a>
-          </nav>
-        </header>
-      </div>
-    </div>
--->
 
     <div id="main" role="main" class="content container">
       {{ content }}

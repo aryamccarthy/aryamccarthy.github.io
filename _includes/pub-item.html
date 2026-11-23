@@ -1,4 +1,4 @@
-<li class="pub">
+<li class="pub" id="{{ include.paper.name | slugify }}">
   <a class="pub-title" href="{{ include.paper.url }}">{{ include.paper.name }}</a>
   <div class="pub-meta">{{ include.paper.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}. {% if include.paper.venue_url %}<a href="{{ include.paper.venue_url }}">{{ include.paper.venue }}</a>{% else %}{{ include.paper.venue }}{% endif %} {{ include.paper.year }}.{% if include.paper.arxiv %} <a href="{{ include.paper.arxiv }}">arXiv</a>{% endif %}{% if include.paper.note %} <span class="pub-note">{{ include.paper.note }}</span>{% endif %}</div>
   {% if include.paper.tldr %}<div class="pub-tldr">{{ include.paper.tldr }}</div>{% endif %}

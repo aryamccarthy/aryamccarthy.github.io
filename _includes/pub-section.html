@@ -8,7 +8,7 @@ which keeps YAML order for ties.
 {% assign year_groups = include.items | group_by: "year" | sort: "name" | reverse %}
 {% for group in year_groups %}
 <div class="pub-year-block">
-  <div class="pub-year">{{ group.name }}</div>
+  <div class="pub-year" id="{{ include.id_prefix }}-{{ group.name }}">{{ group.name }}</div>
   <ol class="pub-list" reversed start="{{ n }}">
   {% for m in (1..12) reversed %}
     {% assign month_items = group.items | where: "month", m %}

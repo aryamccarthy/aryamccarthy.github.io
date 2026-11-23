@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Publications"
+description: "Peer-reviewed papers, books, preprints, refereed abstracts, and theses by Arya McCarthy on multilingual NLP, machine translation, evaluation, and graph theory."
 ---
 
 
@@ -21,20 +22,20 @@ title: "Publications"
 
 ## Papers
 
-{% include pub-section.html items=site.data.publications start=s_papers %}
+{% include pub-section.html items=site.data.publications start=s_papers id_prefix="papers" %}
 
 ## Books
 
-{% include pub-section.html items=site.data.books start=s_books %}
+{% include pub-section.html items=site.data.books start=s_books id_prefix="books" %}
 
 ## Preprints
 
-{% include pub-section.html items=site.data.preprints start=s_preprints %}
+{% include pub-section.html items=site.data.preprints start=s_preprints id_prefix="preprints" %}
 
 ## Refereed Abstracts
 
-{% include pub-section.html items=site.data.abstracts start=s_abstracts %}
+{% include pub-section.html items=site.data.abstracts start=s_abstracts id_prefix="abstracts" %}
 
 ## Doctoral and Master's Theses
 
-{% include pub-section.html items=site.data.theses start=s_theses %}
+{% include pub-section.html items=site.data.theses start=s_theses id_prefix="theses" %}
